@@ -30,7 +30,7 @@ jobs:
 
       - name: Test hugo installation
         run: |
-          which hugo
+          hugo version
 
       - name: Test Go installation
         run: |
