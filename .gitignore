@@ -8,3 +8,8 @@ public/
 
 # OSX
 .DS_Store
+
+# renv
+.Rprofile
+renv.lock
+renv/
