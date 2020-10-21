@@ -1,0 +1,56 @@
+on:
+  push:
+  pull_request:
+    branches:
+      - master
+
+name: render_deploy
+
+jobs:
+  render_deploy:
+
+    runs-on: ubuntu-latest
+    container: bioconductor/bioconductor_docker:devel
+
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install blogdown
+        run: |
+          install.packages('blogdown')
+        shell: Rscript {0}
+
+      - name: Install hugo
+        run: |
+          blogdown::install_hugo(version = "0.68.3")
+        shell: Rscript {0}
+
+      - name: Render site
+        run: |
+          blogdown::build_site()
+        shell: Rscript {0}
+
+      - name: Add .nojekyll
+        run: |
+          touch public/.nojekyll
+
+      - name: Check public files
+        run: |
+          ls -lha public
+
+      # Deploy needs rsync? Seems so.
+      - name: Install deploy dependencies
+        # if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          apt-get update && apt-get -y install rsync
+
+      - name: Deploy 🚀
+        # if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: public # The folder the action should deploy.
