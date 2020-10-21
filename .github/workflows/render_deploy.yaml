@@ -16,7 +16,7 @@ jobs:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
 
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
 
       - name: Install blogdown
         run: |
@@ -30,15 +30,17 @@ jobs:
 
       - name: Add hugo to PATH
         run: |
-          echo "~/bin" >> $GITHUB_PATH
+          echo "/github/home/bin" >> $GITHUB_PATH
 
       - name: Test hugo installation
         run: |
           hugo version
 
+      - uses: actions/setup-go@v2
+
       - name: Test Go installation
         run: |
-          which go
+          go version
 
       - name: Render site
         run: |
