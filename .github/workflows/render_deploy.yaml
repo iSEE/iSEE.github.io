@@ -18,10 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - uses: actions/setup-go@v1
-        with:
-          go-version: '1.15.3'
-
       - name: Install blogdown
         run: |
           install.packages('blogdown')
@@ -29,8 +25,13 @@ jobs:
 
       - name: Install hugo
         run: |
-          blogdown::install_hugo(version = "0.68.3")
+          blogdown::install_hugo()
         shell: Rscript {0}
+
+      - name: Test GO installation
+        run: |
+          which hugo
+          which go
 
       - name: Render site
         run: |
