@@ -28,9 +28,12 @@ jobs:
           blogdown::install_hugo()
         shell: Rscript {0}
 
-      - name: Test GO installation
+      - name: Test hugo installation
         run: |
           which hugo
+
+      - name: Test Go installation
+        run: |
           which go
 
       - name: Render site
