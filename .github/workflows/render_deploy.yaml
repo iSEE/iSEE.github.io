@@ -28,6 +28,10 @@ jobs:
           blogdown::install_hugo()
         shell: Rscript {0}
 
+      - name: Add hugo to PATH
+        run: |
+          echo "~/bin" >> $GITHUB_PATH
+
       - name: Test hugo installation
         run: |
           hugo version
