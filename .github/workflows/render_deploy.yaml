@@ -25,7 +25,7 @@ jobs:
 
       - name: Install hugo
         run: |
-          blogdown::install_hugo(version="0.76.5", use_brew = TRUE, extended = TRUE)
+          blogdown::install_hugo()
         shell: Rscript {0}
 
       - name: Add hugo to PATH
@@ -36,9 +36,9 @@ jobs:
         run: |
           hugo version
 
-      - uses: actions/setup-go@v2
-        with:
-          go-version: '1.15.3'
+      - name: Install go
+        run: |
+          brew install go
 
       - name: Test go installation
         run: |
