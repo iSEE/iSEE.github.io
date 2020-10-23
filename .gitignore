@@ -10,6 +10,6 @@ public/
 .DS_Store
 
 # renv
-.Rprofile
-renv.lock
-renv/
+#.Rprofile
+#renv.lock
+#renv/
