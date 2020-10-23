@@ -18,6 +18,16 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      # This lets us augment with additional dependencies
+      - name: Install system dependencies
+        if: runner.os == 'Linux'
+        env:
+          RHUB_PLATFORM: linux-x86_64-ubuntu-gcc
+        run: |
+          Rscript -e "remotes::install_github('r-hub/sysreqs')"
+          sysreqs=$(Rscript -e "cat(sysreqs::sysreq_commands('DESCRIPTION'))")
+          sudo -s eval "$sysreqs"
+
       - name: Install blogdown
         run: |
           install.packages('blogdown')
@@ -27,22 +37,6 @@ jobs:
         run: |
           blogdown::install_hugo()
         shell: Rscript {0}
-
-      - name: Add hugo to PATH
-        run: |
-          echo "/github/home/bin" >> $GITHUB_PATH
-
-      - name: Test hugo installation
-        run: |
-          hugo version
-
-      - name: Test go installation
-        run: |
-          go version
-
-      - name: Locate go binary
-        run: |
-          which go
 
       - name: Show PATH
         run: |
