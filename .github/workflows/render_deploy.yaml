@@ -36,10 +36,6 @@ jobs:
         run: |
           hugo version
 
-      - name: Install go
-        run: |
-          brew install go
-
       - name: Test go installation
         run: |
           go version
