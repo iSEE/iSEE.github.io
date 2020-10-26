@@ -1,8 +1,8 @@
 on:
   push:
+  pull_request:
     branches:
       - master
-      - module
 
 name: render_deploy
 
@@ -42,12 +42,12 @@ jobs:
 
       # Deploy needs rsync? Seems so.
       - name: Install deploy dependencies
-        # if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         run: |
           apt-get update && apt-get -y install rsync
 
       - name: Deploy 🚀
-        # if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
