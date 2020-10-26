@@ -25,7 +25,7 @@ jobs:
 
       - name: Check contents of working directory
         run: |
-          ls -lha public
+          ls -lha
 
       - name: Render site
         run: |
