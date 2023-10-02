@@ -21,17 +21,115 @@
     "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow."
   },
   {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "iSEE",
-    "section": "",
-    "text": "Package status\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to the iSEE-verse!",
     "section": "",
     "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Package status",
+    "section": "",
+    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Gallery",
+    "section": "",
+    "text": "This page lists known public deployments of iSEE apps.\nLinks are ordered in reverse order of iSEE package version (i.e., those using the most recent version appear first)."
+  },
+  {
+    "objectID": "gallery.html#collection-of-single-cell-data-sets-using-iseeindex",
+    "href": "gallery.html#collection-of-single-cell-data-sets-using-iseeindex",
+    "title": "Gallery",
+    "section": "Collection of single-cell data sets using iSEEindex",
+    "text": "Collection of single-cell data sets using iSEEindex\n\nURL: https://rehwinkellab.shinyapps.io/ifnresource/\nMaintainer: Rehwinkel group\nVersion: iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}\n\nMore: This app accompanies the preprint Single-cell analysis of signalling and transcriptional responses to type I interferons."
+  },
+  {
+    "objectID": "gallery.html#iseeindex-demo",
+    "href": "gallery.html#iseeindex-demo",
+    "title": "Gallery",
+    "section": "iSEEindex demo",
+    "text": "iSEEindex demo\n\nURL: https://isee.shinyapps.io/iSEEindex-demo/\nMaintainer: iSEE developers\nVersion: iSEE {2.12.0}, iSEEindex {0.99.8}"
+  },
+  {
+    "objectID": "gallery.html#fgcz-fancy-single-cell-explorer",
+    "href": "gallery.html#fgcz-fancy-single-cell-explorer",
+    "title": "Gallery",
+    "section": "FGCZ Fancy Single Cell Explorer",
+    "text": "FGCZ Fancy Single Cell Explorer\n\nURL: https://fgcz-shiny.uzh.ch/fgcz_iSEE/\nMaintainer: Functional Genomics Center Zurich (FGCZ)\nVersion: iSEE {2.12.0}\n\nMore: This app is listed at https://fgcz-shiny.uzh.ch/connect/, among other interactive apps from the same developer."
+  },
+  {
+    "objectID": "gallery.html#merfish-mouse-data-sets",
+    "href": "gallery.html#merfish-mouse-data-sets",
+    "title": "Gallery",
+    "section": "MERFISH mouse data sets",
+    "text": "MERFISH mouse data sets\n\nURL (hypothalamus): https://moffittlab.connect.hms.harvard.edu/iSEE_hypothalamus/\nURL (ileum): https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School and Moffitt Lab\nVersion: iSEE {2.10.0}\n\nMore: Those apps are listed at https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html."
+  },
+  {
+    "objectID": "gallery.html#isee-covid-hub",
+    "href": "gallery.html#isee-covid-hub",
+    "title": "Gallery",
+    "section": "iSEE COVID Hub",
+    "text": "iSEE COVID Hub\n\nURL (B cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/\nURL (Monocytes): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes\nURL (NK cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/\nURL (T cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells\nMaintainer: Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)\nVersion: iSEE {2.9.0}\n\nMore: Those apps are listed at http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/."
+  },
+  {
+    "objectID": "gallery.html#upload-your-own-summarizedexperiment-ccb-hms",
+    "href": "gallery.html#upload-your-own-summarizedexperiment-ccb-hms",
+    "title": "Gallery",
+    "section": "Upload your own SummarizedExperiment (CCB HMS)",
+    "text": "Upload your own SummarizedExperiment (CCB HMS)\n\nURL: https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School\nVersion: iSEE {2.4.0}"
+  },
+  {
+    "objectID": "gallery.html#spatially-resolved-transcriptomics-of-the-inferior-temporal-cortex-pseudobulks",
+    "href": "gallery.html#spatially-resolved-transcriptomics-of-the-inferior-temporal-cortex-pseudobulks",
+    "title": "Gallery",
+    "section": "Spatially resolved transcriptomics of the inferior temporal cortex (pseudobulks)",
+    "text": "Spatially resolved transcriptomics of the inferior temporal cortex (pseudobulks)\n\nURL: https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the article https://doi.org/10.1101/2023.04.20.537710"
+  },
+  {
+    "objectID": "gallery.html#myocyte-data-sets",
+    "href": "gallery.html#myocyte-data-sets",
+    "title": "Gallery",
+    "section": "Myocyte data sets",
+    "text": "Myocyte data sets\n\nURL: https://shiny.mdc-berlin.de/MyoExplorer/\nMaintainer: Max Delbrück Center\nVersion: iSEE {2.6.0}"
+  },
+  {
+    "objectID": "gallery.html#single-nucleus-transcriptome-analysis-in-human-brain",
+    "href": "gallery.html#single-nucleus-transcriptome-analysis-in-human-brain",
+    "title": "Gallery",
+    "section": "Single-nucleus transcriptome analysis in human brain",
+    "text": "Single-nucleus transcriptome analysis in human brain\n\nURL: https://libd.shinyapps.io/tran2020_Amyg/\nURL: https://libd.shinyapps.io/tran2021_NAc/\nURL: https://libd.shinyapps.io/tran2021_sACC/\nURL: https://libd.shinyapps.io/tran2021_DLPFC/\nURL: https://libd.shinyapps.io/tran2021_AMY/\nURL: https://libd.shinyapps.io/tran2021_HPC/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.4.0}\n\nMore: Those apps accompany the article https://www.cell.com/neuron/fulltext/S0896-6273(21)00655-3"
+  },
+  {
+    "objectID": "gallery.html#hi-team-hiv-infected-cell-transcriptome-and-epitranscriptome",
+    "href": "gallery.html#hi-team-hiv-infected-cell-transcriptome-and-epitranscriptome",
+    "title": "Gallery",
+    "section": "HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe)",
+    "text": "HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe)\n\nURL: https://hi-team.unil.ch/#\nMaintainer: Ciuffi Lab\nVersion: iSEE {2.1.10}, iSEEu {1.1.4}\n\nMore: This app accompanies the article https://www.frontiersin.org/articles/10.3389/fviro.2021.714475/full."
+  },
+  {
+    "objectID": "gallery.html#comparison-of-sars-cov-1-and-sars-cov-2",
+    "href": "gallery.html#comparison-of-sars-cov-1-and-sars-cov-2",
+    "title": "Gallery",
+    "section": "Comparison of SARS-CoV-1 and SARS-CoV-2",
+    "text": "Comparison of SARS-CoV-1 and SARS-CoV-2\n\nURL: https://shiny.mdc-berlin.de/COV/\nMaintainer: Max Delbrück Center\nVersion: iSEE {1.6.1}"
+  },
+  {
+    "objectID": "gallery.html#cd8-tils-from-b16-melanoma-tumors",
+    "href": "gallery.html#cd8-tils-from-b16-melanoma-tumors",
+    "title": "Gallery",
+    "section": "CD8 TILs from B16 melanoma tumors",
+    "text": "CD8 TILs from B16 melanoma tumors\n\nURL: https://tilatlas.shinyapps.io/B16_CD8TIL_10X/\nMaintainer: Swiss Portal for Immune Cell Analysis\nVersion: iSEE {1.2.4}"
+  },
+  {
+    "objectID": "gallery.html#demonstration-isee-apps-2018",
+    "href": "gallery.html#demonstration-isee-apps-2018",
+    "title": "Gallery",
+    "section": "Demonstration iSEE apps (2018)",
+    "text": "Demonstration iSEE apps (2018)\n\nURL (single-cell RNA-seq, mouse visual cortex): https://marionilab.cruk.cam.ac.uk/iSEE_allen\nURL (RNA-seq, The Cancer Genome Atlas): https://marionilab.cruk.cam.ac.uk/iSEE_tcga\nURL (single-cell RNA-seq, peripheral blood mononuclear cells): https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k\nURL (mass cytometry, healthy and diseased human donors): https://marionilab.cruk.cam.ac.uk/iSEE_cytof\nMaintainer: Marioni group\nVersion: iSEE {1.2.4}\n\nMore: Those apps are listed at https://marionilab.cruk.cam.ac.uk/, among other interactive apps from the same developer."
   }
 ]
