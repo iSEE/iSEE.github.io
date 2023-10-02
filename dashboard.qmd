@@ -1,4 +1,6 @@
-### Package status
+---
+title: "Package status"
+---
 
 | Package | Devel | Release | Issues | Pull requests |
 |:-------:|------:|--------:|-------:|--------------:|
