@@ -9,6 +9,7 @@ website:
         text: Home
       - href: dashboard.qmd
         text: Status
+      - gallery.qmd
       - about.qmd
 
 format:
