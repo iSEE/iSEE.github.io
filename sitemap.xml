@@ -1,45 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/authors/</loc>
+    <loc>https://iSEE.github.io/about.html</loc>
+    <lastmod>2023-10-02T13:27:06.639Z</lastmod>
   </url>
-  
   <url>
-    <loc>/categories/</loc>
+    <loc>https://iSEE.github.io/index.html</loc>
+    <lastmod>2023-10-02T13:27:06.111Z</lastmod>
   </url>
-  
-  <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/isee/</loc>
-  </url>
-  
-  <url>
-    <loc>/author/kevin-rue-albrecht/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
 </urlset>
