@@ -2,7 +2,9 @@
 title: "Gallery"
 ---
 
-This page lists known public deployments of [*iSEE*](https://bioconductor.org/packages/iSEE/) apps.
+This page lists known public deployments of [iSEE](https://bioconductor.org/packages/iSEE/) apps.
+
+Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
 
 ## Collection of single-cell data sets using iSEEindex
 
