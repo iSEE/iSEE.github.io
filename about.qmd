@@ -1,0 +1,24 @@
+---
+title: "About"
+---
+
+## Core developers
+
+::: {layout-ncol=2}
+
+![Kevin Rue-Albrecht](images/kevin-rue-albrecht.jpeg){width="250px"}
+
+![Aaron Lun](images/aaron-lun.png){width="250px"}
+
+![Charlotte Soneson](images/charlotte-soneson.png){width="250px"}
+
+![Federico Marini](images/federico-marini.png){width="250px"}
+:::
+
+## Contributors
+
+We thank our community who contributed code, ideas, bug reports, and feature requests over the years!
+
+Special thanks to:
+
+- [Leonardo Collado-Torres](https://github.com/lcolladotor) for contributions to our GitHub Action workflow.

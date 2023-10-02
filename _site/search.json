@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+  },
+  {
+    "objectID": "about.html#core-developers",
+    "href": "about.html#core-developers",
+    "title": "About",
+    "section": "",
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+  },
+  {
+    "objectID": "about.html#contributors",
+    "href": "about.html#contributors",
+    "title": "About",
+    "section": "Contributors",
+    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the iSEE-verse!",
+    "section": "",
+    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.\n\n\n\nThe iSEE user interface."
+  }
+]

@@ -1,0 +1,7 @@
+---
+title: "Welcome to the iSEE-verse!"
+---
+
+iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.
+
+![The iSEE user interface.](images/iSEE.png)
