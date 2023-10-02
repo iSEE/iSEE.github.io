@@ -1,15 +1,1 @@
-# IDEs
-.idea/
-
-# Hugo
-/resources/
-public/
-.Rproj.user
-
-# OSX
-.DS_Store
-
-# renv
-renv
-renv.lock
-.Rprofile
+/.quarto/
