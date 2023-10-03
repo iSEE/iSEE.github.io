@@ -38,7 +38,7 @@ This app demonstrates a minimal app using the [iSEEindex][iseeindex-bioc] extens
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
 - **Version:** iSEE {2.10.0}
 
-**More:** This app accompanies the article "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region" <https://www.science.org/doi/10.1126/science.aau5324> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
+**More:** This app showcases data from the article "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region" <https://www.science.org/doi/10.1126/science.aau5324> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
 
 ## Petukhov et al., Nat Biotech, 2021.
 
@@ -46,7 +46,7 @@ This app demonstrates a minimal app using the [iSEEindex][iseeindex-bioc] extens
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
 - **Version:** iSEE {2.10.0}
 
-**More:** This app accompanies the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
+**More:** This app showcases data from the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
 
 ## iSEE COVID Hub
 
