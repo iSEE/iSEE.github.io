@@ -14,16 +14,6 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 **More:** This app accompanies the preprint "Single-cell analysis of signalling and transcriptional responses to type I interferons" <https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1>.
 
-## iSEEindex
-
-This app demonstrates a minimal app using the [iSEEindex][iseeindex-bioc] extension to present visitors with a choice of data sets to load in the iSEE user interface.
-
-- **URL:** <https://isee.shinyapps.io/iSEEindex-demo/>
-- **Maintainer:** [iSEE developers](https://github.com/iSEE)
-- **Version:** iSEE {2.12.0}, iSEEindex {0.99.8}
-
-**More:** The source code for the app is available at <https://github.com/iSEE/shinyappsio-iSEEindex-demo>.
-
 ## FGCZ Fancy Single Cell Explorer
 
 - **URL:** <https://fgcz-shiny.uzh.ch/fgcz_iSEE/>
@@ -65,7 +55,7 @@ This app demonstrates a minimal app using the [iSEEindex][iseeindex-bioc] extens
 - **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
 - **Version:** iSEE {2.8.0}, iSEEu {1.5.2}
 
-**More:** This app accompanies the article "Single-cell transcriptome atlas of murine endothelial cells" <https://doi.org/10.1016/j.cell.2020.01.015>.
+**More:** This app showcases data from the article "Single-cell transcriptome atlas of murine endothelial cells" <https://doi.org/10.1016/j.cell.2020.01.015>.
 
 ## Brulois et al., Nat Commun, 2020
 
@@ -73,7 +63,7 @@ This app demonstrates a minimal app using the [iSEEindex][iseeindex-bioc] extens
 - **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
 - **Version:** iSEE {2.8.0}, iSEEu {1.5.2}
 
-**More:** This app accompanies the article "A molecular map of murine lymph node blood vascular endothelium at single cell resolution" <https://doi.org/10.1038/s41467-020-17291-5>.
+**More:** This app showcases data from the article "A molecular map of murine lymph node blood vascular endothelium at single cell resolution" <https://doi.org/10.1038/s41467-020-17291-5>.
 
 ## Upload your own SummarizedExperiment
 
