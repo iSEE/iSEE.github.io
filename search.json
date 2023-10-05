@@ -49,13 +49,6 @@
     "text": "Rigby et al., bioRxiv, 2023\n\nURL: https://rehwinkellab.shinyapps.io/ifnresource/\nMaintainer: Rehwinkel group\nVersion: iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}\n\nMore: This app accompanies the preprint “Single-cell analysis of signalling and transcriptional responses to type I interferons” https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1."
   },
   {
-    "objectID": "gallery.html#iseeindex",
-    "href": "gallery.html#iseeindex",
-    "title": "Gallery",
-    "section": "iSEEindex",
-    "text": "iSEEindex\nThis app demonstrates a minimal app using the iSEEindex extension to present visitors with a choice of data sets to load in the iSEE user interface.\n\nURL: https://isee.shinyapps.io/iSEEindex-demo/\nMaintainer: iSEE developers\nVersion: iSEE {2.12.0}, iSEEindex {0.99.8}\n\nMore: The source code for the app is available at https://github.com/iSEE/shinyappsio-iSEEindex-demo."
-  },
-  {
     "objectID": "gallery.html#fgcz-fancy-single-cell-explorer",
     "href": "gallery.html#fgcz-fancy-single-cell-explorer",
     "title": "Gallery",
@@ -88,14 +81,14 @@
     "href": "gallery.html#kalucka-et-al.-cell-2020",
     "title": "Gallery",
     "section": "Kalucka et al., Cell, 2020",
-    "text": "Kalucka et al., Cell, 2020\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app accompanies the article “Single-cell transcriptome atlas of murine endothelial cells” https://doi.org/10.1016/j.cell.2020.01.015."
+    "text": "Kalucka et al., Cell, 2020\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app showcases data from the article “Single-cell transcriptome atlas of murine endothelial cells” https://doi.org/10.1016/j.cell.2020.01.015."
   },
   {
     "objectID": "gallery.html#brulois-et-al.-nat-commun-2020",
     "href": "gallery.html#brulois-et-al.-nat-commun-2020",
     "title": "Gallery",
     "section": "Brulois et al., Nat Commun, 2020",
-    "text": "Brulois et al., Nat Commun, 2020\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app accompanies the article “A molecular map of murine lymph node blood vascular endothelium at single cell resolution” https://doi.org/10.1038/s41467-020-17291-5."
+    "text": "Brulois et al., Nat Commun, 2020\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app showcases data from the article “A molecular map of murine lymph node blood vascular endothelium at single cell resolution” https://doi.org/10.1038/s41467-020-17291-5."
   },
   {
     "objectID": "gallery.html#upload-your-own-summarizedexperiment",
