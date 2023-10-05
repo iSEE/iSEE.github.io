@@ -1,38 +1,45 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE\n\n\n\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/\n\n\n\n\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/\n\n\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/\n\n\n\n\n\n\n\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\n\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/"
   },
   {
-    "objectID": "about.html#core-developers",
-    "href": "about.html#core-developers",
-    "title": "About",
+    "objectID": "resources.html#github-organisation",
+    "href": "resources.html#github-organisation",
+    "title": "Resources",
     "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
   },
   {
-    "objectID": "about.html#contributors",
-    "href": "about.html#contributors",
-    "title": "About",
-    "section": "Contributors",
-    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow."
+    "objectID": "resources.html#bioconductor-pages",
+    "href": "resources.html#bioconductor-pages",
+    "title": "Resources",
+    "section": "",
+    "text": "The links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the iSEE-verse!",
+    "objectID": "resources.html#online-documentation-pkgdown",
+    "href": "resources.html#online-documentation-pkgdown",
+    "title": "Resources",
     "section": "",
-    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+    "text": "The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/"
   },
   {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "Package status",
+    "objectID": "resources.html#workshops",
+    "href": "resources.html#workshops",
+    "title": "Resources",
     "section": "",
-    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
+    "text": "Materials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
+  },
+  {
+    "objectID": "resources.html#books",
+    "href": "resources.html#books",
+    "title": "Resources",
+    "section": "",
+    "text": "This book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\n\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/"
   },
   {
     "objectID": "gallery.html",
@@ -145,5 +152,40 @@
     "title": "Gallery",
     "section": "Demonstration iSEE apps (2018)",
     "text": "Demonstration iSEE apps (2018)\n\nURL (single-cell RNA-seq, mouse visual cortex): https://marionilab.cruk.cam.ac.uk/iSEE_allen\nURL (RNA-seq, The Cancer Genome Atlas): https://marionilab.cruk.cam.ac.uk/iSEE_tcga\nURL (single-cell RNA-seq, peripheral blood mononuclear cells): https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k\nURL (mass cytometry, healthy and diseased human donors): https://marionilab.cruk.cam.ac.uk/iSEE_cytof\nMaintainer: Marioni group\nVersion: iSEE {1.2.4}\n\nMore: Those apps are listed at https://marionilab.cruk.cam.ac.uk/, among other interactive apps from the same developer."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Package status",
+    "section": "",
+    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the iSEE-verse!",
+    "section": "",
+    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+  },
+  {
+    "objectID": "about.html#core-developers",
+    "href": "about.html#core-developers",
+    "title": "About",
+    "section": "",
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+  },
+  {
+    "objectID": "about.html#contributors",
+    "href": "about.html#contributors",
+    "title": "About",
+    "section": "Contributors",
+    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow."
   }
 ]
