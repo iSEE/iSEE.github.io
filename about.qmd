@@ -22,3 +22,4 @@ We thank our community who contributed code, ideas, bug reports, and feature req
 Special thanks to:
 
 - [Leonardo Collado-Torres](https://github.com/lcolladotor) for contributions to our GitHub Action workflow.
+- [Michael Stadler](https://github.com/mbstadler) for contributing the reduced dimension mode in iSEEu
