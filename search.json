@@ -186,6 +186,6 @@
     "href": "about.html#contributors",
     "title": "About",
     "section": "Contributors",
-    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow."
+    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu"
   }
 ]
