@@ -30,13 +30,22 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 **More:** This app showcases data from the article "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region" <https://www.science.org/doi/10.1126/science.aau5324> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
 
-## Petukhov et al., Nat Biotech, 2021.
+## Petukhov et al., Nat Biotech, 2021
 
 - **URL:** <https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/>
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
 - **Version:** iSEE {2.10.0}
 
 **More:** This app showcases data from the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
+
+## Kim et al, JNeurosci, 2023.
+
+- **URL:** <https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/>
+- **Maintainer:** [Human Brain Collection Core (HBCC) - NIMH](https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/hbcc)
+- **Version:** iSEE {2.10.0}
+
+**More:** This app accompanies the  "Cellular Diversity in Human Subgenual Anterior Cingulate
+and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi.org/10.1523/jneurosci.0830-22.2023>.
 
 ## iSEE COVID Hub
 
