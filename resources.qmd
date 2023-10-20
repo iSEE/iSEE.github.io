@@ -72,6 +72,11 @@ This new book (work in progress) aims to compile essential knowledge about iSEE,
 
 <https://isee.github.io/iSEETheBook/>
 
+## Videos
+
+Our YouTube channel includes videos documenting and demonstrating iSEE apps in action.
+
+<https://www.youtube.com/@iSEEdevelopers>
 
 <!-- 
 Other resources:
