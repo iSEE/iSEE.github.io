@@ -23,4 +23,6 @@ Special thanks to:
 
 - [Leonardo Collado-Torres](https://github.com/lcolladotor) for contributions to our GitHub Action workflow.
 - [Michael Stadler](https://github.com/mbstadler) for contributing the reduced dimension mode in iSEEu
-- [Thomas Sandmann](tomsing1) for carefully reviewing and contributing differential expression workflows in the vignette of iSEEde.
+- [Thomas Sandmann](tomsing1) for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways,
+  as well as contributing to the vignette of iSEEde.
+
