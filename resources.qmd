@@ -12,6 +12,12 @@ The links below redirect to the web page for each package on the Bioconductor we
 
 Each page contains information and links to further resources for the latest version of each package available from Bioconductor.
 
+::: {.callout-note}
+The links below redirect either to the latest version of each package on the *release* branch if available,
+or the latest version on the *development* branch for recent package that have are not distributed on a *release* branch yet.
+For more information, see [Using Bioconductor](https://www.bioconductor.org/install/).
+:::
+
 - <https://bioconductor.org/packages/iSEE/>
 - <https://bioconductor.org/packages/iSEEde/>
 - <https://bioconductor.org/packages/iSEEhex/>
@@ -23,6 +29,10 @@ Each page contains information and links to further resources for the latest ver
 ## Online documentation (pkgdown)
 
 The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.
+
+::: {.callout-note}
+The latest version pushed to GitHub  may be *ahead* of the latest version available on Bioconductor.
+:::
 
 - <https://isee.github.io/iSEE>
 - <https://isee.github.io/iSEEde/>
