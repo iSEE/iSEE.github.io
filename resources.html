@@ -155,6 +155,19 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="bioconductor-pages">Bioconductor pages</h2>
 <p>The links below redirect to the web page for each package on the Bioconductor website.</p>
 <p>Each page contains information and links to further resources for the latest version of each package available from Bioconductor.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The links below redirect either to the latest version of each package on the <em>release</em> branch if available, or the latest version on the <em>development</em> branch for recent package that have are not distributed on a <em>release</em> branch yet. For more information, see <a href="https://www.bioconductor.org/install/">Using Bioconductor</a>.</p>
+</div>
+</div>
 <ul>
 <li><a href="https://bioconductor.org/packages/iSEE/" class="uri">https://bioconductor.org/packages/iSEE/</a></li>
 <li><a href="https://bioconductor.org/packages/iSEEde/" class="uri">https://bioconductor.org/packages/iSEEde/</a></li>
@@ -168,6 +181,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="online-documentation-pkgdown" class="level2">
 <h2 class="anchored" data-anchor-id="online-documentation-pkgdown">Online documentation (pkgdown)</h2>
 <p>The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The latest version pushed to GitHub may be <em>ahead</em> of the latest version available on Bioconductor.</p>
+</div>
+</div>
 <ul>
 <li><a href="https://isee.github.io/iSEE" class="uri">https://isee.github.io/iSEE</a></li>
 <li><a href="https://isee.github.io/iSEEde/" class="uri">https://isee.github.io/iSEEde/</a></li>
@@ -472,6 +498,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/iSEE\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
