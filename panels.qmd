@@ -20,9 +20,15 @@ Browser and filter sample metadata stored in a [`SummarizedExperiment`][bioc-Sum
 
 ### ComplexHeatmapPlot
 
-Visualise any assayed values for select features across all samples in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+Visualise any number of features and samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `ComplexHeatmapPlot` panel class.](images/ComplexHeatmapPlot.png)
+
+### FeatureAssayPlot
+
+Visualise a single feature in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `FeatureAssayPlot` panel class.](images/FeatureAssayPlot.png)
 
 ### ReducedDimensionPlot
 
