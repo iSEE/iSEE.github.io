@@ -42,6 +42,12 @@ Visualise any combination of feature metadata stored in a [`SummarizedExperiment
 
 ![The `RowDataPlot` panel class.](images/RowDataPlot.png)
 
+### RowDataTable
+
+Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `RowDataTable` panel class.](images/RowDataTable.png)
+
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
 [bioc-SingleCellExperiment]: https://bioconductor.org/packages/SingleCellExperiment/
 [bioc-SummarizedExperiment]: https://bioconductor.org/packages/SummarizedExperiment/
