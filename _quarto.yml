@@ -11,6 +11,7 @@ website:
         text: Status
       - resources.qmd
       - gallery.qmd
+      - panels.qmd
       - about.qmd
 
 format:
