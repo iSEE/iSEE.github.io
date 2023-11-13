@@ -26,7 +26,7 @@ Visualise any number of features and samples in any assay stored in a [`Summariz
 
 ### FeatureAssayPlot
 
-Visualise a single feature in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+Visualise up to two features in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `FeatureAssayPlot` panel class.](images/FeatureAssayPlot.png)
 
@@ -47,6 +47,13 @@ Visualise any combination of feature metadata stored in a [`SummarizedExperiment
 Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `RowDataTable` panel class.](images/RowDataTable.png)
+
+### SampleAssayPlot
+
+Visualise up to two samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `SampleAssayPlot` panel class.](images/SampleAssayPlot.png)
+
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
 [bioc-SingleCellExperiment]: https://bioconductor.org/packages/SingleCellExperiment/
