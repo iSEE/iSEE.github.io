@@ -54,6 +54,13 @@ Visualise up to two samples in any assay stored in a [`SummarizedExperiment`][bi
 
 ![The `SampleAssayPlot` panel class.](images/SampleAssayPlot.png)
 
+## iSEEde
+
+### DETable
+
+Browse and filter any table of differential expression results embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `DETable` panel class.](images/DETable.png)
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
 [bioc-SingleCellExperiment]: https://bioconductor.org/packages/SingleCellExperiment/
