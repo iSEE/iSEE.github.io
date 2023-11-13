@@ -1,0 +1,14 @@
+---
+title: "Panels"
+---
+
+This page lists panels implemented in [iSEE][bioc-iSEE] and its known extensions.
+
+## ReducedDimensionPlot (iSEE)
+
+Visualise any two dimensions of any dimensionality reduction result stored in a [`SingleCellExperiment`][bioc-SingleCellExperiment] object.
+
+![The `ReducedDimensionPlot` panel class.](images/ReducedDimensionPlot.png)
+
+[bioc-iSEE]: https://bioconductor.org/packages/iSEE/
+[bioc-SingleCellExperiment]: https://bioconductor.org/packages/SingleCellExperiment/
