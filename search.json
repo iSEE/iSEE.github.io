@@ -175,6 +175,20 @@
     "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
   },
   {
+    "objectID": "panels.html",
+    "href": "panels.html",
+    "title": "Panels",
+    "section": "",
+    "text": "This page lists panels implemented in iSEE and its known extensions."
+  },
+  {
+    "objectID": "panels.html#isee",
+    "href": "panels.html#isee",
+    "title": "Panels",
+    "section": "iSEE",
+    "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any assayed values for select features across all samples in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to the iSEE-verse!",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>iSEE - Welcome to the iSEE-verse!</title>
+<title>iSEE - Panels</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -98,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Gallery</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./panels.html" rel="" target="">
+    <a class="nav-link active" href="./panels.html" rel="" target="" aria-current="page">
  <span class="menu-text">Panels</span></a>
   </li>  
   <li class="nav-item">
@@ -117,14 +117,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#isee" id="toc-isee" class="nav-link active" data-scroll-target="#isee">iSEE</a>
+  <ul class="collapse">
+  <li><a href="#columndataplot" id="toc-columndataplot" class="nav-link" data-scroll-target="#columndataplot">ColumnDataPlot</a></li>
+  <li><a href="#columndatatable" id="toc-columndatatable" class="nav-link" data-scroll-target="#columndatatable">ColumnDataTable</a></li>
+  <li><a href="#complexheatmapplot" id="toc-complexheatmapplot" class="nav-link" data-scroll-target="#complexheatmapplot">ComplexHeatmapPlot</a></li>
+  <li><a href="#reduceddimensionplot" id="toc-reduceddimensionplot" class="nav-link" data-scroll-target="#reduceddimensionplot">ReducedDimensionPlot</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to the iSEE-verse!</h1>
+<h1 class="title">Panels</h1>
 </div>
 
 
@@ -139,10 +151,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.</p>
-<p><img src="images/iSEE.png" class="img-fluid"></p>
+<p>This page lists panels implemented in <a href="https://bioconductor.org/packages/iSEE/">iSEE</a> and its known extensions.</p>
+<section id="isee" class="level2">
+<h2 class="anchored" data-anchor-id="isee">iSEE</h2>
+<section id="columndataplot" class="level3">
+<h3 class="anchored" data-anchor-id="columndataplot">ColumnDataPlot</h3>
+<p>Visualise any combination of sample metadata stored in a <a href="https://bioconductor.org/packages/SummarizedExperiment/"><code>SummarizedExperiment</code></a> object.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ColumnDataPlot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The <code>ColumnDataPlot</code> panel class.</figcaption>
+</figure>
+</div>
+</section>
+<section id="columndatatable" class="level3">
+<h3 class="anchored" data-anchor-id="columndatatable">ColumnDataTable</h3>
+<p>Browser and filter sample metadata stored in a <a href="https://bioconductor.org/packages/SummarizedExperiment/"><code>SummarizedExperiment</code></a> object.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ColumnDataTable.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The <code>ColumnDataTable</code> panel class.</figcaption>
+</figure>
+</div>
+</section>
+<section id="complexheatmapplot" class="level3">
+<h3 class="anchored" data-anchor-id="complexheatmapplot">ComplexHeatmapPlot</h3>
+<p>Visualise any assayed values for select features across all samples in a <a href="https://bioconductor.org/packages/SummarizedExperiment/"><code>SummarizedExperiment</code></a> object.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ComplexHeatmapPlot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The <code>ComplexHeatmapPlot</code> panel class.</figcaption>
+</figure>
+</div>
+</section>
+<section id="reduceddimensionplot" class="level3">
+<h3 class="anchored" data-anchor-id="reduceddimensionplot">ReducedDimensionPlot</h3>
+<p>Visualise any two dimensions of any dimensionality reduction result stored in a <a href="https://bioconductor.org/packages/SingleCellExperiment/"><code>SingleCellExperiment</code></a> object.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/ReducedDimensionPlot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The <code>ReducedDimensionPlot</code> panel class.</figcaption>
+</figure>
+</div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
