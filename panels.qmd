@@ -12,6 +12,12 @@ Visualise any combination of sample metadata stored in a [`SummarizedExperiment`
 
 ![The `ColumnDataPlot` panel class.](images/ColumnDataPlot.png)
 
+### ColumnDataTable
+
+Browser and filter sample metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `ColumnDataTable` panel class.](images/ColumnDataTable.png)
+
 ### ReducedDimensionPlot
 
 Visualise any two dimensions of any dimensionality reduction result stored in a [`SingleCellExperiment`][bioc-SingleCellExperiment] object.
