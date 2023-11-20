@@ -26,3 +26,6 @@ Special thanks to:
 - [Thomas Sandmann](tomsing1) for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways,
   as well as contributing to the vignette of iSEEde.
 
+## Code of Conduct
+  
+Please note that the iSEE project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
