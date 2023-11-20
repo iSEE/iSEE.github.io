@@ -215,5 +215,12 @@
     "title": "About",
     "section": "Contributors",
     "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu\nThomas Sandmann for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways, as well as contributing to the vignette of iSEEde."
+  },
+  {
+    "objectID": "about.html#code-of-conduct",
+    "href": "about.html#code-of-conduct",
+    "title": "About",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nPlease note that the iSEE project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
   }
 ]
