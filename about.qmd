@@ -29,3 +29,9 @@ Special thanks to:
 ## Code of Conduct
   
 Please note that the iSEE project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+## Contributions and Code Guidelines
+
+Contributors should refer to the [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/),
+particularly the section [Shiny apps](https://contributions.bioconductor.org/shiny.html).
+
