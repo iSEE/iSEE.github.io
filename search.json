@@ -222,5 +222,12 @@
     "title": "About",
     "section": "Code of Conduct",
     "text": "Code of Conduct\nPlease note that the iSEE project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
+  },
+  {
+    "objectID": "about.html#contributions-and-code-guidelines",
+    "href": "about.html#contributions-and-code-guidelines",
+    "title": "About",
+    "section": "Contributions and Code Guidelines",
+    "text": "Contributions and Code Guidelines\nContributors should refer to the Bioconductor Packages: Development, Maintenance, and Peer Review, particularly the section Shiny apps."
   }
 ]
