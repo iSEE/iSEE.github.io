@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>iSEE - Gallery</title>
+<title>iSEE - Apps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -95,12 +95,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-gallery">    
         <li>
-    <a class="dropdown-item" href="./gallery.html" rel="" target="">
- <span class="dropdown-text">Gallery</span></a>
-  </li>  
-        <li>
     <a class="dropdown-item" href="./panels.html" rel="" target="">
  <span class="dropdown-text">Panels</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./apps.html" rel="" target="">
+ <span class="dropdown-text">Apps</span></a>
   </li>  
     </ul>
   </li>
@@ -152,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gallery</h1>
+<h1 class="title">Apps</h1>
 </div>
 
 
@@ -559,7 +559,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/iSEE\.github\.io\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
