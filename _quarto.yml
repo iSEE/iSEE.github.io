@@ -7,11 +7,14 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: resources.qmd
+        text: Learn
+      - text: Gallery
+        menu:
+        - panels.qmd
+        - apps.qmd
       - href: dashboard.qmd
         text: Status
-      - resources.qmd
-      - gallery.qmd
-      - panels.qmd
       - about.qmd
 
 format:
