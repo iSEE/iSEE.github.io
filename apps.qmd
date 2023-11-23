@@ -8,6 +8,8 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## Rigby et al., bioRxiv, 2023
 
+![Rigby et al. (In review)](images/rigby_et_al.png)
+
 - **URL:** <https://rehwinkellab.shinyapps.io/ifnresource/>
 - **Maintainer:** [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
 - **Version:** iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}
