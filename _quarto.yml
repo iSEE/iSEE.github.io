@@ -3,6 +3,7 @@ project:
 
 website:
   title: "iSEE"
+  google-analytics: "G-D858FLKVB5"
   navbar:
     left:
       - href: index.qmd
