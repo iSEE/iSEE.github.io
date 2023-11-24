@@ -112,6 +112,8 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ## Myocyte data sets
 
+![Myocyte data sets](images/MaxDelbruck_MyoExplorer.png)
+
 - **URL:** <https://shiny.mdc-berlin.de/MyoExplorer/>
 - **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
 - **Version:** iSEE {2.6.0}
