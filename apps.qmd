@@ -156,6 +156,8 @@ More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
 
 ## CD8 TILs from B16 melanoma tumors
 
+![CD8 TILs from B16 melanoma tumors.](images/tilatlas_B16_CD8TIL_10X.png)
+
 - **URL:** <https://tilatlas.shinyapps.io/B16_CD8TIL_10X/>
 - **Maintainer:** [Swiss Portal for Immune Cell Analysis](https://spica.unil.ch/)
 - **Version:** iSEE {1.2.4}
