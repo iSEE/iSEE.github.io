@@ -18,6 +18,8 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## FGCZ Fancy Single Cell Explorer
 
+![FGCZ Fancy Single Cell Explorer (Index page).](images/fgcz.png)
+
 - **URL:** <https://fgcz-shiny.uzh.ch/fgcz_iSEE/>
 - **Maintainer:** [Functional Genomics Center Zurich (FGCZ)](https://fgcz.ch/)
 - **Version:** iSEE {2.12.0}
