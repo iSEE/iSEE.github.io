@@ -91,6 +91,13 @@
     "text": "Kim et al, JNeurosci, 2023\n\n\n\nKim et al, JNeurosci, 2023.\n\n\n\nURL: https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/\nMaintainer: Human Brain Collection Core (HBCC) - NIMH\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the “Cellular Diversity in Human Subgenual Anterior Cingulate and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing” https://doi.org/10.1523/jneurosci.0830-22.2023."
   },
   {
+    "objectID": "apps.html#kwon-et-al.-biorxiv-2023",
+    "href": "apps.html#kwon-et-al.-biorxiv-2023",
+    "title": "Apps",
+    "section": "Kwon et al., bioRxiv, 2023",
+    "text": "Kwon et al., bioRxiv, 2023\n\n\n\nKwon et al., bioRxiv, 2023.\n\n\nThis app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.\n\nURL: https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the preprint “Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex” https://doi.org/10.1101/2023.04.20.537710."
+  },
+  {
     "objectID": "apps.html#isee-covid-hub",
     "href": "apps.html#isee-covid-hub",
     "title": "Apps",
@@ -112,25 +119,18 @@
     "text": "Brulois et al., Nat Commun, 2020\n\n\n\nBrulois et al., Nat Commun, 2020.\n\n\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app showcases data from the article “A molecular map of murine lymph node blood vascular endothelium at single cell resolution” https://doi.org/10.1038/s41467-020-17291-5."
   },
   {
-    "objectID": "apps.html#upload-your-own-summarizedexperiment",
-    "href": "apps.html#upload-your-own-summarizedexperiment",
-    "title": "Apps",
-    "section": "Upload your own SummarizedExperiment",
-    "text": "Upload your own SummarizedExperiment\n\n\n\nUpload your own SummarizedExperiment (Index page).\n\n\nThis app allows visitors to upload an RDS file that contains a SummarizedExperiment object and another optional RDS file that contains an initial configuration object.\n\nURL: https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School\nVersion: iSEE {2.4.0}"
-  },
-  {
-    "objectID": "apps.html#kwon-et-al.-biorxiv-2023",
-    "href": "apps.html#kwon-et-al.-biorxiv-2023",
-    "title": "Apps",
-    "section": "Kwon et al., biorXiv, 2023",
-    "text": "Kwon et al., biorXiv, 2023\n\n\n\nKwon et al., biorXiv, 2023.\n\n\nThis app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.\n\nURL: https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the preprint “Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex” https://doi.org/10.1101/2023.04.20.537710."
-  },
-  {
     "objectID": "apps.html#myocyte-data-sets",
     "href": "apps.html#myocyte-data-sets",
     "title": "Apps",
     "section": "Myocyte data sets",
     "text": "Myocyte data sets\n\n\n\nMyocyte data sets (Index page).\n\n\n\nURL: https://shiny.mdc-berlin.de/MyoExplorer/\nMaintainer: Max Delbrück Center\nVersion: iSEE {2.6.0}"
+  },
+  {
+    "objectID": "apps.html#upload-your-own-summarizedexperiment",
+    "href": "apps.html#upload-your-own-summarizedexperiment",
+    "title": "Apps",
+    "section": "Upload your own SummarizedExperiment",
+    "text": "Upload your own SummarizedExperiment\n\n\n\nUpload your own SummarizedExperiment (Index page).\n\n\nThis app allows visitors to upload an RDS file that contains a SummarizedExperiment object and another optional RDS file that contains an initial configuration object.\n\nURL: https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School\nVersion: iSEE {2.4.0}"
   },
   {
     "objectID": "apps.html#tran-et-al.-neuron-2021",
@@ -172,7 +172,7 @@
     "href": "dashboard.html",
     "title": "Package status",
     "section": "",
-    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\nComing soon\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\nComing soon\n\n\n\n\niSEEpathways\n\nComing soon\n\n\n\n\niSEEu"
+    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
   },
   {
     "objectID": "panels.html",
