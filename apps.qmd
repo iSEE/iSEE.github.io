@@ -38,6 +38,8 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## Petukhov et al., Nat Biotech, 2021
 
+![Moffitt et al., Science, 2018](images/moffitt_ileum.png)
+
 - **URL:** <https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/>
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
 - **Version:** iSEE {2.10.0}
