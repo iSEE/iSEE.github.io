@@ -59,6 +59,8 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 
 ## iSEE COVID Hub
 
+![iSEE COVID Hub (Monocytes).](images/IMBEI_monocytes.png)
+
 - **URL (B cells):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/>
 - **URL (Monocytes):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes>
 - **URL (NK cells):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/>
