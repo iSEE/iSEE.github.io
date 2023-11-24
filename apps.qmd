@@ -38,7 +38,7 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## Petukhov et al., Nat Biotech, 2021
 
-![Moffitt et al., Science, 2018](images/moffitt_ileum.png)
+![Petukhov et al., Nat Biotech, 2021](images/moffitt_ileum.png)
 
 - **URL:** <https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/>
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
@@ -69,6 +69,8 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 **More:** Those apps are listed at <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/>.
 
 ## Kalucka et al., Cell, 2020
+
+![Kalucka et al., Cell, 2020](images/vonandrian_Brulois20_PLN.png)
 
 - **URL:** <https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/>
 - **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
