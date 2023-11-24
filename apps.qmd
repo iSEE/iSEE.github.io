@@ -164,6 +164,8 @@ More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
 
 ## Demonstration iSEE apps (2018)
 
+![Demonstration iSEE apps (CyTOF data set).](images/iSEE_cytof_2018.png)
+
 - **URL (single-cell RNA-seq, mouse visual cortex):** <https://marionilab.cruk.cam.ac.uk/iSEE_allen>
 - **URL (RNA-seq, The Cancer Genome Atlas):** <https://marionilab.cruk.cam.ac.uk/iSEE_tcga>
 - **URL (single-cell RNA-seq, peripheral blood mononuclear cells):** <https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k>
