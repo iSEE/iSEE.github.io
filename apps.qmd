@@ -46,7 +46,9 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 **More:** This app showcases data from the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
 
-## Kim et al, JNeurosci, 2023.
+## Kim et al, JNeurosci, 2023
+
+![Kim et al, JNeurosci, 2023](images/jns2023.png)
 
 - **URL:** <https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/>
 - **Maintainer:** [Human Brain Collection Core (HBCC) - NIMH](https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/hbcc)
