@@ -146,7 +146,9 @@ More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
 
 **More:** This app accompanies the article "Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain" <https://www.frontiersin.org/articles/10.3389/fviro.2021.714475/full>.
 
-## Comparison of SARS-CoV-1 and SARS-CoV-2 
+## Comparison of SARS-CoV-1 and SARS-CoV-2
+
+![Comparison of SARS-CoV-1 and SARS-CoV-2.](images/MDC_COV.png)
 
 - **URL:** <https://shiny.mdc-berlin.de/COV/>
 - **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
