@@ -100,6 +100,8 @@ This app allows visitors to upload an RDS file that contains a [SummarizedExperi
 
 ## Kwon et al., biorXiv, 2023
 
+![Kwon et al., biorXiv, 2023](images/kwon_et_al_biorxiv_2023.png)
+
 This app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.
 
 - **URL:** <https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/>
