@@ -8,7 +8,7 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## Rigby et al., bioRxiv, 2023
 
-![Rigby et al. (In review)](images/rigby_et_al.png)
+![Rigby et al., bioRxiv, 2023](images/rigby_et_al.png)
 
 - **URL:** <https://rehwinkellab.shinyapps.io/ifnresource/>
 - **Maintainer:** [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
@@ -18,7 +18,7 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ## FGCZ Fancy Single Cell Explorer
 
-![FGCZ Fancy Single Cell Explorer (Index page).](images/fgcz.png)
+![FGCZ Fancy Single Cell Explorer](images/fgcz.png)
 
 - **URL:** <https://fgcz-shiny.uzh.ch/fgcz_iSEE/>
 - **Maintainer:** [Functional Genomics Center Zurich (FGCZ)](https://fgcz.ch/)
@@ -89,6 +89,8 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 **More:** This app showcases data from the article "A molecular map of murine lymph node blood vascular endothelium at single cell resolution" <https://doi.org/10.1038/s41467-020-17291-5>.
 
 ## Upload your own SummarizedExperiment
+
+![Upload your own SummarizedExperiment](images/ccb_enteprise.png)
 
 This app allows visitors to upload an RDS file that contains a [SummarizedExperiment][summarizedexperiment-bioc] object and another optional RDS file that contains an initial configuration object.
 
