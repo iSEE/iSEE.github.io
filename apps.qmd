@@ -135,6 +135,8 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ## Cristinelli et al., Front. Virol., 2021
 
+![Cristinelli et al., Front. Virol., 2021](images/HITEAM.png)
+
 The authors developed HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe), a user-friendly querying platform based on the iSEE interactive interface [iSEE] to explore all data or any gene of interest.
 More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
 
