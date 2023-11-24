@@ -57,6 +57,18 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 **More:** This app accompanies the  "Cellular Diversity in Human Subgenual Anterior Cingulate
 and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi.org/10.1523/jneurosci.0830-22.2023>.
 
+## Kwon et al., bioRxiv, 2023
+
+![Kwon et al., bioRxiv, 2023.](images/kwon_et_al_biorxiv_2023.png)
+
+This app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.
+
+- **URL:** <https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/>
+- **Maintainer:** [The Lieber Institute for Brain Development](https://www.libd.org/)
+- **Version:** iSEE {2.10.0}
+
+**More:** This app accompanies the preprint "Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex" <https://doi.org/10.1101/2023.04.20.537710>.
+
 ## iSEE COVID Hub
 
 ![iSEE COVID Hub (Monocytes).](images/IMBEI_monocytes.png)
@@ -90,6 +102,14 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 
 **More:** This app showcases data from the article "A molecular map of murine lymph node blood vascular endothelium at single cell resolution" <https://doi.org/10.1038/s41467-020-17291-5>.
 
+## Myocyte data sets
+
+![Myocyte data sets (Index page).](images/MaxDelbruck_MyoExplorer.png)
+
+- **URL:** <https://shiny.mdc-berlin.de/MyoExplorer/>
+- **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
+- **Version:** iSEE {2.6.0}
+
 ## Upload your own SummarizedExperiment
 
 ![Upload your own SummarizedExperiment (Index page).](images/ccb_enteprise.png)
@@ -99,26 +119,6 @@ This app allows visitors to upload an RDS file that contains a [SummarizedExperi
 - **URL:** <https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/>
 - **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/)
 - **Version:** iSEE {2.4.0}
-
-## Kwon et al., biorXiv, 2023
-
-![Kwon et al., biorXiv, 2023.](images/kwon_et_al_biorxiv_2023.png)
-
-This app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.
-
-- **URL:** <https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/>
-- **Maintainer:** [The Lieber Institute for Brain Development](https://www.libd.org/)
-- **Version:** iSEE {2.10.0}
-
-**More:** This app accompanies the preprint "Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex" <https://doi.org/10.1101/2023.04.20.537710>.
-
-## Myocyte data sets
-
-![Myocyte data sets (Index page).](images/MaxDelbruck_MyoExplorer.png)
-
-- **URL:** <https://shiny.mdc-berlin.de/MyoExplorer/>
-- **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
-- **Version:** iSEE {2.6.0}
 
 ## Tran et al., Neuron, 2021
 
