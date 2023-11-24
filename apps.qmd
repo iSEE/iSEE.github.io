@@ -70,7 +70,7 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 
 ## Kalucka et al., Cell, 2020
 
-![Kalucka et al., Cell, 2020](images/vonandrian_Brulois20_PLN.png)
+![Kalucka et al., Cell, 2020](images/vonandrian_Kalucka20.png)
 
 - **URL:** <https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/>
 - **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
