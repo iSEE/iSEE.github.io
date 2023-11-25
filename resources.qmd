@@ -88,6 +88,8 @@ Our YouTube channel includes videos documenting and demonstrating iSEE apps in a
 
 <https://www.youtube.com/@iSEEdevelopers>
 
+{{< video https://www.youtube.com/embed/R72Tbb5vxmw >}}
+
 <!-- 
 Other resources:
 
