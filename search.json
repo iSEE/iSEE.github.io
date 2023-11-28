@@ -1,52 +1,87 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Video resources",
     "section": "",
-    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE\n\n\n\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/\n\n\n\n\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/\n\n\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/\n\n\n\n\n\n\n\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\n\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/\n\n\n\n\nOur YouTube channel includes videos documenting and demonstrating iSEE apps in action.\nhttps://www.youtube.com/@iSEEdevelopers"
+    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
   },
   {
-    "objectID": "resources.html#github-organisation",
-    "href": "resources.html#github-organisation",
-    "title": "Resources",
+    "objectID": "videos.html#featured-videos",
+    "href": "videos.html#featured-videos",
+    "title": "Video resources",
     "section": "",
-    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
+    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
   },
   {
-    "objectID": "resources.html#bioconductor-pages",
-    "href": "resources.html#bioconductor-pages",
-    "title": "Resources",
-    "section": "",
-    "text": "The links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/"
+    "objectID": "videos.html#featured-playlists",
+    "href": "videos.html#featured-playlists",
+    "title": "Video resources",
+    "section": "Featured playlists",
+    "text": "Featured playlists\nOur 2023 Short Videos series presents specific aspects of iSEE functionality and infrastructure. It aims to provide targeted information for end-users of the interactive interface."
   },
   {
-    "objectID": "resources.html#online-documentation-pkgdown",
-    "href": "resources.html#online-documentation-pkgdown",
-    "title": "Resources",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/"
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
   },
   {
-    "objectID": "resources.html#workshops",
-    "href": "resources.html#workshops",
-    "title": "Resources",
+    "objectID": "about.html#core-developers",
+    "href": "about.html#core-developers",
+    "title": "About",
     "section": "",
-    "text": "Materials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\n\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
   },
   {
-    "objectID": "resources.html#books",
-    "href": "resources.html#books",
-    "title": "Resources",
-    "section": "",
-    "text": "This book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\n\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/"
+    "objectID": "about.html#contributors",
+    "href": "about.html#contributors",
+    "title": "About",
+    "section": "Contributors",
+    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu\nThomas Sandmann for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways."
   },
   {
-    "objectID": "resources.html#videos",
-    "href": "resources.html#videos",
-    "title": "Resources",
+    "objectID": "about.html#code-of-conduct",
+    "href": "about.html#code-of-conduct",
+    "title": "About",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\nPlease note that the iSEE project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
+  },
+  {
+    "objectID": "about.html#contributions-and-code-guidelines",
+    "href": "about.html#contributions-and-code-guidelines",
+    "title": "About",
+    "section": "Contributions and Code Guidelines",
+    "text": "Contributions and Code Guidelines\nContributors should refer to the Bioconductor Packages: Development, Maintenance, and Peer Review, particularly the section Shiny apps."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the iSEE-verse!",
     "section": "",
-    "text": "Our YouTube channel includes videos documenting and demonstrating iSEE apps in action.\nhttps://www.youtube.com/@iSEEdevelopers"
+    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+  },
+  {
+    "objectID": "panels.html",
+    "href": "panels.html",
+    "title": "Panels",
+    "section": "",
+    "text": "This page lists panels implemented in iSEE and its known extensions."
+  },
+  {
+    "objectID": "panels.html#isee",
+    "href": "panels.html#isee",
+    "title": "Panels",
+    "section": "iSEE",
+    "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any number of features and samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nFeatureAssayPlot\nVisualise up to two features in any assay stored in a SummarizedExperiment object.\n\n\n\nThe FeatureAssayPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class.\n\n\n\n\nRowDataPlot\nVisualise any combination of feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataPlot panel class.\n\n\n\n\nRowDataTable\nBrowser and filter feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataTable panel class.\n\n\n\n\nSampleAssayPlot\nVisualise up to two samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe SampleAssayPlot panel class."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Package status",
+    "section": "",
+    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
   },
   {
     "objectID": "apps.html",
@@ -168,66 +203,52 @@
     "text": "Demonstration iSEE apps (2018)\n\n\n\nDemonstration iSEE apps (CyTOF data set).\n\n\n\nURL (single-cell RNA-seq, mouse visual cortex): https://marionilab.cruk.cam.ac.uk/iSEE_allen\nURL (RNA-seq, The Cancer Genome Atlas): https://marionilab.cruk.cam.ac.uk/iSEE_tcga\nURL (single-cell RNA-seq, peripheral blood mononuclear cells): https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k\nURL (mass cytometry, healthy and diseased human donors): https://marionilab.cruk.cam.ac.uk/iSEE_cytof\nMaintainer: Marioni group\nVersion: iSEE {1.2.4}\n\nMore: Those apps are listed at https://marionilab.cruk.cam.ac.uk/, among other interactive apps from the same developer."
   },
   {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "Package status",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Package\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
+    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
   },
   {
-    "objectID": "panels.html",
-    "href": "panels.html",
-    "title": "Panels",
+    "objectID": "resources.html#github-organisation",
+    "href": "resources.html#github-organisation",
+    "title": "Resources",
     "section": "",
-    "text": "This page lists panels implemented in iSEE and its known extensions."
+    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
   },
   {
-    "objectID": "panels.html#isee",
-    "href": "panels.html#isee",
-    "title": "Panels",
-    "section": "iSEE",
-    "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any number of features and samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nFeatureAssayPlot\nVisualise up to two features in any assay stored in a SummarizedExperiment object.\n\n\n\nThe FeatureAssayPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class.\n\n\n\n\nRowDataPlot\nVisualise any combination of feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataPlot panel class.\n\n\n\n\nRowDataTable\nBrowser and filter feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataTable panel class.\n\n\n\n\nSampleAssayPlot\nVisualise up to two samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe SampleAssayPlot panel class."
+    "objectID": "resources.html#bioconductor-pages",
+    "href": "resources.html#bioconductor-pages",
+    "title": "Resources",
+    "section": "Bioconductor pages",
+    "text": "Bioconductor pages\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the iSEE-verse!",
-    "section": "",
-    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+    "objectID": "resources.html#online-documentation-pkgdown",
+    "href": "resources.html#online-documentation-pkgdown",
+    "title": "Resources",
+    "section": "Online documentation (pkgdown)",
+    "text": "Online documentation (pkgdown)\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+    "objectID": "resources.html#workshops",
+    "href": "resources.html#workshops",
+    "title": "Resources",
+    "section": "Workshops",
+    "text": "Workshops\n\nEuropean Bioconductor Conference 2023\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\nEuropean Bioconductor Conference 2020\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\nBioconductor Conference 2020 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\nBioconductor Conference 2019 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
   },
   {
-    "objectID": "about.html#core-developers",
-    "href": "about.html#core-developers",
-    "title": "About",
-    "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
+    "objectID": "resources.html#books",
+    "href": "resources.html#books",
+    "title": "Resources",
+    "section": "Books",
+    "text": "Books\n\nExtending iSEE\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\niSEETheBook\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/"
   },
   {
-    "objectID": "about.html#contributors",
-    "href": "about.html#contributors",
-    "title": "About",
-    "section": "Contributors",
-    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu\nThomas Sandmann for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways."
-  },
-  {
-    "objectID": "about.html#code-of-conduct",
-    "href": "about.html#code-of-conduct",
-    "title": "About",
-    "section": "Code of Conduct",
-    "text": "Code of Conduct\nPlease note that the iSEE project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
-  },
-  {
-    "objectID": "about.html#contributions-and-code-guidelines",
-    "href": "about.html#contributions-and-code-guidelines",
-    "title": "About",
-    "section": "Contributions and Code Guidelines",
-    "text": "Contributions and Code Guidelines\nContributors should refer to the Bioconductor Packages: Development, Maintenance, and Peer Review, particularly the section Shiny apps."
+    "objectID": "resources.html#videos",
+    "href": "resources.html#videos",
+    "title": "Resources",
+    "section": "Videos",
+    "text": "Videos\nOur  YouTube channel includes short videos showcasing iSEE apps in action.\nFeatured videos and playlists are listed on this page."
   }
 ]
