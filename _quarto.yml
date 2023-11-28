@@ -20,6 +20,7 @@ website:
 
 format:
   html:
+    site-url: https://isee.github.io
     theme: cosmo
     css: styles.css
     toc: true
