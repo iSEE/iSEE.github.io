@@ -1,4 +1,6 @@
-# Resources
+---
+title: "Resources"
+---
 
 ## GitHub organisation
 
@@ -84,12 +86,14 @@ This new book (work in progress) aims to compile essential knowledge about iSEE,
 
 ## Videos
 
-Our YouTube channel includes videos documenting and demonstrating iSEE apps in action.
+Our [{{< fa brands youtube >}} YouTube channel][isee-youtube] includes short videos showcasing iSEE apps in action.
 
-<https://www.youtube.com/@iSEEdevelopers>
+Featured videos and playlists are listed on [this page](/videos.qmd).
 
 <!-- 
 Other resources:
 
 - <https://github.com/iSEE/iSEE_instances>
 -->
+
+[isee-youtube]: https://www.youtube.com/@iSEEdevelopers

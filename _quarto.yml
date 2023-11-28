@@ -3,21 +3,27 @@ project:
 
 website:
   title: "iSEE"
+  google-analytics: "G-D858FLKVB5"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: resources.qmd
+        text: Learn
+      - text: Gallery
+        menu:
+        - panels.qmd
+        - apps.qmd
       - href: dashboard.qmd
         text: Status
-      - resources.qmd
-      - gallery.qmd
-      - panels.qmd
       - about.qmd
 
 format:
   html:
+    site-url: https://isee.github.io
     theme: cosmo
     css: styles.css
     toc: true
     link-external-icon: true
     link-external-newwindow: true
+    anchor-sections: true

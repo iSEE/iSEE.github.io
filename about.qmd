@@ -6,13 +6,13 @@ title: "About"
 
 ::: {layout-ncol=2}
 
-![Kevin Rue-Albrecht](images/kevin-rue-albrecht.jpeg){width="250px"}
+![Kevin Rue-Albrecht](images/people/kevin-rue-albrecht.jpeg){width="250px"}
 
-![Aaron Lun](images/aaron-lun.png){width="250px"}
+![Aaron Lun](images/people/aaron-lun.png){width="250px"}
 
-![Charlotte Soneson](images/charlotte-soneson.png){width="250px"}
+![Charlotte Soneson](images/people/charlotte-soneson.png){width="250px"}
 
-![Federico Marini](images/federico-marini.png){width="250px"}
+![Federico Marini](images/people/federico-marini.png){width="250px"}
 :::
 
 ## Contributors
@@ -23,6 +23,14 @@ Special thanks to:
 
 - [Leonardo Collado-Torres](https://github.com/lcolladotor) for contributions to our GitHub Action workflow.
 - [Michael Stadler](https://github.com/mbstadler) for contributing the reduced dimension mode in iSEEu
-- [Thomas Sandmann](tomsing1) for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways,
-  as well as contributing to the vignette of iSEEde.
+- [Thomas Sandmann](https://github.com/tomsing1) for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways.
+
+## Code of Conduct
+  
+Please note that the iSEE project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+## Contributions and Code Guidelines
+
+Contributors should refer to the [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/),
+particularly the section [Shiny apps](https://contributions.bioconductor.org/shiny.html).
 
