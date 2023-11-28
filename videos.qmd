@@ -1,0 +1,29 @@
+---
+title: "Video resources"
+---
+
+## Featured videos
+
+::: {layout-ncol=2}
+1. Welcome to the iSEE-verse !
+
+{{< video https://www.youtube.com/embed/R72Tbb5vxmw
+    title="What is the CERN?"
+    start="116"
+>}}
+
+2. The app user interface
+
+{{< video https://www.youtube.com/embed/vhYKC6Dcnzg
+    title="What is the CERN?"
+    start="116"
+>}}
+:::
+
+## Featured playlists
+
+Our [2023 Short Videos][short-videos-2023] series presents specific aspects of iSEE functionality and infrastructure.
+It aims to provide targeted information for end-users of the interactive interface.
+
+
+[short-videos-2023]: https://www.youtube.com/playlist?list=PLd1mh2_w6ahZ9bArneImFnjQgYeyelywC
