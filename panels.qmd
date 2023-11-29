@@ -10,50 +10,78 @@ This page lists panels implemented in [iSEE][bioc-iSEE] and its known extensions
 
 Visualise any combination of sample metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `ColumnDataPlot` panel class.](images/panels/ColumnDataPlot.png)
+![The `ColumnDataPlot` panel class.](images/panels/iSEE/ColumnDataPlot.png)
 
 ### ColumnDataTable
 
 Browser and filter sample metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `ColumnDataTable` panel class.](images/panels/ColumnDataTable.png)
+![The `ColumnDataTable` panel class.](images/panels/iSEE/ColumnDataTable.png)
 
 ### ComplexHeatmapPlot
 
 Visualise any number of features and samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `ComplexHeatmapPlot` panel class.](images/panels/ComplexHeatmapPlot.png)
+![The `ComplexHeatmapPlot` panel class.](images/panels/iSEE/ComplexHeatmapPlot.png)
 
 ### FeatureAssayPlot
 
 Visualise up to two features in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `FeatureAssayPlot` panel class.](images/panels/FeatureAssayPlot.png)
+![The `FeatureAssayPlot` panel class.](images/panels/iSEE/FeatureAssayPlot.png)
 
 ### ReducedDimensionPlot
 
 Visualise any two dimensions of any dimensionality reduction result stored in a [`SingleCellExperiment`][bioc-SingleCellExperiment] object.
 
-![The `ReducedDimensionPlot` panel class.](images/panels/ReducedDimensionPlot.png)
+![The `ReducedDimensionPlot` panel class.](images/panels/iSEE/ReducedDimensionPlot.png)
 
 ### RowDataPlot
 
 Visualise any combination of feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `RowDataPlot` panel class.](images/panels/RowDataPlot.png)
+![The `RowDataPlot` panel class.](images/panels/iSEE/RowDataPlot.png)
 
 ### RowDataTable
 
 Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `RowDataTable` panel class.](images/panels/RowDataTable.png)
+![The `RowDataTable` panel class.](images/panels/iSEE/RowDataTable.png)
 
 ### SampleAssayPlot
 
 Visualise up to two samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
-![The `SampleAssayPlot` panel class.](images/panels/SampleAssayPlot.png)
+![The `SampleAssayPlot` panel class.](images/panels/iSEE/SampleAssayPlot.png)
 
+## iSEEde
+
+### DETable
+
+Browse and filter any table of differential expression results embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `DETable` panel class.](images/panels/iSEEde/DETable.png)
+
+### LogFCLogFCPlot
+
+Visualise the log-transformed fold-changes of any two differential expression contrasts embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `LogFCLogFCPlot` panel class.](images/panels/iSEEde/LogFCLogFCPlot.png)
+
+### MAPlot
+
+Visualise the M and A values of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `MAPlot` panel class.](images/panels/iSEEde/MAPlot.png)
+
+### VolcanoPlot
+
+Visualise the P values and log-transformed fold-changes of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `VolcanoPlot` panel class.](images/panels/iSEEde/VolcanoPlot.png)
+
+
+<!-- Links -->
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
 [bioc-SingleCellExperiment]: https://bioconductor.org/packages/SingleCellExperiment/
