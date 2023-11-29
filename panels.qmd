@@ -68,6 +68,12 @@ Visualise the log fold-change of any two differential expression contrasts embed
 
 ![The `LogFCLogFCPlot` panel class.](images/panels/iSEEde/LogFCLogFCPlot.png)
 
+### MAPlot
+
+Visualise the M and A values of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `MAPlot` panel class.](images/panels/iSEEde/MAPlot.png)
+
 <!-- Links -->
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
