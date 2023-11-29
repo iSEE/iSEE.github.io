@@ -77,6 +77,13 @@
     "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any number of features and samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nFeatureAssayPlot\nVisualise up to two features in any assay stored in a SummarizedExperiment object.\n\n\n\nThe FeatureAssayPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class.\n\n\n\n\nRowDataPlot\nVisualise any combination of feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataPlot panel class.\n\n\n\n\nRowDataTable\nBrowser and filter feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataTable panel class.\n\n\n\n\nSampleAssayPlot\nVisualise up to two samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe SampleAssayPlot panel class."
   },
   {
+    "objectID": "panels.html#iseede",
+    "href": "panels.html#iseede",
+    "title": "Panels",
+    "section": "iSEEde",
+    "text": "iSEEde\n\nDETable\nBrowse and filter any table of differential expression results embedded in a SummarizedExperiment object.\n\n\n\nThe DETable panel class.\n\n\n\n\nLogFCLogFCPlot\nVisualise the log-transformed fold-changes of any two differential expression contrasts embedded in a SummarizedExperiment object.\n\n\n\nThe LogFCLogFCPlot panel class.\n\n\n\n\nMAPlot\nVisualise the M and A values of any differential expression contrast embedded in a SummarizedExperiment object.\n\n\n\nThe MAPlot panel class.\n\n\n\n\nVolcanoPlot\nVisualise the P values and log-transformed fold-changes of any differential expression contrast embedded in a SummarizedExperiment object.\n\n\n\nThe VolcanoPlot panel class."
+  },
+  {
     "objectID": "dashboard.html",
     "href": "dashboard.html",
     "title": "Package status",
