@@ -64,7 +64,7 @@ Browse and filter any table of differential expression results embedded in a [`S
 
 ### LogFCLogFCPlot
 
-Visualise the log fold-change of any two differential expression contrasts embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+Visualise the log-transformed fold-changes of any two differential expression contrasts embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `LogFCLogFCPlot` panel class.](images/panels/iSEEde/LogFCLogFCPlot.png)
 
@@ -73,6 +73,13 @@ Visualise the log fold-change of any two differential expression contrasts embed
 Visualise the M and A values of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `MAPlot` panel class.](images/panels/iSEEde/MAPlot.png)
+
+### VolcanoPlot
+
+Visualise the P values and log-transformed fold-changes of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `VolcanoPlot` panel class.](images/panels/iSEEde/VolcanoPlot.png)
+
 
 <!-- Links -->
 
