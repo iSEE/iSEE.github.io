@@ -1,0 +1,27 @@
+---
+title: "Citations"
+---
+
+This page lists known public deployments of [iSEE](https://bioconductor.org/packages/iSEE/) apps.
+
+Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
+
+## Kong et al., BMC Bioinformatics, 2024
+
+**Title:** CITEViz: interactively classify cell populations in CITE-Seq via a flow cytometry-like gating workflow using R-Shiny
+
+**DOI:** <https://doi.org/10.1186/s12859-024-05762-1>
+
+**Caveat:**
+The authors misrepresent and underestimate iSEE functionality.
+
+In the article, the authors state:
+
+> iSEE is an R-Shiny package from BioConductor that provides a visual interface to explore single-cell datasets, but it lacks an iterative filtration feature that is essential to recreate the flow cytometry gating workflow [13].
+
+The [iSEE manuscript][isee-f1000] includes an interactive app titled 'Mass cytometry' for which the legend explicitly states:
+
+> We used iSEE to visualise and refine a gating analysis to obtain B cells, and to investigate differences in expression of the functional marker pS6 after stimulation.
+
+
+[isee-f1000]: https://doi.org/10.12688/f1000research.14966.1
