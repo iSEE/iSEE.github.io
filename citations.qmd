@@ -2,9 +2,9 @@
 title: "Citations"
 ---
 
-This page lists known public deployments of [iSEE](https://bioconductor.org/packages/iSEE/) apps.
+This page lists known citations of the *iSEE* [article][isee-f1000].
 
-Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
+Links are ordered in reverse order of citation date (i.e., the most recent citations appear first).
 
 ## Kong et al., BMC Bioinformatics, 2024
 
