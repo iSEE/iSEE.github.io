@@ -16,7 +16,10 @@ website:
         - apps.qmd
       - href: dashboard.qmd
         text: Status
-      - about.qmd
+      - text: About
+        menu:
+        - about.qmd
+        - roadmap.qmd
 
 format:
   html:
