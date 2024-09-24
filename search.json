@@ -56,6 +56,13 @@
     "text": "Contributions and Code Guidelines\nContributors should refer to the Bioconductor Packages: Development, Maintenance, and Peer Review, particularly the section Shiny apps."
   },
   {
+    "objectID": "about.html#a-bit-of-history",
+    "href": "about.html#a-bit-of-history",
+    "title": "About",
+    "section": "A bit of history",
+    "text": "A bit of history\nFirst substantial commit, on 6 December 2017, when proposals for iSEE functionality was fleshed out."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to the iSEE-verse!",
