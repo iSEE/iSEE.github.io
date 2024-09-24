@@ -34,3 +34,6 @@ Please note that the iSEE project is released with a [Contributor Code of Conduc
 Contributors should refer to the [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/),
 particularly the section [Shiny apps](https://contributions.bioconductor.org/shiny.html).
 
+## A bit of history
+
+First substantial [commit](https://github.com/iSEE/iSEE/tree/021e3e20cfdb194e511f8097ed544329bd46bcd6), on 6 December 2017, when proposals for iSEE functionality was fleshed out.
