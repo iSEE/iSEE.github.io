@@ -2,6 +2,10 @@
 title: "Package status"
 ---
 
+## iSEE organisation
+
+Packages maintained under the GitHub organisation [iSEE](https://github.com/iSEE).
+
 | Package | Devel | Release | Issues | Pull requests |
 |:-------:|------:|--------:|-------:|--------------:|
 | [iSEE](https://github.com/iSEE/iSEE) | [![](http://bioconductor.org/shields/build/devel/bioc/iSEE.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/iSEE) | [![](http://bioconductor.org/shields/build/release/bioc/iSEE.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/iSEE) | [![GitHub issues](https://img.shields.io/github/issues/iSEE/iSEE)](https://github.com/iSEE/iSEE/issues) | [![GitHub pulls](https://img.shields.io/github/issues-pr/iSEE/iSEE)](https://github.com/iSEE/iSEE/pulls)|
@@ -11,3 +15,11 @@ title: "Package status"
 | [iSEEindex](https://github.com/iSEE/iSEEindex) | [![](http://bioconductor.org/shields/build/devel/bioc/iSEEindex.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/iSEEindex) | [![](http://bioconductor.org/shields/build/release/bioc/iSEEindex.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/iSEEindex) | [![GitHub issues](https://img.shields.io/github/issues/iSEE/iSEEindex)](https://github.com/iSEE/iSEEindex/issues) | [![GitHub pulls](https://img.shields.io/github/issues-pr/iSEE/iSEEindex)](https://github.com/iSEE/iSEEindex/pulls)|
 | [iSEEpathways](https://github.com/iSEE/iSEEpathways) | [![](http://bioconductor.org/shields/build/devel/bioc/iSEEpathways.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/iSEEpathways) | [![](http://bioconductor.org/shields/build/release/bioc/iSEEpathways.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/iSEEpathways) | [![GitHub issues](https://img.shields.io/github/issues/iSEE/iSEEpathways)](https://github.com/iSEE/iSEEpathways/issues) | [![GitHub pulls](https://img.shields.io/github/issues-pr/iSEE/iSEEpathways)](https://github.com/iSEE/iSEEpathways/pulls)|
 | [iSEEu](https://github.com/iSEE/iSEEu) | [![](http://bioconductor.org/shields/build/devel/bioc/iSEEu.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/iSEEu) |[![](http://bioconductor.org/shields/build/release/bioc/iSEEu.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/iSEEu) | [![GitHub issues](https://img.shields.io/github/issues/iSEE/iSEEu)](https://github.com/iSEE/iSEEu/issues) | [![GitHub pulls](https://img.shields.io/github/issues-pr/iSEE/iSEEu)](https://github.com/iSEE/iSEEu/pulls) |
+
+## Third-party extensions
+
+Packages contributed by the broader community.
+
+| Package | Devel | Release | Issues | Pull requests |
+|:-------:|------:|--------:|-------:|--------------:|
+| [iSEEtree](https://github.com/microbiome/iSEEtree) | [![](http://bioconductor.org/shields/build/devel/bioc/iSEEtree.svg)](http://bioconductor.org/checkResults/devel/bioc-LATEST/iSEEtree) | [![](http://bioconductor.org/shields/build/release/bioc/iSEEtree.svg)](http://bioconductor.org/checkResults/release/bioc-LATEST/iSEEtree) | [![GitHub issues](https://img.shields.io/github/issues/microbiome/iSEEtree)](https://github.com/microbiome/iSEEtree/issues) | [![GitHub pulls](https://img.shields.io/github/issues-pr/microbiome/iSEEtree)](https://github.com/microbiome/iSEEtree/pulls)|
