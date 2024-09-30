@@ -46,6 +46,10 @@ The latest version pushed to GitHub  may be *ahead* of the latest version availa
 
 ## Workshops
 
+### iUSEiSEE
+
+- **Materials:** <https://isee.github.io/iUSEiSEE/>
+
 ### European Bioconductor Conference 2024
 
 - **Materials:** <https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html>
