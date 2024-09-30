@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>iSEE - Welcome to the iSEE-verse!</title>
+<title>iSEE - Citations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -91,7 +91,7 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -133,14 +133,20 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#kong-et-al.-bmc-bioinformatics-2024" id="toc-kong-et-al.-bmc-bioinformatics-2024" class="nav-link active" data-scroll-target="#kong-et-al.-bmc-bioinformatics-2024">Kong et al., BMC Bioinformatics, 2024</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to the iSEE-verse!</h1>
+<h1 class="title">Citations</h1>
 </div>
 
 
@@ -155,10 +161,23 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 </header>
 
-<p>iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.</p>
-<p><img src="images/apps/iSEE.png" class="img-fluid"></p>
+<p>This page lists known public deployments of <a href="https://bioconductor.org/packages/iSEE/">iSEE</a> apps.</p>
+<p>Links are ordered in reverse order of <a href="https://bioconductor.org/packages/iSEE/">iSEE</a> package version (i.e., those using the most recent version appear first).</p>
+<section id="kong-et-al.-bmc-bioinformatics-2024" class="level2">
+<h2 class="anchored" data-anchor-id="kong-et-al.-bmc-bioinformatics-2024">Kong et al., BMC Bioinformatics, 2024</h2>
+<p><strong>Title:</strong> CITEViz: interactively classify cell populations in CITE-Seq via a flow cytometry-like gating workflow using R-Shiny</p>
+<p><strong>DOI:</strong> <a href="https://doi.org/10.1186/s12859-024-05762-1" class="uri">https://doi.org/10.1186/s12859-024-05762-1</a></p>
+<p><strong>Caveat:</strong> The authors state:</p>
+<blockquote class="blockquote">
+<p>iSEE is an R-Shiny package from BioConductor that provides a visual interface to explore single-cell datasets, but it lacks an iterative filtration feature that is essential to recreate the flow cytometry gating workflow [13].</p>
+</blockquote>
+<p>The <a href="https://doi.org/10.12688/f1000research.14966.1">iSEE manuscript</a> includes an interactive app titled ‘Mass cytometry’ for which the legend explicitly states:</p>
+<blockquote class="blockquote">
+<p>We used iSEE to visualise and refine a gating analysis to obtain B cells, and to investigate differences in expression of the functional marker pS6 after stimulation.</p>
+</blockquote>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -393,7 +412,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/iSEE\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }

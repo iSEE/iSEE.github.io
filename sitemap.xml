@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://iSEE.github.io/videos.html</loc>
+    <lastmod>2024-09-30T08:02:48.663Z</lastmod>
+  </url>
+  <url>
     <loc>https://iSEE.github.io/about.html</loc>
-    <lastmod>2024-09-29T16:08:48.889Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iSEE.github.io/apps.html</loc>
-    <lastmod>2024-09-29T16:08:49.438Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iSEE.github.io/dashboard.html</loc>
-    <lastmod>2024-09-29T16:08:49.794Z</lastmod>
+    <lastmod>2024-09-30T08:02:47.459Z</lastmod>
   </url>
   <url>
     <loc>https://iSEE.github.io/index.html</loc>
-    <lastmod>2024-09-29T16:08:50.134Z</lastmod>
+    <lastmod>2024-09-30T08:02:46.108Z</lastmod>
   </url>
   <url>
     <loc>https://iSEE.github.io/panels.html</loc>
-    <lastmod>2024-09-29T16:08:50.424Z</lastmod>
+    <lastmod>2024-09-30T08:02:44.827Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iSEE.github.io/dashboard.html</loc>
+    <lastmod>2024-09-30T08:02:45.581Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iSEE.github.io/apps.html</loc>
+    <lastmod>2024-09-30T08:02:46.901Z</lastmod>
   </url>
   <url>
     <loc>https://iSEE.github.io/resources.html</loc>
-    <lastmod>2024-09-29T16:08:50.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://iSEE.github.io/videos.html</loc>
-    <lastmod>2024-09-29T16:08:51.002Z</lastmod>
+    <lastmod>2024-09-30T08:02:48.150Z</lastmod>
   </url>
 </urlset>
