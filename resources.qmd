@@ -105,20 +105,20 @@ In doubt, always refer to help pages that you open in your own R session, using 
 
 ### iSEETheBook
 
+<https://isee.github.io/iSEETheBook/>
+
 This new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:
 
 - End users interacting with the graphical user interface in their web browser.
 - Developers of scripted web-applications using iSEE to showcase data sets.
 - Developers of extensions contributing new functionality and packages to the iSEE ecosystem.
 
-<https://isee.github.io/iSEETheBook/>
-
 ### Extending iSEE
+
+<https://isee.github.io/iSEE-book/>
 
 This book describes how to use the *iSEE* application programming interface (API) to develop new panel types for custom visualizations.
 The book also presents case studies to illustrate the development process for a variety of custom panels.
-
-<https://isee.github.io/iSEE-book/>
 
 ## Videos
 
