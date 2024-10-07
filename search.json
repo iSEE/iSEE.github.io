@@ -256,14 +256,14 @@
     "href": "resources.html#bioconductor-pages",
     "title": "Resources",
     "section": "Bioconductor pages",
-    "text": "Bioconductor pages\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\nhttps://bioconductor.org/packages/iSEE/\nhttps://bioconductor.org/packages/iSEEde/\nhttps://bioconductor.org/packages/iSEEhex/\nhttps://bioconductor.org/packages/iSEEhub/\nhttps://bioconductor.org/packages/iSEEindex/\nhttps://bioconductor.org/packages/iSEEpathways/\nhttps://bioconductor.org/packages/iSEEu/"
+    "text": "Bioconductor pages\n\n\n\nBioconductor logo\n\n\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
   },
   {
-    "objectID": "resources.html#online-documentation-pkgdown",
-    "href": "resources.html#online-documentation-pkgdown",
+    "objectID": "resources.html#pkgdown-websites",
+    "href": "resources.html#pkgdown-websites",
     "title": "Resources",
-    "section": "Online documentation (pkgdown)",
-    "text": "Online documentation (pkgdown)\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\nhttps://isee.github.io/iSEE\nhttps://isee.github.io/iSEEde/\nhttps://isee.github.io/iSEEhex/\nhttps://isee.github.io/iSEEhub/\nhttps://isee.github.io/iSEEindex/\nhttps://isee.github.io/iSEEpathways/\nhttps://isee.github.io/iSEEu/"
+    "section": "pkgdown websites",
+    "text": "pkgdown websites\n\n\n\nGitHub logo\n\n\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
   },
   {
     "objectID": "resources.html#workshops",
