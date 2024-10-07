@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>iSEE - Resources</title>
+<title>iSEE - Installation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -93,11 +127,11 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./install.html" rel="" target="">
+    <a class="nav-link active" href="./install.html" rel="" target="" aria-current="page">
  <span class="menu-text">Install</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./resources.html" rel="" target="">
  <span class="menu-text">Learn</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -139,24 +173,9 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#github-organisation" id="toc-github-organisation" class="nav-link active" data-scroll-target="#github-organisation">GitHub organisation</a></li>
-  <li><a href="#bioconductor-pages" id="toc-bioconductor-pages" class="nav-link" data-scroll-target="#bioconductor-pages">Bioconductor pages</a></li>
-  <li><a href="#pkgdown-websites" id="toc-pkgdown-websites" class="nav-link" data-scroll-target="#pkgdown-websites">pkgdown websites</a></li>
-  <li><a href="#workshops" id="toc-workshops" class="nav-link" data-scroll-target="#workshops">Workshops</a>
-  <ul class="collapse">
-  <li><a href="#iuseisee" id="toc-iuseisee" class="nav-link" data-scroll-target="#iuseisee">iUSEiSEE</a></li>
-  <li><a href="#european-bioconductor-conference-2024" id="toc-european-bioconductor-conference-2024" class="nav-link" data-scroll-target="#european-bioconductor-conference-2024">European Bioconductor Conference 2024</a></li>
-  <li><a href="#european-bioconductor-conference-2023" id="toc-european-bioconductor-conference-2023" class="nav-link" data-scroll-target="#european-bioconductor-conference-2023">European Bioconductor Conference 2023</a></li>
-  <li><a href="#european-bioconductor-conference-2020" id="toc-european-bioconductor-conference-2020" class="nav-link" data-scroll-target="#european-bioconductor-conference-2020">European Bioconductor Conference 2020</a></li>
-  <li><a href="#bioconductor-conference-2020-workshop" id="toc-bioconductor-conference-2020-workshop" class="nav-link" data-scroll-target="#bioconductor-conference-2020-workshop">Bioconductor Conference 2020 Workshop</a></li>
-  <li><a href="#bioconductor-conference-2019-workshop" id="toc-bioconductor-conference-2019-workshop" class="nav-link" data-scroll-target="#bioconductor-conference-2019-workshop">Bioconductor Conference 2019 Workshop</a></li>
-  </ul></li>
-  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a>
-  <ul class="collapse">
-  <li><a href="#iseethebook" id="toc-iseethebook" class="nav-link" data-scroll-target="#iseethebook">iSEETheBook</a></li>
-  <li><a href="#extending-isee" id="toc-extending-isee" class="nav-link" data-scroll-target="#extending-isee">Extending iSEE</a></li>
-  </ul></li>
-  <li><a href="#videos" id="toc-videos" class="nav-link" data-scroll-target="#videos">Videos</a></li>
+  <li><a href="#install-fa-brands-r-project" id="toc-install-fa-brands-r-project" class="nav-link active" data-scroll-target="#install-fa-brands-r-project">Install <i class="fa-brands fa-r-project" aria-label="r-project"></i></a></li>
+  <li><a href="#install-isee" id="toc-install-isee" class="nav-link" data-scroll-target="#install-isee">Install iSEE</a></li>
+  <li><a href="#install-the-isee-verse" id="toc-install-the-isee-verse" class="nav-link" data-scroll-target="#install-the-isee-verse">Install the iSEE-verse</a></li>
   </ul>
 </nav>
     </div>
@@ -165,7 +184,7 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Resources</h1>
+<h1 class="title">Installation</h1>
 </div>
 
 
@@ -180,176 +199,36 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 </header>
 
-<p>This page compiles a list of resources for learning to use and extend <em>iSEE</em> software.</p>
-<section id="github-organisation" class="level2">
-<h2 class="anchored" data-anchor-id="github-organisation">GitHub organisation</h2>
-<p>The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.</p>
-<p><a href="https://github.com/iSEE" class="uri">https://github.com/iSEE</a></p>
+<section id="install-fa-brands-r-project" class="level2">
+<h2 class="anchored" data-anchor-id="install-fa-brands-r-project">Install <i class="fa-brands fa-r-project" aria-label="r-project"></i></h2>
+<p><em>iSEE</em> requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R and Bioconductor to access the latest version of <em>iSEE</em>.</p>
+<p><a href="https://cran.rstudio.com/">Download and install R</a></p>
 </section>
-<section id="bioconductor-pages" class="level2">
-<h2 class="anchored" data-anchor-id="bioconductor-pages">Bioconductor pages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://bioconductor.org/images/logo/png/bioconductor_logo_cmyk.png" height="100" class="figure-img"></p>
-<figcaption class="figure-caption">Bioconductor logo</figcaption>
-</figure>
+<section id="install-isee" class="level2">
+<h2 class="anchored" data-anchor-id="install-isee">Install iSEE</h2>
+<p>To install <em>iSEE</em>, start R and enter:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">require</span>(<span class="st">"BiocManager"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">install.packages</span>(<span class="st">"BiocManager"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="st">"iSEE"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>The links below redirect to the web page for each package on the Bioconductor website.</p>
-<p>Each page contains information and links to further resources for the latest version of each package available from Bioconductor.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The links below redirect either to the latest version of each package on the <em>release</em> branch if available, or the latest version on the <em>development</em> branch for recent package that have are not reached a <em>release</em> branch yet. For more information, see <a href="https://www.bioconductor.org/install/">Using Bioconductor</a>.</p>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEE/">iSEE</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEde/">iSEEde</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEhex/">iSEEhex</a></p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEhub/">iSEEhub</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEindex/">iSEEindex</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEpathways/">iSEEpathways</a></p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://bioconductor.org/packages/iSEEu/">iSEEu</a></p>
-</div>
-</div>
-</div>
+<p>Source: <a href="https://bioconductor.org/packages/iSEE/" class="uri">https://bioconductor.org/packages/iSEE/</a></p>
 </section>
-<section id="pkgdown-websites" class="level2">
-<h2 class="anchored" data-anchor-id="pkgdown-websites">pkgdown websites</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/third-party/GitHub_Logo.png" height="100" class="figure-img"></p>
-<figcaption class="figure-caption">GitHub logo</figcaption>
-</figure>
+<section id="install-the-isee-verse" class="level2">
+<h2 class="anchored" data-anchor-id="install-the-isee-verse">Install the iSEE-verse</h2>
+<p>Install all known <em>iSEE</em> extensions packages with</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEE"</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEde"</span>,</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEhex"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEhub"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEindex"</span>,</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEpathways"</span>,</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEu"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The latest version pushed to GitHub may be <em>ahead</em> of the latest version available on Bioconductor. As such, the documentation displayed in these websites may not be correspond to the version of packages that you are using. In doubt, always refer to help pages that you open in your own R session, using <code>?</code> or <code>help()</code>.</p>
-</div>
-</div>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEE/">iSEE</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEde/">iSEEde</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEhex/">iSEEhex</a></p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEhub/">iSEEhub</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEindex/">iSEEindex</a></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEpathways/">iSEEpathways</a></p>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><a href="https://isee.github.io/iSEEu/">iSEEu</a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="workshops" class="level2">
-<h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
-<section id="iuseisee" class="level3">
-<h3 class="anchored" data-anchor-id="iuseisee">iUSEiSEE</h3>
-<p><i class="fa-regular fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iUSEiSEE/">HTML</a></p>
-</section>
-<section id="european-bioconductor-conference-2024" class="level3">
-<h3 class="anchored" data-anchor-id="european-bioconductor-conference-2024">European Bioconductor Conference 2024</h3>
-<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html">HTML</a></p>
-<p><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Interactive workshop:</strong> <a href="https://workshop.bioconductor.org/">Bioconductor Workshop Galaxy</a></p>
-<p>Select “<em>Package demo: iSEE Interactive SummarizedExperiment Explorer</em>”.</p>
-</section>
-<section id="european-bioconductor-conference-2023" class="level3">
-<h3 class="anchored" data-anchor-id="european-bioconductor-conference-2023">European Bioconductor Conference 2023</h3>
-<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html">HTML</a></p>
-</section>
-<section id="european-bioconductor-conference-2020" class="level3">
-<h3 class="anchored" data-anchor-id="european-bioconductor-conference-2020">European Bioconductor Conference 2020</h3>
-<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iSEEWorkshopEuroBioc2020/">HTML</a></p>
-<p><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Slides:</strong> <a href="https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/">HTML</a></p>
-</section>
-<section id="bioconductor-conference-2020-workshop" class="level3">
-<h3 class="anchored" data-anchor-id="bioconductor-conference-2020-workshop">Bioconductor Conference 2020 Workshop</h3>
-<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iSEEWorkshop2020/">HTML</a></p>
-<p><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Slides:</strong> <a href="https://isee.github.io/iSEEWorkshop2020Slides/">HTML</a></p>
-</section>
-<section id="bioconductor-conference-2019-workshop" class="level3">
-<h3 class="anchored" data-anchor-id="bioconductor-conference-2019-workshop">Bioconductor Conference 2019 Workshop</h3>
-<p><i class="fa-solid fa-graduation-cap" aria-label="graduation-cap"></i> <strong>Materials:</strong> <a href="https://isee.github.io/iSEEWorkshop2019/">HTML</a></p>
-<p><i class="fa-solid fa-person-chalkboard" aria-label="person-chalkboard"></i> <strong>Slides:</strong> <a href="https://isee.github.io/iSEEWorkshop2019Slides/">HTML</a></p>
-</section>
-</section>
-<section id="books" class="level2">
-<h2 class="anchored" data-anchor-id="books">Books</h2>
-<section id="iseethebook" class="level3">
-<h3 class="anchored" data-anchor-id="iseethebook">iSEETheBook</h3>
-<p><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://isee.github.io/iSEETheBook/" class="uri">https://isee.github.io/iSEETheBook/</a></p>
-<p>This new book (work in progress) aims to compile essential knowledge about <em>iSEE</em>, catering for three main groups of users:</p>
-<ul>
-<li>End users interacting with the graphical user interface in their web browser.</li>
-<li>Developers of scripted web-applications using <em>iSEE</em> to showcase data sets.</li>
-<li>Developers of extensions contributing new functionality and packages to the <em>iSEE</em> ecosystem.</li>
-</ul>
-</section>
-<section id="extending-isee" class="level3">
-<h3 class="anchored" data-anchor-id="extending-isee">Extending iSEE</h3>
-<p><i class="fa-solid fa-book" aria-label="book"></i> <a href="https://isee.github.io/iSEE-book/" class="uri">https://isee.github.io/iSEE-book/</a></p>
-<p>This book describes how to use the <em>iSEE</em> application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.</p>
-</section>
-</section>
-<section id="videos" class="level2">
-<h2 class="anchored" data-anchor-id="videos">Videos</h2>
-<p>Our <i class="fa-brands fa-youtube" aria-label="youtube"></i> <a href="https://www.youtube.com/@iSEEdevelopers">YouTube channel</a> includes short videos showcasing <em>iSEE</em> apps in action.</p>
-<p>Featured videos and playlists are listed on <a href="./videos.html">this page</a>.</p>
-<!-- 
-Other resources:
-
-- <https://github.com/iSEE/iSEE_instances>
--->
 
 
 </section>
