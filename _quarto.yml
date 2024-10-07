@@ -6,6 +6,8 @@ website:
   google-analytics: "G-D858FLKVB5"
   navbar:
     left:
+      - href: install.qmd
+        text: Install
       - href: resources.qmd
         text: Learn
       - text: Gallery
