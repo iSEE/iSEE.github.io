@@ -80,6 +80,13 @@ Visualise the P values and log-transformed fold-changes of any differential expr
 
 ![The `VolcanoPlot` panel class.](images/panels/iSEEde/VolcanoPlot.png)
 
+## iSEEhex
+
+### ReducedDimensionHexPlot
+
+Same as [`ReducedDimensionPlot`](#reduceddimensionplot) but summarised using hexagonal bins.
+
+![The `ReducedDimensionHexPlot` panel class.](images/panels/iSEEhex/ReducedDimensionHexPlot.png)
 
 <!-- Links -->
 
