@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -155,6 +189,10 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
   <li><a href="#maplot" id="toc-maplot" class="nav-link" data-scroll-target="#maplot">MAPlot</a></li>
   <li><a href="#volcanoplot" id="toc-volcanoplot" class="nav-link" data-scroll-target="#volcanoplot">VolcanoPlot</a></li>
   </ul></li>
+  <li><a href="#iseehex" id="toc-iseehex" class="nav-link" data-scroll-target="#iseehex">iSEEhex</a>
+  <ul class="collapse">
+  <li><a href="#reduceddimensionhexplot" id="toc-reduceddimensionhexplot" class="nav-link" data-scroll-target="#reduceddimensionhexplot">ReducedDimensionHexPlot</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +216,10 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 </header>
 
-<p>This page lists panels implemented in <a href="https://bioconductor.org/packages/iSEE/">iSEE</a> and its known extensions.</p>
+<p>This page showcases panels implemented in <a href="https://bioconductor.org/packages/iSEE/">iSEE</a> and its known extensions.</p>
+<p>Panels are grouped by package in which their are implemented (see the floating table of contents on the right).</p>
+<p>Each panel is introduced by a brief description above a single screenshot that illustrates a representative output, and the code used to produce that particular panel output in a live app.</p>
+<p>Bear in mind that all those panel classes come with many options to alter their respective outputs. This gallery showcases only a fraction of what each of those panels can do. In all likelihood, if a panel <em>almost</em> does what you would have in mind, then there is are options to make it do <em>exactly</em> that. Otherwise, options can be added, and more panel classes can be created, contact us!</p>
 <section id="isee" class="level2">
 <h2 class="anchored" data-anchor-id="isee">iSEE</h2>
 <section id="columndataplot" class="level3">
@@ -189,6 +230,57 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 <p><img src="images/panels/iSEE/ColumnDataPlot.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">The <code>ColumnDataPlot</code> panel class.</figcaption>
 </figure>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand To Reveal Code
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(iSEE)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scRNAseq)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Example data ----</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>sce <span class="ot">&lt;-</span> <span class="fu">ReprocessedAllenData</span>(<span class="at">assays=</span><span class="st">"tophat_counts"</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(scater)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>sce <span class="ot">&lt;-</span> <span class="fu">logNormCounts</span>(sce, <span class="at">exprs_values=</span><span class="st">"tophat_counts"</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>sce <span class="ot">&lt;-</span> <span class="fu">runPCA</span>(sce, <span class="at">ncomponents=</span><span class="dv">4</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>sce <span class="ot">&lt;-</span> <span class="fu">runTSNE</span>(sce)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>sce <span class="ot">&lt;-</span> <span class="fu">runUMAP</span>(sce)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">rowData</span>(sce)<span class="sc">$</span>ave_count <span class="ot">&lt;-</span> <span class="fu">rowMeans</span>(<span class="fu">assay</span>(sce, <span class="st">"tophat_counts"</span>))</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">rowData</span>(sce)<span class="sc">$</span>n_cells <span class="ot">&lt;-</span> <span class="fu">rowSums</span>(<span class="fu">assay</span>(sce, <span class="st">"tophat_counts"</span>) <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># launch the app itself ----</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>app <span class="ot">&lt;-</span> <span class="fu">iSEE</span>(sce, <span class="at">initial =</span> <span class="fu">list</span>(</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ColumnDataPlot</span>(</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="at">PanelWidth =</span> 8L,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">YAxis =</span> <span class="st">"NREADS"</span>,</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">XAxis =</span> <span class="st">"Column data"</span>,</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">XAxisColumnData =</span> <span class="st">"driver_1_s"</span>,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">ColorBy =</span> <span class="st">"Column data"</span>,</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">ColorByColumnData =</span> <span class="st">"driver_1_s"</span>,</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">FacetColumnBy =</span> <span class="st">"Column data"</span>,</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="at">FacetColumnByColData =</span> <span class="st">"Core.Type"</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>))</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">interactive</span>()) {</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  shiny<span class="sc">::</span><span class="fu">runApp</span>(app, <span class="at">port=</span><span class="dv">1234</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
 </div>
 </section>
 <section id="columndatatable" class="level3">
@@ -301,6 +393,19 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 <figure class="figure">
 <p><img src="images/panels/iSEEde/VolcanoPlot.png" class="img-fluid figure-img"></p>
 <figcaption class="figure-caption">The <code>VolcanoPlot</code> panel class.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="iseehex" class="level2">
+<h2 class="anchored" data-anchor-id="iseehex">iSEEhex</h2>
+<section id="reduceddimensionhexplot" class="level3">
+<h3 class="anchored" data-anchor-id="reduceddimensionhexplot">ReducedDimensionHexPlot</h3>
+<p>Same as <a href="#reduceddimensionplot"><code>ReducedDimensionPlot</code></a> but summarised using hexagonal bins.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/panels/iSEEhex/ReducedDimensionHexPlot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The <code>ReducedDimensionHexPlot</code> panel class.</figcaption>
 </figure>
 </div>
 <!-- Links -->

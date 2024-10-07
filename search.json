@@ -74,14 +74,14 @@
     "href": "panels.html",
     "title": "Panels",
     "section": "",
-    "text": "This page lists panels implemented in iSEE and its known extensions."
+    "text": "This page showcases panels implemented in iSEE and its known extensions.\nPanels are grouped by package in which their are implemented (see the floating table of contents on the right).\nEach panel is introduced by a brief description above a single screenshot that illustrates a representative output, and the code used to produce that particular panel output in a live app.\nBear in mind that all those panel classes come with many options to alter their respective outputs. This gallery showcases only a fraction of what each of those panels can do. In all likelihood, if a panel almost does what you would have in mind, then there is are options to make it do exactly that. Otherwise, options can be added, and more panel classes can be created, contact us!"
   },
   {
     "objectID": "panels.html#isee",
     "href": "panels.html#isee",
     "title": "Panels",
     "section": "iSEE",
-    "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any number of features and samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nFeatureAssayPlot\nVisualise up to two features in any assay stored in a SummarizedExperiment object.\n\n\n\nThe FeatureAssayPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class.\n\n\n\n\nRowDataPlot\nVisualise any combination of feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataPlot panel class.\n\n\n\n\nRowDataTable\nBrowser and filter feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataTable panel class.\n\n\n\n\nSampleAssayPlot\nVisualise up to two samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe SampleAssayPlot panel class."
+    "text": "iSEE\n\nColumnDataPlot\nVisualise any combination of sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataPlot panel class.\n\n\n\n\n\n\n\n\nExpand To Reveal Code\n\n\n\n\n\n\nlibrary(iSEE)\n\nlibrary(scRNAseq)\n\n# Example data ----\nsce &lt;- ReprocessedAllenData(assays=\"tophat_counts\")\n\nlibrary(scater)\nsce &lt;- logNormCounts(sce, exprs_values=\"tophat_counts\")\n\nsce &lt;- runPCA(sce, ncomponents=4)\nsce &lt;- runTSNE(sce)\nsce &lt;- runUMAP(sce)\nrowData(sce)$ave_count &lt;- rowMeans(assay(sce, \"tophat_counts\"))\nrowData(sce)$n_cells &lt;- rowSums(assay(sce, \"tophat_counts\") &gt; 0)\n\n# launch the app itself ----\n\napp &lt;- iSEE(sce, initial = list(\n  ColumnDataPlot(\n    PanelWidth = 8L,\n    YAxis = \"NREADS\",\n    XAxis = \"Column data\",\n    XAxisColumnData = \"driver_1_s\",\n    ColorBy = \"Column data\",\n    ColorByColumnData = \"driver_1_s\",\n    FacetColumnBy = \"Column data\",\n    FacetColumnByColData = \"Core.Type\"\n    )\n))\n\nif (interactive()) {\n  shiny::runApp(app, port=1234)\n}\n\n\n\n\n\n\nColumnDataTable\nBrowser and filter sample metadata stored in a SummarizedExperiment object.\n\n\n\nThe ColumnDataTable panel class.\n\n\n\n\nComplexHeatmapPlot\nVisualise any number of features and samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe ComplexHeatmapPlot panel class.\n\n\n\n\nFeatureAssayPlot\nVisualise up to two features in any assay stored in a SummarizedExperiment object.\n\n\n\nThe FeatureAssayPlot panel class.\n\n\n\n\nReducedDimensionPlot\nVisualise any two dimensions of any dimensionality reduction result stored in a SingleCellExperiment object.\n\n\n\nThe ReducedDimensionPlot panel class.\n\n\n\n\nRowDataPlot\nVisualise any combination of feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataPlot panel class.\n\n\n\n\nRowDataTable\nBrowser and filter feature metadata stored in a SummarizedExperiment object.\n\n\n\nThe RowDataTable panel class.\n\n\n\n\nSampleAssayPlot\nVisualise up to two samples in any assay stored in a SummarizedExperiment object.\n\n\n\nThe SampleAssayPlot panel class."
   },
   {
     "objectID": "panels.html#iseede",
@@ -89,6 +89,13 @@
     "title": "Panels",
     "section": "iSEEde",
     "text": "iSEEde\n\nDETable\nBrowse and filter any table of differential expression results embedded in a SummarizedExperiment object.\n\n\n\nThe DETable panel class.\n\n\n\n\nLogFCLogFCPlot\nVisualise the log-transformed fold-changes of any two differential expression contrasts embedded in a SummarizedExperiment object.\n\n\n\nThe LogFCLogFCPlot panel class.\n\n\n\n\nMAPlot\nVisualise the M and A values of any differential expression contrast embedded in a SummarizedExperiment object.\n\n\n\nThe MAPlot panel class.\n\n\n\n\nVolcanoPlot\nVisualise the P values and log-transformed fold-changes of any differential expression contrast embedded in a SummarizedExperiment object.\n\n\n\nThe VolcanoPlot panel class."
+  },
+  {
+    "objectID": "panels.html#iseehex",
+    "href": "panels.html#iseehex",
+    "title": "Panels",
+    "section": "iSEEhex",
+    "text": "iSEEhex\n\nReducedDimensionHexPlot\nSame as ReducedDimensionPlot but summarised using hexagonal bins.\n\n\n\nThe ReducedDimensionHexPlot panel class."
   },
   {
     "objectID": "dashboard.html",
@@ -256,14 +263,14 @@
     "href": "resources.html#bioconductor-pages",
     "title": "Resources",
     "section": "Bioconductor pages",
-    "text": "Bioconductor pages\n\n\n\nBioconductor logo\n\n\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not distributed on a release branch yet. For more information, see Using Bioconductor.\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
+    "text": "Bioconductor pages\n\n\n\nBioconductor logo\n\n\nThe links below redirect to the web page for each package on the Bioconductor website.\nEach page contains information and links to further resources for the latest version of each package available from Bioconductor.\n\n\n\n\n\n\nNote\n\n\n\nThe links below redirect either to the latest version of each package on the release branch if available, or the latest version on the development branch for recent package that have are not reached a release branch yet. For more information, see Using Bioconductor.\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
   },
   {
     "objectID": "resources.html#pkgdown-websites",
     "href": "resources.html#pkgdown-websites",
     "title": "Resources",
     "section": "pkgdown websites",
-    "text": "pkgdown websites\n\n\n\nGitHub logo\n\n\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor.\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
+    "text": "pkgdown websites\n\n\n\nGitHub logo\n\n\nThe links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe latest version pushed to GitHub may be ahead of the latest version available on Bioconductor. As such, the documentation displayed in these websites may not be correspond to the version of packages that you are using. In doubt, always refer to help pages that you open in your own R session, using ? or help().\n\n\n\n\n\niSEE\n\n\niSEEde\n\n\niSEEhex\n\n\n\n\niSEEhub\n\n\niSEEindex\n\n\niSEEpathways\n\n\n\n\niSEEu"
   },
   {
     "objectID": "resources.html#workshops",
