@@ -74,55 +74,60 @@ In doubt, always refer to help pages that you open in your own R session, using 
 
 ### iUSEiSEE
 
-- **Materials:** <https://isee.github.io/iUSEiSEE/>
+{{< fa regular graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iUSEiSEE/)
 
 ### European Bioconductor Conference 2024
 
-- **Materials:** <https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html>
-- **Interactive workshop:** <https://workshop.bioconductor.org/>
-  (Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*")
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html)
+
+{{< fa laptop-code >}} **Interactive workshop:** [Bioconductor Workshop Galaxy](https://workshop.bioconductor.org/)
+
+Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*".
 
 ### European Bioconductor Conference 2023
 
-- **Materials:** <https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html>
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html)
 
 ### European Bioconductor Conference 2020
 
-- **Materials:** <https://isee.github.io/iSEEWorkshopEuroBioc2020/>
-- **Slides:** <https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/>
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iSEEWorkshopEuroBioc2020/)
+
+{{< fa person-chalkboard >}} **Slides:** [HTML](https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/)
 
 ### Bioconductor Conference 2020 Workshop
 
-- **Materials:** <https://isee.github.io/iSEEWorkshop2020/>
-- **Slides:** <https://isee.github.io/iSEEWorkshop2020Slides/>
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iSEEWorkshop2020/)
+
+{{< fa person-chalkboard >}} **Slides:** [HTML](https://isee.github.io/iSEEWorkshop2020Slides/)
 
 ### Bioconductor Conference 2019 Workshop
 
-- **Materials:** <https://isee.github.io/iSEEWorkshop2019/>
-- **Slides:** <https://isee.github.io/iSEEWorkshop2019Slides/>
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iSEEWorkshop2019/)
+
+{{< fa person-chalkboard >}}  **Slides:** [HTML](https://isee.github.io/iSEEWorkshop2019Slides/)
 
 ## Books
 
 ### iSEETheBook
 
-<https://isee.github.io/iSEETheBook/>
+{{< fa book >}} <https://isee.github.io/iSEETheBook/>
 
-This new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:
+This new book (work in progress) aims to compile essential knowledge about *iSEE*, catering for three main groups of users:
 
 - End users interacting with the graphical user interface in their web browser.
-- Developers of scripted web-applications using iSEE to showcase data sets.
-- Developers of extensions contributing new functionality and packages to the iSEE ecosystem.
+- Developers of scripted web-applications using *iSEE* to showcase data sets.
+- Developers of extensions contributing new functionality and packages to the *iSEE* ecosystem.
 
 ### Extending iSEE
 
-<https://isee.github.io/iSEE-book/>
+{{< fa book >}} <https://isee.github.io/iSEE-book/>
 
 This book describes how to use the *iSEE* application programming interface (API) to develop new panel types for custom visualizations.
 The book also presents case studies to illustrate the development process for a variety of custom panels.
 
 ## Videos
 
-Our [{{< fa brands youtube >}} YouTube channel][isee-youtube] includes short videos showcasing iSEE apps in action.
+Our {{< fa brands youtube >}} [YouTube channel][isee-youtube] includes short videos showcasing *iSEE* apps in action.
 
 Featured videos and playlists are listed on [this page](/videos.qmd).
 

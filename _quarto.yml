@@ -6,8 +6,6 @@ website:
   google-analytics: "G-D858FLKVB5"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: resources.qmd
         text: Learn
       - text: Gallery
