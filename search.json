@@ -277,14 +277,14 @@
     "href": "resources.html#workshops",
     "title": "Resources",
     "section": "Workshops",
-    "text": "Workshops\n\niUSEiSEE\n\nMaterials: https://isee.github.io/iUSEiSEE/\n\n\n\nEuropean Bioconductor Conference 2024\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html\nInteractive workshop: https://workshop.bioconductor.org/ (Select “Package demo: iSEE Interactive SummarizedExperiment Explorer”)\n\n\n\nEuropean Bioconductor Conference 2023\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\nEuropean Bioconductor Conference 2020\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\nBioconductor Conference 2020 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\nBioconductor Conference 2019 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
+    "text": "Workshops\n\niUSEiSEE\n Materials: HTML\n\n\nEuropean Bioconductor Conference 2024\n Materials: HTML\n Interactive workshop: Bioconductor Workshop Galaxy\nSelect “Package demo: iSEE Interactive SummarizedExperiment Explorer”.\n\n\nEuropean Bioconductor Conference 2023\n Materials: HTML\n\n\nEuropean Bioconductor Conference 2020\n Materials: HTML\n Slides: HTML\n\n\nBioconductor Conference 2020 Workshop\n Materials: HTML\n Slides: HTML\n\n\nBioconductor Conference 2019 Workshop\n Materials: HTML\n Slides: HTML"
   },
   {
     "objectID": "resources.html#books",
     "href": "resources.html#books",
     "title": "Resources",
     "section": "Books",
-    "text": "Books\n\niSEETheBook\nhttps://isee.github.io/iSEETheBook/\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\n\n\nExtending iSEE\nhttps://isee.github.io/iSEE-book/\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels."
+    "text": "Books\n\niSEETheBook\n https://isee.github.io/iSEETheBook/\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\n\n\nExtending iSEE\n https://isee.github.io/iSEE-book/\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels."
   },
   {
     "objectID": "resources.html#videos",
