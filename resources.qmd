@@ -2,6 +2,8 @@
 title: "Resources"
 ---
 
+This page compiles a list of resources for learning to use and extend *iSEE* software.
+
 ## GitHub organisation
 
 The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.
@@ -78,7 +80,7 @@ In doubt, always refer to help pages that you open in your own R session, using 
 
 - **Materials:** <https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html>
 - **Interactive workshop:** <https://workshop.bioconductor.org/>
-  (Select '**Package demo: iSEE** Interactive SummarizedExperiment Explorer')
+  (Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*")
 
 ### European Bioconductor Conference 2023
 
@@ -101,14 +103,9 @@ In doubt, always refer to help pages that you open in your own R session, using 
 
 ## Books
 
-### Extending iSEE
-
-This book describes how to use the *iSEE* application programming interface (API) to develop new panel types for custom visualizations.
-The book also presents case studies to illustrate the development process for a variety of custom panels.
-
-<https://isee.github.io/iSEE-book/>
-
 ### iSEETheBook
+
+<https://isee.github.io/iSEETheBook/>
 
 This new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:
 
@@ -116,7 +113,12 @@ This new book (work in progress) aims to compile essential knowledge about iSEE,
 - Developers of scripted web-applications using iSEE to showcase data sets.
 - Developers of extensions contributing new functionality and packages to the iSEE ecosystem.
 
-<https://isee.github.io/iSEETheBook/>
+### Extending iSEE
+
+<https://isee.github.io/iSEE-book/>
+
+This book describes how to use the *iSEE* application programming interface (API) to develop new panel types for custom visualizations.
+The book also presents case studies to illustrate the development process for a variety of custom panels.
 
 ## Videos
 
