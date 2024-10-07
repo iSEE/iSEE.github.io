@@ -10,6 +10,8 @@ The link below redirects to the GitHub organisation that stores the source code 
 
 ## Bioconductor pages
 
+![Bioconductor logo](https://bioconductor.org/images/logo/png/bioconductor_logo_cmyk.png){height="100px"}
+
 The links below redirect to the web page for each package on the Bioconductor website.
 
 Each page contains information and links to further resources for the latest version of each package available from Bioconductor.
@@ -20,15 +22,26 @@ or the latest version on the *development* branch for recent package that have a
 For more information, see [Using Bioconductor](https://www.bioconductor.org/install/).
 :::
 
-- <https://bioconductor.org/packages/iSEE/>
-- <https://bioconductor.org/packages/iSEEde/>
-- <https://bioconductor.org/packages/iSEEhex/>
-- <https://bioconductor.org/packages/iSEEhub/>
-- <https://bioconductor.org/packages/iSEEindex/>
-- <https://bioconductor.org/packages/iSEEpathways/>
-- <https://bioconductor.org/packages/iSEEu/>
+::: {layout-ncol=3}
 
-## Online documentation (pkgdown)
+[iSEE](https://bioconductor.org/packages/iSEE/)
+
+[iSEEde](https://bioconductor.org/packages/iSEEde/)
+
+[iSEEhex](https://bioconductor.org/packages/iSEEhex/)
+
+[iSEEhub](https://bioconductor.org/packages/iSEEhub/)
+
+[iSEEindex](https://bioconductor.org/packages/iSEEindex/)
+
+[iSEEpathways](https://bioconductor.org/packages/iSEEpathways/)
+
+[iSEEu](https://bioconductor.org/packages/iSEEu/)
+:::
+
+## pkgdown websites
+
+![GitHub logo](images/third-party/GitHub_Logo.png){height="100px"}
 
 The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.
 
@@ -36,13 +49,22 @@ The links below redirect to help pages and vignettes for the latest version of e
 The latest version pushed to GitHub  may be *ahead* of the latest version available on Bioconductor.
 :::
 
-- <https://isee.github.io/iSEE>
-- <https://isee.github.io/iSEEde/>
-- <https://isee.github.io/iSEEhex/>
-- <https://isee.github.io/iSEEhub/>
-- <https://isee.github.io/iSEEindex/>
-- <https://isee.github.io/iSEEpathways/>
-- <https://isee.github.io/iSEEu/>
+::: {layout-ncol=3}
+
+[iSEE](https://isee.github.io/iSEE/)
+
+[iSEEde](https://isee.github.io/iSEEde/)
+
+[iSEEhex](https://isee.github.io/iSEEhex/)
+
+[iSEEhub](https://isee.github.io/iSEEhub/)
+
+[iSEEindex](https://isee.github.io/iSEEindex/)
+
+[iSEEpathways](https://isee.github.io/iSEEpathways/)
+
+[iSEEu](https://isee.github.io/iSEEu/)
+:::
 
 ## Workshops
 
