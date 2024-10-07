@@ -74,7 +74,7 @@
     "href": "panels.html",
     "title": "Panels",
     "section": "",
-    "text": "This page showcases panels implemented in iSEE and its known extensions.\nPanels are grouped by package in which their are implemented (see the floating table of contents on the right).\nEach panel is introduced by a brief description above a single screenshot that illustrates a representative output, and the code used to produce that particular panel output in a live app.\nBear in mind that all those panel classes come with many options to alter their respective outputs. This gallery showcases only a fraction of what each of those panels can do. In all likelihood, if a panel almost does what you would have in mind, then there is are options to make it do exactly that. Otherwise, options can be added, and more panel classes can be created, contact us!"
+    "text": "This page showcases panels implemented in iSEE and its known extensions.\nPanels are grouped by package in which their are implemented (see the floating table of contents on the right).\nEach panel is introduced by a brief description above a single screenshot that illustrates a representative output, and the code used to produce that particular panel output in a live app.\nBear in mind that all those panel classes come with many options to alter their respective outputs. This gallery showcases only a fraction of what each of those panels can do. In all likelihood, if a panel seems to do almost what you have in mind, then there are options to make it do exactly that. Otherwise, options can be added, and more panel classes can be created; check out our resources to learn how!"
   },
   {
     "objectID": "panels.html#isee",
