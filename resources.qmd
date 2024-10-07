@@ -18,7 +18,7 @@ Each page contains information and links to further resources for the latest ver
 
 ::: {.callout-note}
 The links below redirect either to the latest version of each package on the *release* branch if available,
-or the latest version on the *development* branch for recent package that have are not distributed on a *release* branch yet.
+or the latest version on the *development* branch for recent package that have are not reached a *release* branch yet.
 For more information, see [Using Bioconductor](https://www.bioconductor.org/install/).
 :::
 
@@ -46,7 +46,9 @@ For more information, see [Using Bioconductor](https://www.bioconductor.org/inst
 The links below redirect to help pages and vignettes for the latest version of each package pushed to GitHub.
 
 ::: {.callout-note}
-The latest version pushed to GitHub  may be *ahead* of the latest version available on Bioconductor.
+The latest version pushed to GitHub may be *ahead* of the latest version available on Bioconductor.
+As such, the documentation displayed in these websites may not be correspond to the version of packages that you are using.
+In doubt, always refer to help pages that you open in your own R session, using `?` or `help()`.
 :::
 
 ::: {layout-ncol=3}
