@@ -67,7 +67,7 @@
     "href": "index.html",
     "title": "Welcome to the iSEE-verse!",
     "section": "",
-    "text": "iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays."
+    "text": "iSEE (interactive SummarizedExperiment Explorer) is an award-winning free open source R/Bioconductor package that produces an interactive, multi-purpose, and thoroughly configurable user interface for exploring data and metadata produced from virtually any biological assay.\n\n\n\nExample iSEE app.\n\n\nBased on the Bioconductor SummarizedExperiment data structure, iSEE directly integrates in existing workflows. The main function iSEE() only requires a SummarizedExperiment object to launch a full-featured Shiny application, either locally for immediate exploration, or publicly for global dissemination.\nA clear single-page layout allows end-users to intuitively (re-)arrange any number of panels showcasing different aspects of the data set, dynamically control the displayed information using a comprehensive set of panel-specific widgets, and transmit selections between panels to focus downstream analyses on specific data subsets.\niSEE boasts a code tracker reporting the R code necessary for reproducing all visible panel outputs and restoring the current app configuration at a later time.\niSEE version 2.0.0 unlocked the possibility of developing independent third-party extension packages to add new designated classes of panels to the iSEE interface, with examples including iSEEindex, iSEEde, iSEEpathways, iSEEhex, and iSEEtree.\niSEE is actively maintained by a team of volunteers and aims to develop extensions for the support of spatial omics and multi-omics data sets in the near future."
   },
   {
     "objectID": "panels.html",
@@ -249,14 +249,14 @@
     "href": "resources.html",
     "title": "Resources",
     "section": "",
-    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
+    "text": "This page compiles a list of resources for learning to use and extend iSEE software."
   },
   {
     "objectID": "resources.html#github-organisation",
     "href": "resources.html#github-organisation",
     "title": "Resources",
-    "section": "",
-    "text": "The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
+    "section": "GitHub organisation",
+    "text": "GitHub organisation\nThe link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.\nhttps://github.com/iSEE"
   },
   {
     "objectID": "resources.html#bioconductor-pages",
@@ -277,14 +277,14 @@
     "href": "resources.html#workshops",
     "title": "Resources",
     "section": "Workshops",
-    "text": "Workshops\n\niUSEiSEE\n\nMaterials: https://isee.github.io/iUSEiSEE/\n\n\n\nEuropean Bioconductor Conference 2024\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html\nInteractive workshop: https://workshop.bioconductor.org/ (Select ‘Package demo: iSEE Interactive SummarizedExperiment Explorer’)\n\n\n\nEuropean Bioconductor Conference 2023\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\nEuropean Bioconductor Conference 2020\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\nBioconductor Conference 2020 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\nBioconductor Conference 2019 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
+    "text": "Workshops\n\niUSEiSEE\n\nMaterials: https://isee.github.io/iUSEiSEE/\n\n\n\nEuropean Bioconductor Conference 2024\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2024/articles/workshop_isee_extension.html\nInteractive workshop: https://workshop.bioconductor.org/ (Select “Package demo: iSEE Interactive SummarizedExperiment Explorer”)\n\n\n\nEuropean Bioconductor Conference 2023\n\nMaterials: https://isee.github.io/iSEEDemoEuroBioC2023/articles/iSEEdemo.html\n\n\n\nEuropean Bioconductor Conference 2020\n\nMaterials: https://isee.github.io/iSEEWorkshopEuroBioc2020/\nSlides: https://isee.github.io/iSEEWorkshopEuroBioc2020Slides/\n\n\n\nBioconductor Conference 2020 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2020/\nSlides: https://isee.github.io/iSEEWorkshop2020Slides/\n\n\n\nBioconductor Conference 2019 Workshop\n\nMaterials: https://isee.github.io/iSEEWorkshop2019/\nSlides: https://isee.github.io/iSEEWorkshop2019Slides/"
   },
   {
     "objectID": "resources.html#books",
     "href": "resources.html#books",
     "title": "Resources",
     "section": "Books",
-    "text": "Books\n\nExtending iSEE\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels.\nhttps://isee.github.io/iSEE-book/\n\n\niSEETheBook\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\nhttps://isee.github.io/iSEETheBook/"
+    "text": "Books\n\niSEETheBook\nhttps://isee.github.io/iSEETheBook/\nThis new book (work in progress) aims to compile essential knowledge about iSEE, catering for three main groups of users:\n\nEnd users interacting with the graphical user interface in their web browser.\nDevelopers of scripted web-applications using iSEE to showcase data sets.\nDevelopers of extensions contributing new functionality and packages to the iSEE ecosystem.\n\n\n\nExtending iSEE\nhttps://isee.github.io/iSEE-book/\nThis book describes how to use the iSEE application programming interface (API) to develop new panel types for custom visualizations. The book also presents case studies to illustrate the development process for a variety of custom panels."
   },
   {
     "objectID": "resources.html#videos",

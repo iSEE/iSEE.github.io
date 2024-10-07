@@ -155,8 +155,18 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 </header>
 
-<p>iSEE is a Bioconductor package designed to produce interactive web applications for the visualisation of biological assays.</p>
-<p><img src="images/apps/iSEE.png" class="img-fluid"></p>
+<p><a href="https://bioconductor.org/packages/iSEE/"><em>iSEE</em></a> (interactive SummarizedExperiment Explorer) is an <a href="https://posit.co/blog/first-shiny-contest-winners/"><strong>award-winning</strong></a> free open source R/Bioconductor package that produces an <strong>interactive</strong>, <strong>multi-purpose</strong>, and <strong>thoroughly configurable</strong> user interface for exploring data and metadata produced from virtually any biological assay.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/apps/iSEE.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example <em>iSEE</em> app.</figcaption>
+</figure>
+</div>
+<p>Based on the <strong>Bioconductor</strong> <a href="https://bioconductor.org/packages/SummarizedExperiment/"><code>SummarizedExperiment</code></a> data structure, <em>iSEE</em> directly integrates in existing workflows. The main function <code>iSEE()</code> only requires a <code>SummarizedExperiment</code> object to launch a full-featured <a href="https://shiny.posit.co/">Shiny</a> application, either locally for immediate exploration, or publicly for global dissemination.</p>
+<p>A <strong>clear single-page layout</strong> allows end-users to intuitively (re-)arrange any number of panels showcasing different aspects of the data set, dynamically control the displayed information using a comprehensive set of <strong>panel-specific widgets</strong>, and <strong>transmit selections</strong> between panels to focus downstream analyses on specific data subsets.</p>
+<p><em>iSEE</em> boasts a <strong>code tracker</strong> reporting the <em>R</em> code necessary for reproducing all visible panel outputs and restoring the current app configuration at a later time.</p>
+<p><em>iSEE</em> <strong>version 2.0.0</strong> unlocked the possibility of developing independent third-party extension packages to add new designated classes of panels to the <em>iSEE</em> interface, with examples including <a href="https://bioconductor.org/packages/iSEEindex/"><em>iSEEindex</em></a>, <a href="https://bioconductor.org/packages/iSEEde/"><em>iSEEde</em></a>, <a href="https://bioconductor.org/packages/iSEEpathways/"><em>iSEEpathways</em></a>, <a href="https://bioconductor.org/packages/iSEEhex/"><em>iSEEhex</em></a>, and <a href="https://bioconductor.org/packages/iSEEtree/"><em>iSEEtree</em></a>.</p>
+<p><em>iSEE</em> is actively maintained by a team of volunteers and aims to develop extensions for the support of <strong>spatial omics</strong> and <strong>multi-omics</strong> data sets in the near future.</p>
 
 
 
