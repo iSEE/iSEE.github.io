@@ -115,7 +115,7 @@ Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*".
 This new book (work in progress) aims to compile essential knowledge about *iSEE*, catering for three main groups of users:
 
 - End users interacting with the graphical user interface in their web browser.
-- Developers of scripted web-applications using *iSEE* to showcase data sets.
+- Developers of web-applications using *iSEE* to showcase data sets.
 - Developers of extensions contributing new functionality and packages to the *iSEE* ecosystem.
 
 ### Extending iSEE
