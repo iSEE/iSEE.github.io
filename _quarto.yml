@@ -4,6 +4,11 @@ project:
 website:
   title: "iSEE"
   google-analytics: "G-D858FLKVB5"
+  description: "Nexus of information for the Bioconductor package iSEE, its extensions, and its learning resources."
+  site-url: "https://isee.github.io/"
+  repo-url: "https://github.com/iSEE/isee.github.io/"
+  repo-actions: [edit, issue]
+  repo-branch: main
   navbar:
     left:
       - href: install.qmd
