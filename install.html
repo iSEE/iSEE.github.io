@@ -201,12 +201,12 @@ gtag('config', 'G-D858FLKVB5', { 'anonymize_ip': true});
 
 <section id="install-fa-brands-r-project" class="level2">
 <h2 class="anchored" data-anchor-id="install-fa-brands-r-project">Install <i class="fa-brands fa-r-project" aria-label="r-project"></i></h2>
-<p><em>iSEE</em> requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R and Bioconductor to access the latest version of <em>iSEE</em>.</p>
+<p><em>iSEE</em> requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of <em>iSEE</em>.</p>
 <p><a href="https://cran.rstudio.com/">Download and install R</a></p>
 </section>
 <section id="install-isee" class="level2">
 <h2 class="anchored" data-anchor-id="install-isee">Install iSEE</h2>
-<p>We recommend installing <em>iSEE</em> from the Bioconductor repository. The Bioconductor installation process will install the appropriate version of <em>iSEE</em> for your version of R.</p>
+<p>We recommend installing the latest stable version of <em>iSEE</em> from the Bioconductor repository.</p>
 <p><a href="https://bioconductor.org/packages/iSEE/">Install iSEE from Bioconductor</a></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -227,6 +227,19 @@ Note
 <p>Most users do not need the full collection of packages that provide extensions to <em>iSEE</em>.</p>
 <p>For the aficionados, the command below does just that; it combines all the known <em>iSEE</em> extension packages into a single command that installs them all in one go.</p>
 <p>Great for copy-pasting, and for our <a href="https://bioconductor.org/packages/stats/bioc/iSEE/">download statistics</a>!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The code below assumes you have already installed the package <a href="https://bioconductor.org/packages/BiocManager/"><em>BiocManager</em></a>, which will be the case if you have already installed <em>iSEE</em> or any other package from the Bioconductor repository.</p>
+</div>
+</div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>BiocManager<span class="sc">::</span><span class="fu">install</span>(<span class="fu">c</span>(</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">"iSEEde"</span>,</span>

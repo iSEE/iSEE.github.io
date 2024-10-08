@@ -249,28 +249,28 @@
     "href": "install.html",
     "title": "Installation",
     "section": "",
-    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R and Bioconductor to access the latest version of iSEE.\nDownload and install R"
+    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
   },
   {
     "objectID": "install.html#install-fa-brands-r-project",
     "href": "install.html#install-fa-brands-r-project",
     "title": "Installation",
     "section": "",
-    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R and Bioconductor to access the latest version of iSEE.\nDownload and install R"
+    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
   },
   {
     "objectID": "install.html#install-isee",
     "href": "install.html#install-isee",
     "title": "Installation",
     "section": "Install iSEE",
-    "text": "Install iSEE\nWe recommend installing iSEE from the Bioconductor repository. The Bioconductor installation process will install the appropriate version of iSEE for your version of R.\nInstall iSEE from Bioconductor\n\n\n\n\n\n\nNote\n\n\n\nFollow the link above and scroll down to the section Installation."
+    "text": "Install iSEE\nWe recommend installing the latest stable version of iSEE from the Bioconductor repository.\nInstall iSEE from Bioconductor\n\n\n\n\n\n\nNote\n\n\n\nFollow the link above and scroll down to the section Installation."
   },
   {
     "objectID": "install.html#install-the-isee-verse",
     "href": "install.html#install-the-isee-verse",
     "title": "Installation",
     "section": "Install the iSEE-verse",
-    "text": "Install the iSEE-verse\nMost users do not need the full collection of packages that provide extensions to iSEE.\nFor the aficionados, the command below does just that; it combines all the known iSEE extension packages into a single command that installs them all in one go.\nGreat for copy-pasting, and for our download statistics!\n\nBiocManager::install(c(\n    \"iSEEde\",\n    \"iSEEhex\",\n    \"iSEEhub\",\n    \"iSEEindex\",\n    \"iSEEpathways\",\n    \"iSEEtree\",\n    \"iSEEu\"\n))"
+    "text": "Install the iSEE-verse\nMost users do not need the full collection of packages that provide extensions to iSEE.\nFor the aficionados, the command below does just that; it combines all the known iSEE extension packages into a single command that installs them all in one go.\nGreat for copy-pasting, and for our download statistics!\n\n\n\n\n\n\nNote\n\n\n\nThe code below assumes you have already installed the package BiocManager, which will be the case if you have already installed iSEE or any other package from the Bioconductor repository.\n\n\n\nBiocManager::install(c(\n    \"iSEEde\",\n    \"iSEEhex\",\n    \"iSEEhub\",\n    \"iSEEindex\",\n    \"iSEEpathways\",\n    \"iSEEtree\",\n    \"iSEEu\"\n))"
   },
   {
     "objectID": "resources.html",
