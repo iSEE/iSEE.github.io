@@ -17,14 +17,19 @@ The Bioconductor installation process will install the appropriate version of *i
 
 [Install iSEE from Bioconductor](https://bioconductor.org/packages/iSEE/)
 
+::: {.callout-note}
+Follow the link above and scroll down to the section *Installation*.
+:::
+
 ## Install the iSEE-verse
 
-Install all known *iSEE* extensions packages with
+Most users do not need the full collection of packages that provide extensions to *iSEE*.
+
+For the aficionados, the command below does just that; it combines all the known *iSEE* extension packages into a single command that installs them all in one go.
+
+Great for copy-pasting, and for our [download statistics](https://bioconductor.org/packages/stats/bioc/iSEE/)!
 
 ```{r, eval=FALSE}
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
 BiocManager::install(c(
     "iSEEde",
     "iSEEhex",

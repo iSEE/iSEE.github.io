@@ -25,7 +25,7 @@ Visualise any combination of sample metadata stored in a [`SummarizedExperiment`
 ![The `ColumnDataPlot` panel class.](images/panels/iSEE/ColumnDataPlot.png)
 
 ::: {.callout-caution collapse="true"}
-## Expand To Reveal Code
+## Reproduce This Output
 
 ```{r, eval=FALSE}
 library(iSEE)
