@@ -6,14 +6,13 @@ title: "Installation"
 
 *iSEE* requires Bioconductor 3.7+ which in turn requires R 3.5+.
 Choose a version of R that matches your computer’s operating system.
-We recommend using the latest version of R and Bioconductor to access the latest version of *iSEE*.
+We recommend using the latest version of R to access the latest version of *iSEE*.
 
 [Download and install R](https://cran.rstudio.com/)
 
 ## Install iSEE
 
-We recommend installing *iSEE* from the Bioconductor repository.
-The Bioconductor installation process will install the appropriate version of *iSEE* for your version of R.
+We recommend installing the latest stable version of *iSEE* from the Bioconductor repository.
 
 [Install iSEE from Bioconductor](https://bioconductor.org/packages/iSEE/)
 
