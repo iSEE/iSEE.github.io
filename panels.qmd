@@ -9,10 +9,12 @@ Panels are grouped by package in which their are implemented (see the floating t
 Each panel is introduced by a brief description above a single screenshot that illustrates a representative output,
 and the code used to produce that particular panel output in a live app.
 
+::: {.callout-note}
 Bear in mind that all those panel classes come with many options to alter their respective outputs.
 This gallery showcases only a fraction of what each of those panels can do.
 In all likelihood, if a panel seems to do *almost* what you have in mind, then there are options to make it do *exactly* that.
 Otherwise, options can be added, and more panel classes can be created; check out our [resources](./resources.html) to learn how!
+:::
 
 ## iSEE
 
@@ -23,7 +25,7 @@ Visualise any combination of sample metadata stored in a [`SummarizedExperiment`
 ![The `ColumnDataPlot` panel class.](images/panels/iSEE/ColumnDataPlot.png)
 
 ::: {.callout-caution collapse="true"}
-## Expand To Reveal Code
+## Reproduce This Output
 
 ```{r, eval=FALSE}
 library(iSEE)

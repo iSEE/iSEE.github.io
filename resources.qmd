@@ -49,7 +49,7 @@ The links below redirect to help pages and vignettes for the latest version of e
 
 ::: {.callout-note}
 The latest version pushed to GitHub may be *ahead* of the latest version available on Bioconductor.
-As such, the documentation displayed in these websites may not be correspond to the version of packages that you are using.
+As such, the documentation displayed in these websites may not correspond to the version of packages that you are using.
 In doubt, always refer to help pages that you open in your own R session, using `?` or `help()`.
 :::
 
@@ -108,14 +108,14 @@ Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*".
 
 ## Books
 
-### iSEETheBook
+### iSEE The Book
 
 {{< fa book >}} <https://isee.github.io/iSEETheBook/>
 
 This new book (work in progress) aims to compile essential knowledge about *iSEE*, catering for three main groups of users:
 
 - End users interacting with the graphical user interface in their web browser.
-- Developers of scripted web-applications using *iSEE* to showcase data sets.
+- Developers of web-applications using *iSEE* to showcase data sets.
 - Developers of extensions contributing new functionality and packages to the *iSEE* ecosystem.
 
 ### Extending iSEE
