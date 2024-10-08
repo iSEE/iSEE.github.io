@@ -108,7 +108,7 @@ Select "*Package demo: iSEE Interactive SummarizedExperiment Explorer*".
 
 ## Books
 
-### iSEETheBook
+### iSEE The Book
 
 {{< fa book >}} <https://isee.github.io/iSEETheBook/>
 
