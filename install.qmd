@@ -12,7 +12,7 @@ We recommend using the latest version of R and Bioconductor to access the latest
 
 ## Install iSEE
 
-To install *iSEE*, start R and enter:
+Install *iSEE* using the latest version of R with
 
 ```{r, eval=FALSE}
 if (!require("BiocManager", quietly = TRUE))
@@ -21,7 +21,7 @@ if (!require("BiocManager", quietly = TRUE))
 BiocManager::install("iSEE")
 ```
 
-Source: <https://bioconductor.org/packages/iSEE/>
+For older versions of R, see <https://bioconductor.org/packages/iSEE/>.
 
 ## Install the iSEE-verse
 
