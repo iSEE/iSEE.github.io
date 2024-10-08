@@ -29,7 +29,7 @@ For the aficionados, the command below does just that; it combines all the known
 Great for copy-pasting, and for our [download statistics](https://bioconductor.org/packages/stats/bioc/iSEE/)!
 
 ::: {.callout-note}
-The code below assumes you have already installed the package [*BiocManager*](https://bioconductor.org/packages/BiocManager/), which will be the case if you have already installed *iSEE* or any other package from the Bioconductor repository.
+The code below assumes you have already installed the package [*BiocManager*](https://CRAN.R-project.org/package=BiocManager), which will be the case if you have already installed *iSEE* or any other package from the Bioconductor repository.
 :::
 
 ```{r, eval=FALSE}
