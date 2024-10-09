@@ -214,6 +214,10 @@ if (interactive()) {
 
 ### RowDataPlot
 
+Visualise any combination of feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `RowDataPlot` panel class.](images/panels/iSEE/RowDataPlot.png)
+
 ::: {.callout-caution collapse="true"}
 ## Reproduce This Output
 
@@ -247,10 +251,6 @@ if (interactive()) {
 }
 ```
 :::
-
-Visualise any combination of feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
-
-![The `RowDataPlot` panel class.](images/panels/iSEE/RowDataPlot.png)
 
 ### RowDataTable
 
