@@ -70,13 +70,6 @@
     "text": "This page lists known public deployments of iSEE apps.\nLinks are ordered in reverse order of iSEE package version (i.e., those using the most recent version appear first)."
   },
   {
-    "objectID": "apps.html#billing-et-al.-circulation-2023",
-    "href": "apps.html#billing-et-al.-circulation-2023",
-    "title": "Apps",
-    "section": "Billing et al., Circulation, 2023",
-    "text": "Billing et al., Circulation, 2023\n\n\n\nBilling et al., Circulation, 2023\n\n\n\nURL (proteome): https://kidneyapp.shinyapps.io/SGLT2i_proteome/\nURL (phosphoproteome): https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/\nMaintainer: Vallon and Rinschen labs (La Jolla/Aarhus)\nVersion: iSEE {2.8.0}, iSEEu {1.8.0}\n\nMore: A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication Metabolic Communication by SGLT2 Inhibition."
-  },
-  {
     "objectID": "apps.html#rigby-et-al.-biorxiv-2023",
     "href": "apps.html#rigby-et-al.-biorxiv-2023",
     "title": "Apps",
@@ -124,6 +117,13 @@
     "title": "Apps",
     "section": "iSEE COVID Hub",
     "text": "iSEE COVID Hub\n\n\n\niSEE COVID Hub (Monocytes).\n\n\n\nURL (B cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/\nURL (Monocytes): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes\nURL (NK cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/\nURL (T cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells\nMaintainer: Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)\nVersion: iSEE {2.9.0}\n\nMore: Those apps are listed at http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/."
+  },
+  {
+    "objectID": "apps.html#billing-et-al.-circulation-2023",
+    "href": "apps.html#billing-et-al.-circulation-2023",
+    "title": "Apps",
+    "section": "Billing et al., Circulation, 2023",
+    "text": "Billing et al., Circulation, 2023\n\n\n\nBilling et al., Circulation, 2023\n\n\n\nURL (proteome): https://kidneyapp.shinyapps.io/SGLT2i_proteome/\nURL (phosphoproteome): https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/\nMaintainer: Vallon and Rinschen labs (La Jolla/Aarhus)\nVersion: iSEE {2.8.0}, iSEEu {1.8.0}\n\nMore: A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication Metabolic Communication by SGLT2 Inhibition."
   },
   {
     "objectID": "apps.html#kalucka-et-al.-cell-2020",
