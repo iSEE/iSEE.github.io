@@ -6,17 +6,6 @@ This page lists known public deployments of [iSEE](https://bioconductor.org/pack
 
 Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
 
-## Billing et al., Circulation, 2023
-
-![Billing et al., Circulation, 2023](images/apps/sglt2i_proteome.png)
-
-- **URL (proteome):** <https://kidneyapp.shinyapps.io/SGLT2i_proteome/>
-- **URL (phosphoproteome):** <https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/>
-- **Maintainer:** Vallon and Rinschen labs (La Jolla/Aarhus)
-- **Version:** iSEE {2.8.0}, iSEEu {1.8.0}
-
-**More:** A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication [Metabolic Communication by SGLT2 Inhibition](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.065517).
-
 ## Rigby et al., bioRxiv, 2023
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
@@ -92,6 +81,17 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 - **Version:** iSEE {2.9.0}
 
 **More:** Those apps are listed at <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/>.
+
+## Billing et al., Circulation, 2023
+
+![Billing et al., Circulation, 2023](images/apps/sglt2i_proteome.png)
+
+- **URL (proteome):** <https://kidneyapp.shinyapps.io/SGLT2i_proteome/>
+- **URL (phosphoproteome):** <https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/>
+- **Maintainer:** Vallon and Rinschen labs (La Jolla/Aarhus)
+- **Version:** iSEE {2.8.0}, iSEEu {1.8.0}
+
+**More:** A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication [Metabolic Communication by SGLT2 Inhibition](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.065517).
 
 ## Kalucka et al., Cell, 2020
 
