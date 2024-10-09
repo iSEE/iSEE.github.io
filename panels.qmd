@@ -333,11 +333,100 @@ Browse and filter any table of differential expression results embedded in a [`S
 
 ![The `DETable` panel class.](images/panels/iSEEde/DETable.png)
 
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(iSEEde)
+library(airway)
+library(DESeq2)
+
+# Example data ----
+
+data("airway")
+airway$dex <- relevel(airway$dex, "untrt")
+
+dds <- DESeqDataSet(airway, ~ 0 + dex + cell)
+
+dds <- DESeq(dds)
+res_deseq2 <- results(dds, contrast = list("dextrt", "dexuntrt"))
+
+# iSEE / iSEEde ---
+
+airway <- embedContrastResults(res_deseq2, airway, name = "dex: trt vs untrt")
+
+app <- iSEE(airway, initial = list(
+  DETable(
+    PanelWidth = 12L,
+    ContrastName="dex: trt vs untrt",
+    RoundDigits = TRUE
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app)
+}
+```
+:::
+
 ### LogFCLogFCPlot
 
 Visualise the log-transformed fold-changes of any two differential expression contrasts embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `LogFCLogFCPlot` panel class.](images/panels/iSEEde/LogFCLogFCPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library("iSEEde")
+library("airway")
+library("edgeR")
+library("DESeq2")
+library("iSEE")
+
+# Example data ----
+
+data("airway")
+airway$dex <- relevel(airway$dex, "untrt")
+
+# DESeq2 ----
+
+dds <- DESeqDataSet(airway, ~ 0 + dex + cell)
+
+dds <- DESeq(dds)
+res_deseq2 <- results(dds, contrast = list("dextrt", "dexuntrt"))
+
+airway <- embedContrastResults(res_deseq2, airway, name = "DESeq2")
+
+# edgeR ----
+
+design <- model.matrix(~ 0 + dex + cell, data = colData(airway))
+
+fit <- glmFit(airway, design, dispersion = 0.1)
+lrt <- glmLRT(fit, contrast = c(-1, 1, 0, 0, 0))
+res_edger <- topTags(lrt, n = Inf)
+
+airway <- embedContrastResults(res_edger, airway, name = "edgeR")
+
+# iSEE / iSEEde ---
+
+airway <- registerAppOptions(airway, factor.maxlevels = 30, color.maxlevels = 30)
+
+app <- iSEE(airway, initial = list(
+  LogFCLogFCPlot(
+    ContrastNameX = "DESeq2", ContrastNameY = "edgeR",
+    ColorBy = "Row data",
+    ColorByRowData = "gene_biotype",
+    PanelWidth = 12L)
+))
+
+if (interactive()) {
+  shiny::runApp(app)
+}
+```
+:::
 
 ### MAPlot
 
@@ -345,11 +434,89 @@ Visualise the M and A values of any differential expression contrast embedded in
 
 ![The `MAPlot` panel class.](images/panels/iSEEde/MAPlot.png)
 
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library("iSEEde")
+library("airway")
+library("DESeq2")
+library("iSEE")
+
+# Example data ----
+
+data("airway")
+airway$dex <- relevel(airway$dex, "untrt")
+rowData(airway)$seq_strand <- factor(rowData(airway)$seq_strand)
+
+dds <- DESeqDataSet(airway, ~ 0 + dex + cell)
+
+dds <- DESeq(dds)
+res_deseq2 <- results(dds, contrast = list("dextrt", "dexuntrt"))
+
+# iSEE / iSEEde ---
+
+airway <- embedContrastResults(res_deseq2, airway, name = "dex: trt vs untrt")
+
+app <- iSEE(airway, initial = list(
+  MAPlot(
+    PanelWidth = 12L,
+    ContrastName="dex: trt vs untrt",
+    ColorBy = "Row data",
+    ColorByRowData = "seq_strand"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app)
+}
+```
+:::
+
 ### VolcanoPlot
 
 Visualise the P values and log-transformed fold-changes of any differential expression contrast embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `VolcanoPlot` panel class.](images/panels/iSEEde/VolcanoPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(iSEEde)
+library(airway)
+library(DESeq2)
+
+# Example data ----
+
+data("airway")
+airway$dex <- relevel(airway$dex, "untrt")
+rowData(airway)$seq_strand <- factor(rowData(airway)$seq_strand)
+
+dds <- DESeqDataSet(airway, ~ 0 + dex + cell)
+
+dds <- DESeq(dds)
+res_deseq2 <- results(dds, contrast = list("dextrt", "dexuntrt"))
+
+# iSEE / iSEEde ---
+
+airway <- embedContrastResults(res_deseq2, airway, name = "dex: trt vs untrt")
+
+app <- iSEE(airway, initial = list(
+  VolcanoPlot(
+    PanelWidth = 12L,
+    ContrastName="dex: trt vs untrt",
+    ColorBy = "Row data",
+    ColorByRowData = "seq_strand"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app)
+}
+```
+:::
 
 ## iSEEhex
 
@@ -358,6 +525,32 @@ Visualise the P values and log-transformed fold-changes of any differential expr
 Same as [`ReducedDimensionPlot`](#reduceddimensionplot) but summarised using hexagonal bins.
 
 ![The `ReducedDimensionHexPlot` panel class.](images/panels/iSEEhex/ReducedDimensionHexPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(iSEEhex)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+sce <- runPCA(sce, ncomponents=4)
+
+# launch the app itself ----
+
+if (interactive()) {
+  iSEE(sce, initial=list(
+    ReducedDimensionHexPlot(PanelWidth = 12L, BinResolution=50)
+  ))
+}
+```
+:::
 
 <!-- Links -->
 
