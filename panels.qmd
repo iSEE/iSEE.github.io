@@ -29,20 +29,13 @@ Visualise any combination of sample metadata stored in a [`SummarizedExperiment`
 
 ```{r, eval=FALSE}
 library(iSEE)
-
 library(scRNAseq)
+library(scater)
 
 # Example data ----
 sce <- ReprocessedAllenData(assays="tophat_counts")
 
-library(scater)
 sce <- logNormCounts(sce, exprs_values="tophat_counts")
-
-sce <- runPCA(sce, ncomponents=4)
-sce <- runTSNE(sce)
-sce <- runUMAP(sce)
-rowData(sce)$ave_count <- rowMeans(assay(sce, "tophat_counts"))
-rowData(sce)$n_cells <- rowSums(assay(sce, "tophat_counts") > 0)
 
 # launch the app itself ----
 
@@ -72,11 +65,78 @@ Browser and filter sample metadata stored in a [`SummarizedExperiment`][bioc-Sum
 
 ![The `ColumnDataTable` panel class.](images/panels/iSEE/ColumnDataTable.png)
 
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  ColumnDataTable(
+    PanelWidth = 12L
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
+
 ### ComplexHeatmapPlot
 
 Visualise any number of features and samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `ComplexHeatmapPlot` panel class.](images/panels/iSEE/ComplexHeatmapPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+library(tibble)
+library(dplyr)
+
+# Example data ----
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+rowData(sce)$ave_count <- rowMeans(assay(sce, "tophat_counts"))
+rowData(sce)$n_cells <- rowSums(assay(sce, "tophat_counts") > 0)
+rowData(sce)$row_var <- rowVars(assay(sce, "logcounts"))
+
+# launch the app itself ----
+
+# top 10 genes with highest variance in logcounts
+gene_list <- c("Lamp5", "Fam19a1", "Cnr1", "Rorb", "Sparcl1", "Crym", "Lmo3",  "Serpine2", "Ddah1", "Cux2")
+
+app <- iSEE(sce, initial = list(
+  ComplexHeatmapPlot(
+    PanelWidth = 12L,
+    CustomRows = TRUE,
+    CustomRowsText = paste0(paste0(gene_list, collapse = "\n"), "\n"),
+    ColumnData = "driver_1_s",
+    RowData = "row_var"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
 
 ### FeatureAssayPlot
 
@@ -84,11 +144,73 @@ Visualise up to two features in any assay stored in a [`SummarizedExperiment`][b
 
 ![The `FeatureAssayPlot` panel class.](images/panels/iSEE/FeatureAssayPlot.png)
 
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  FeatureAssayPlot(
+    PanelWidth = 12L,
+    YAxisFeatureName = "Rorb",
+    XAxis = "Column data", XAxisColumnData = "driver_1_s",
+    ColorBy = "Column data", ColorByColumnData = "driver_1_s",
+    FacetColumnBy = "Column data", FacetColumnByColData = "Core.Type"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
+
 ### ReducedDimensionPlot
 
 Visualise any two dimensions of any dimensionality reduction result stored in a [`SingleCellExperiment`][bioc-SingleCellExperiment] object.
 
 ![The `ReducedDimensionPlot` panel class.](images/panels/iSEE/ReducedDimensionPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+sce <- runPCA(sce, ncomponents=4)
+sce <- runUMAP(sce)
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  ReducedDimensionPlot(
+    PanelWidth = 8L,
+    Type = "UMAP",
+    ColorBy = "Column data", ColorByColumnData = "driver_1_s")))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
 
 ### RowDataPlot
 
@@ -96,7 +218,69 @@ Visualise any combination of feature metadata stored in a [`SummarizedExperiment
 
 ![The `RowDataPlot` panel class.](images/panels/iSEE/RowDataPlot.png)
 
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+rowData(sce)$row_var <- rowVars(assay(sce, "logcounts"))
+rowData(sce)$n_cells <- rowSums(assay(sce, "logcounts") > 0)
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  RowDataPlot(
+    PanelWidth = 12L,
+    YAxis = "row_var",
+    XAxis = "Row data",
+    XAxisRowData = "n_cells"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
+
 ### RowDataTable
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+
+# Example data ----
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+rowData(sce)$ave_count <- rowMeans(assay(sce, "tophat_counts"))
+rowData(sce)$n_cells <- rowSums(assay(sce, "tophat_counts") > 0)
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  RowDataTable(
+    PanelWidth = 12L
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
 
 Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
@@ -107,6 +291,39 @@ Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-Su
 Visualise up to two samples in any assay stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
 
 ![The `SampleAssayPlot` panel class.](images/panels/iSEE/SampleAssayPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+
+# Example data ----
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+rowData(sce)$row_var <- rowVars(assay(sce, "logcounts"))
+
+# launch the app itself ----
+
+app <- iSEE(sce, initial = list(
+  SampleAssayPlot(
+    PanelWidth = 12L,
+    YAxisSampleName = "SRR2140028",
+    XAxis = "Sample name", XAxisSampleName = "SRR2140022",
+    ColorBy = "Row data", ColorByRowData = "row_var"
+  )
+))
+
+if (interactive()) {
+  shiny::runApp(app, port=1234)
+}
+```
+:::
 
 ## iSEEde
 
