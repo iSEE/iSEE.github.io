@@ -649,6 +649,47 @@ if (interactive()) {
 ```
 :::
 
+## iSEEu
+
+### AggregatedDotPlot
+
+Represents groups of samples by dots, where colour scales with means assay value and size scales with proportion of non-zero values for selected features.
+
+![The `AggregatedDotPlot` panel class.](images/panels/iSEEu/AggregatedDotPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(scRNAseq)
+library(scater)
+library(iSEEu)
+
+# Example data ----
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+
+# launch the app itself ----
+
+if (interactive()) {
+  iSEE(
+    sce,
+    initial = list(
+      AggregatedDotPlot(
+        ColumnDataLabel="Primary.Type",
+        CustomRowsText = "Rorb\nSnap25\nFoxp2",
+        # PanelHeight = 500L,
+        PanelWidth = 12L
+      )
+    )
+  )
+}
+```
+:::
+
 <!-- Links -->
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
