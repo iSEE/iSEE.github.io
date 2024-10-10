@@ -254,6 +254,10 @@ if (interactive()) {
 
 ### RowDataTable
 
+Browse and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `RowDataTable` panel class.](images/panels/iSEE/RowDataTable.png)
+
 ::: {.callout-caution collapse="true"}
 ## Reproduce This Output
 
@@ -281,10 +285,6 @@ if (interactive()) {
 }
 ```
 :::
-
-Browser and filter feature metadata stored in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
-
-![The `RowDataTable` panel class.](images/panels/iSEE/RowDataTable.png)
 
 ### SampleAssayPlot
 
@@ -536,6 +536,7 @@ library(scRNAseq)
 library(scater)
 
 # Example data ----
+
 sce <- ReprocessedAllenData(assays="tophat_counts")
 
 sce <- logNormCounts(sce, exprs_values="tophat_counts")
@@ -548,6 +549,102 @@ if (interactive()) {
   iSEE(sce, initial=list(
     ReducedDimensionHexPlot(PanelWidth = 12L, BinResolution=50)
   ))
+}
+```
+:::
+
+## iSEEpathways
+
+### FgseaEnrichmentPlot
+
+GSEA enrichment plot produced by the [*fgsea*](https://bioconductor.org/packages/fgsea/) package.
+
+![The `FgseaEnrichmentPlot` panel class.](images/panels/iSEEpathways/FgseaEnrichmentPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(fgsea)
+library(iSEEpathways)
+
+# Example data ----
+
+set.seed(1)
+simulated_data <- simulateExampleData()
+
+pathways_list <- simulated_data[["pathwaysList"]]
+features_stat <- simulated_data[["featuresStat"]]
+se <- simulated_data[["summarizedexperiment"]]
+
+# fgsea ----
+
+set.seed(42)
+fgseaRes <- fgsea(pathways = pathways_list,
+  stats    = features_stat,
+  minSize  = 15,
+  maxSize  = 500)
+fgseaRes <- fgseaRes[order(pval), ]
+
+# iSEE / iSEEpathways ---
+
+se <- embedPathwaysResults(fgseaRes, se, name = "fgsea", class = "fgsea", pathwayType = "simulated",
+  pathwaysList = pathways_list, featuresStats = features_stat)
+
+app <- iSEE(se, initial = list(
+  FgseaEnrichmentPlot(ResultName="fgsea", PathwayId = "pathway_1350", PanelWidth = 12L)
+))
+
+if (interactive()) {
+  shiny::runApp(app)
+}
+```
+:::
+
+### PathwaysTable
+
+Browse and filter any table of gene set analysis results embedded in a [`SummarizedExperiment`][bioc-SummarizedExperiment] object.
+
+![The `PathwaysTable` panel class.](images/panels/iSEEpathways/PathwaysTable.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(fgsea)
+library(iSEEpathways)
+
+# Example data ----
+
+set.seed(1)
+simulated_data <- simulateExampleData()
+
+pathways_list <- simulated_data[["pathwaysList"]]
+features_stat <- simulated_data[["featuresStat"]]
+se <- simulated_data[["summarizedexperiment"]]
+
+# fgsea ----
+
+set.seed(42)
+fgseaRes <- fgsea(pathways = pathways_list,
+  stats    = features_stat,
+  minSize  = 15,
+  maxSize  = 500)
+fgseaRes <- fgseaRes[order(pval), ]
+
+# iSEE ---
+
+se <- embedPathwaysResults(fgseaRes, se, name = "fgsea", class = "fgsea", pathwayType = "simulated",
+  pathwaysList = pathways_list, featuresStats = features_stat)
+
+app <- iSEE(se, initial = list(
+  PathwaysTable(ResultName="fgsea", PanelWidth = 12L)
+))
+
+if (interactive()) {
+  shiny::runApp(app)
 }
 ```
 :::
