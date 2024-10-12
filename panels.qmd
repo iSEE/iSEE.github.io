@@ -698,7 +698,7 @@ Comparisons are made between the active selection in the transmitting panel and 
 * all non-selected points, if no saved selections are available, or
 * each subset of points in each saved selection.
 
-![The `DynamicMarkerTable` panel class.](images/panels/iSEEu/DynamicMarkerTable.png)
+![The `DynamicMarkerTable` panel class, alongside a `ReducedDimensionPlot` panel from which it receives a selection of samples.](images/panels/iSEEu/DynamicMarkerTable.png)
 
 ::: {.callout-caution collapse="true"}
 ## Reproduce This Output
@@ -741,7 +741,7 @@ if (interactive()) {
 
 A dimensionality reduction plot that dynamically recomputes the coordinates for the samples, based on a subset of samples and features transmitted from other panels.
 
-![The `DynamicReducedDimensionPlot` panel class.](images/panels/iSEEu/DynamicReducedDimensionPlot.png)
+![The `DynamicReducedDimensionPlot` panel class, alongside a `ReducedDimensionPlot` panel from which it receives a selection of samples.](images/panels/iSEEu/DynamicReducedDimensionPlot.png)
 
 ::: {.callout-caution collapse="true"}
 ## Reproduce This Output
@@ -759,7 +759,15 @@ sce <- runPCA(sce, ncomponents=4)
 if (interactive()) {
   iSEE(sce, initial=list(
     ReducedDimensionPlot(
-      PanelWidth = 6L
+      PanelWidth = 6L,
+      BrushData = list(
+        lasso = NULL, closed = TRUE,
+        mapping = list(x = "X", y = "Y"),
+        coord = structure(c(
+          -13.6, -18.8, -33.9, -44.2, -47.1, -13.6,
+          -52.3, -27.3, -8.5, -6.3, -31.6, -52.3
+          ), dim = c(6L, 2L))
+        )
     ),
     DynamicReducedDimensionPlot(
       PanelWidth = 6L,
@@ -767,6 +775,56 @@ if (interactive()) {
       ColumnSelectionSource="ReducedDimensionPlot1"
     )
   ))
+}
+```
+:::
+
+### FeatureSetTable
+
+A table where each row is itself a set of features (i.e., rows) and can be used to transmit such a feature set to another panel. 
+
+![The `FeatureSetTable` panel class, alongside `RowDataPlot` and `RowDataTable` panels to which it transmits a feature set.](images/panels/iSEEu/FeatureSetTable.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(iSEE)
+library(iSEEu)
+library(scRNAseq)
+library(scater)
+library(scran)
+library(org.Mm.eg.db)
+
+sce <- LunSpikeInData(location=FALSE)
+
+sce <- logNormCounts(sce)
+
+rowData(sce) <- cbind(rowData(sce), modelGeneVarWithSpikes(sce, "ERCC"))
+
+cmds <- createGeneSetCommands(collections="GO",
+  organism="org.Mm.eg.db", identifier="ENSEMBL")
+sce <- registerFeatureSetCommands(sce, cmds)
+
+# Setting up the application.
+
+gst <- FeatureSetTable(
+  Selected = "GO:0002020"
+)
+
+rdp <- RowDataPlot(
+  YAxis="total",
+  XAxis="Row data", XAxisRowData="mean",
+  ColorBy="Row selection",
+  RowSelectionSource="FeatureSetTable1"
+)
+
+rdt <- RowDataTable(
+  RowSelectionSource="FeatureSetTable1"
+)
+
+if (interactive()) {
+  iSEE(sce, initial=list(gst, rdp, rdt))
 }
 ```
 :::
