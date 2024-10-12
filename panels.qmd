@@ -737,6 +737,38 @@ if (interactive()) {
 ```
 :::
 
+### DynamicReducedDimensionPlot
+
+A dimensionality reduction plot that dynamically recomputes the coordinates for the samples, based on a subset of samples and features transmitted from other panels.
+
+![The `DynamicReducedDimensionPlot` panel class.](images/panels/iSEEu/DynamicReducedDimensionPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+library(scRNAseq)
+library(scater)
+
+sce <- ReprocessedAllenData(assays="tophat_counts")
+sce <- logNormCounts(sce, exprs_values="tophat_counts")
+sce <- runPCA(sce, ncomponents=4)
+
+if (interactive()) {
+  iSEE(sce, initial=list(
+    ReducedDimensionPlot(
+      PanelWidth = 6L
+    ),
+    DynamicReducedDimensionPlot(
+      PanelWidth = 6L,
+      Assay="logcounts",
+      ColumnSelectionSource="ReducedDimensionPlot1"
+    )
+  ))
+}
+```
+:::
+
 <!-- Links -->
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
