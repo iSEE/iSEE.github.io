@@ -747,6 +747,8 @@ A dimensionality reduction plot that dynamically recomputes the coordinates for 
 ## Reproduce This Output
 
 ```{r, eval=FALSE}
+library(iSEE)
+library(iSEEu)
 library(scRNAseq)
 library(scater)
 
