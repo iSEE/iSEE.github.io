@@ -837,7 +837,7 @@ Precursor to the [`iSEEde::LogFCLogFCPlot`](#logfclogfcplot) class.
 Deprecation imminent. Please use `iSEEde::LogFCLogFCPlot()` instead.
 :::
 
-![The `LogFCLogFCPlot` panel class, alongside `RowDataPlot` and `RowDataTable` panels to which it transmits a feature set.](images/panels/iSEEu/LogFCLogFCPlot.png)
+![The `LogFCLogFCPlot` panel class.](images/panels/iSEEu/LogFCLogFCPlot.png)
 
 ::: {.callout-caution collapse="true"}
 ## Reproduce This Output
@@ -858,6 +858,35 @@ if (interactive()) {
       XAxisRowData="LogFC1", YAxis="LogFC2",
       XPValueField="PValue1", YPValueField="PValue2"
     )
+  ))
+}
+```
+:::
+
+### MAPlot {#maplot-iseeu}
+
+Precursor to the [`iSEEde::MAPlot`](#maplot) class.
+
+::: {.callout-warning}
+Deprecation imminent. Please use `iSEEde::MAPlot()` instead.
+:::
+
+![The `MAPlot` panel class.](images/panels/iSEEu/MAPlot.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+# Making up some results:
+se <- SummarizedExperiment(matrix(rnorm(10000), 1000, 10))
+rownames(se) <- paste0("GENE_", seq_len(nrow(se)))
+rowData(se)$PValue <- runif(nrow(se))
+rowData(se)$LogFC <- rnorm(nrow(se))
+rowData(se)$AveExpr <- rnorm(nrow(se))
+
+if (interactive()) {
+  iSEE(se, initial=list(
+    MAPlot(PanelWidth=12L)
   ))
 }
 ```
