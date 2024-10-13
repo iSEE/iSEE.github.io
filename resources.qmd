@@ -74,7 +74,7 @@ In doubt, always refer to help pages that you open in your own R session, using 
 
 ### iUSEiSEE
 
-{{< fa regular graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iUSEiSEE/)
+{{< fa graduation-cap >}} **Materials:** [HTML](https://isee.github.io/iUSEiSEE/)
 
 ### European Bioconductor Conference 2024
 

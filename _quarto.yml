@@ -1,6 +1,7 @@
 project:
   type: website
 
+# Icons in navbar come from: https://icons.getbootstrap.com/
 website:
   title: "iSEE"
   google-analytics: "G-D858FLKVB5"
@@ -12,16 +13,24 @@ website:
   navbar:
     left:
       - href: install.qmd
+        icon: download
         text: Install
       - href: resources.qmd
+        icon: mortarboard
         text: Learn
       - text: Gallery
+        icon: collection
         menu:
-        - panels.qmd
-        - apps.qmd
+        - href: panels.qmd
+          icon: code-square
+        - href: apps.qmd
+          icon: window
       - href: dashboard.qmd
+        icon: speedometer
         text: Status
-      - about.qmd
+      - href: about.qmd
+        icon: info-circle
+        text: About
 
 format:
   html:
