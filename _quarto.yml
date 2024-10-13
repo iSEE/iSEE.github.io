@@ -12,16 +12,24 @@ website:
   navbar:
     left:
       - href: install.qmd
+        icon: download
         text: Install
       - href: resources.qmd
+        icon: mortarboard
         text: Learn
       - text: Gallery
+        icon: collection
         menu:
-        - panels.qmd
-        - apps.qmd
+        - href: panels.qmd
+          icon: code-square
+        - href: apps.qmd
+          icon: window
       - href: dashboard.qmd
+        icon: speedometer
         text: Status
-      - about.qmd
+      - href: about.qmd
+        icon: info-circle
+        text: About
 
 format:
   html:
