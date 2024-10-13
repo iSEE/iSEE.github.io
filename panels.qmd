@@ -892,6 +892,35 @@ if (interactive()) {
 ```
 :::
 
+### MarkdownBoard {#maplot-iseeu}
+
+A panel providing an [aceEditor](https://ace.c9.io/) that can be used to take notes within the app.
+Notes should be typed using Markdown syntax, and the panel continuously renders them in HTML format for preview.
+
+![The `MarkdownBoard` panel class.](images/panels/iSEEu/MarkdownBoard.png)
+
+::: {.callout-caution collapse="true"}
+## Reproduce This Output
+
+```{r, eval=FALSE}
+if (interactive()) {
+  iSEE(SummarizedExperiment(), initial=list(
+    MarkdownBoard(
+      PanelWidth = 12L,
+      Content = paste0(c(
+        "# Level 1 header",
+        "## Level 2 header",
+        "**Bold** and *italic*.",
+        "[Link](https://isee.github.io/)",
+        "* Bullet point\n"),
+        collapse = "\n\n"
+      )
+    )
+  ))
+}
+```
+:::
+
 <!-- Links -->
 
 [bioc-iSEE]: https://bioconductor.org/packages/iSEE/
