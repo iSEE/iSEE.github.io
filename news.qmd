@@ -1,0 +1,22 @@
+---
+title: "News"
+---
+
+## October 2024
+
+Updating all pkgdown websites to opt in Bootstrap 5 (in progress).
+
+* See the pkgdown 2.0.0 and Bootstrap 5 announcement [here](https://pkgdown.r-lib.org/#pkgdown-200-and-bootstrap-5).
+* Restores the floating table of contents on the right in the articles of the pkgdown sites.
+
+Bumped version of all iSEE extension packages.
+
+* Necessary to force the re-installation of those packages
+  and the propagation of new slots in the `iSEE::DotPlot` class to
+  all the relevant extension packages.
+
+## September 2024
+
+Two-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).
+
+* Resolved a considerable number of outstanding issues across all packages.
