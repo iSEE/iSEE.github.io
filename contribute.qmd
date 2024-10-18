@@ -1,0 +1,27 @@
+---
+title: "Contributing"
+---
+
+## Where To Contribute
+
+We welcome contributions on all our public repositories, listed under the GitHub organisation [{{< fa brands github >}} iSEE](https://github.com/iSEE).
+
+You can find links to our software package repositories on the [Package status](./dashboard.html) page of this website.
+
+## How To Contribute
+
+We encourage pull requests on our GitHub repositories.
+
+We will endeavour to review pull requests at the earliest opportunity.
+We kindly ask contributors to bear in mind that all *iSEE* software and materials are maintained by a team of volunteers.
+
+## Code Guidelines
+
+Contributors should refer to the [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/),
+particularly the section [Shiny apps](https://contributions.bioconductor.org/shiny.html).
+
+## Code of Conduct
+  
+Please note that the iSEE project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+

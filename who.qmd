@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Who we are"
 ---
 
 ## Core developers
@@ -24,15 +24,6 @@ Special thanks to:
 - [Leonardo Collado-Torres](https://github.com/lcolladotor) for contributions to our GitHub Action workflow.
 - [Michael Stadler](https://github.com/mbstadler) for contributing the reduced dimension mode in iSEEu
 - [Thomas Sandmann](https://github.com/tomsing1) for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways.
-
-## Code of Conduct
-  
-Please note that the iSEE project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
-
-## Contributions and Code Guidelines
-
-Contributors should refer to the [Bioconductor Packages: Development, Maintenance, and Peer Review](https://contributions.bioconductor.org/),
-particularly the section [Shiny apps](https://contributions.bioconductor.org/shiny.html).
 
 ## A bit of history
 
