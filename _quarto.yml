@@ -37,8 +37,9 @@ website:
         - href: contribute.qmd
           icon: upload
           text: Contribute
-        
-        
+        - href: history.qmd
+          icon: calendar-date
+          text: History
 
 format:
   html:
