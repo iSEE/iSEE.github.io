@@ -892,7 +892,7 @@ if (interactive()) {
 ```
 :::
 
-### MarkdownBoard {#maplot-iseeu}
+### MarkdownBoard
 
 A panel providing an [aceEditor](https://ace.c9.io/) that can be used to take notes within the app.
 Notes should be typed using Markdown syntax, and the panel continuously renders them in HTML format for preview.
