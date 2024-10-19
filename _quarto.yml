@@ -28,9 +28,18 @@ website:
       - href: dashboard.qmd
         icon: speedometer
         text: Status
-      - href: about.qmd
+      - text: About
         icon: info-circle
-        text: About
+        menu:
+        - href: who.qmd
+          icon: person-square
+          text: Who we are
+        - href: contribute.qmd
+          icon: upload
+          text: Contribute
+        - href: history.qmd
+          icon: calendar-date
+          text: History
 
 format:
   html:

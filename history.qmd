@@ -1,0 +1,94 @@
+---
+title: "Project History"
+---
+
+## 2024
+
+### October
+
+Updating all pkgdown websites to opt in Bootstrap 5 (in progress).
+
+* See the pkgdown 2.0.0 and Bootstrap 5 announcement [here](https://pkgdown.r-lib.org/#pkgdown-200-and-bootstrap-5).
+* Restores the floating table of contents on the right in the articles of the pkgdown sites.
+
+Bumped version of all iSEE extension packages.
+
+* Necessary to force the re-installation of those packages
+  and the propagation of new slots in the `iSEE::DotPlot` class to
+  all the relevant extension packages.
+
+### September
+
+Two-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).
+
+* Resolved a considerable number of outstanding issues across all packages.
+
+## 2023
+
+### September
+
+[iSEEpathways](https://bioconductor.org/packages/iSEEpathways/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/3133) in Bioconductor.
+
+* Adds panels for the visualisation of gene set analyses.
+
+[iSEEde](https://bioconductor.org/packages/iSEEde/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/3065) in Bioconductor.
+
+* Adds panels for the visualisation of differential expression analyses.
+
+### July
+
+[iSEEindex](https://bioconductor.org/packages/iSEEindex/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/3064) in Bioconductor.
+
+* Adds a landing page for listing custom sets of data sets and configurations accessible locally or online.
+
+## 2022
+
+### September
+
+[iSEEhub](https://bioconductor.org/packages/iSEEhub/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/2749) in Bioconductor.
+
+* Adds a landing page for listing data sets available in the Bioconductor [ExperimentHub](https://bioconductor.org/packages/ExperimentHub/).
+
+### June
+
+[iSEEhex](https://bioconductor.org/packages/iSEEhex/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/2686) in Bioconductor.
+
+* Adds panels for summarising scatter plots with hexagonal bins.
+
+## 2021
+
+*In construction*
+
+## 2020
+
+### April
+
+Release of iSEE version [2.0.0](https://github.com/iSEE/iSEE/commit/0d82c2a9bb108592c3d1a4e79299112c1140a942), following a refactoring of panel implementation as S4 classes.
+
+* Opens the door to third-party implementations of panels in extension packages.
+
+[iSEEu](https://bioconductor.org/packages/iSEEu/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/1425) in Bioconductor.
+
+* Adds panels for miscellaneous functionality, demonstrating the implementation of panel in extension packages.
+
+## 2019
+
+### April
+
+*iSEE* wins the [Most technically impressive](https://posit.co/blog/first-shiny-contest-winners/) prize of the [1st Shiny Contest](https://posit.co/blog/first-shiny-contest/) organised by RStudio Inc.
+
+## 2018
+
+### June
+
+[iSEE: Interactive SummarizedExperiment Explorer](https://f1000research.com/articles/7-741) published in F1000 Research.
+
+### March
+
+[iSEE](https://bioconductor.org/packages/iSEE/) software package [accepted](https://github.com/Bioconductor/Contributions/issues/678) in Bioconductor.
+
+## 2017
+
+### December
+
+First substantial [commit](https://github.com/iSEE/iSEE/tree/021e3e20cfdb194e511f8097ed544329bd46bcd6) to the *iSEE* repository, when proposals for iSEE functionality were fleshed out during [EuroBioC2017](https://github.com/Bioconductor/EuroBioc2017) (Cambridge, UK).
