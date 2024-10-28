@@ -10,11 +10,11 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
 
-{{< fa link >}} Available at: <https://rehwinkellab.shinyapps.io/ifnresource/>
+{{< fa arrow-pointer >}} Shiny app <https://rehwinkellab.shinyapps.io/ifnresource/>
 
-{{< fa user >}} Authored by: [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
+{{< fa user >}} Authored by [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
 
-{{< fa cog >}} Package versions: **iSEE** {2.12.0}, **iSEEindex** {0.99.13}, **iSEEde** {0.99.0}
+{{< fa cog >}} Using **iSEE** {2.12.0}, **iSEEindex** {0.99.13}, **iSEEde** {0.99.0}
 
 **More:** This app accompanies the preprint "Single-cell analysis of signalling and transcriptional responses to type I interferons" <https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1>.
 
@@ -22,39 +22,47 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ![FGCZ Fancy Single Cell Explorer (Index page).](images/apps/fgcz.png)
 
-- **URL:** <https://fgcz-shiny.uzh.ch/fgcz_iSEE/>
-- **Maintainer:** [Functional Genomics Center Zurich (FGCZ)](https://fgcz.ch/)
-- **Version:** iSEE {2.12.0}
+{{< fa arrow-pointer >}} Shiny app <https://fgcz-shiny.uzh.ch/fgcz_iSEE/>
 
-**More:** This app is listed at <https://fgcz-shiny.uzh.ch/connect/>, among other interactive apps from the same developer.
+{{< fa user >}} Authored by [Functional Genomics Center Zurich (FGCZ)](https://fgcz.ch/)
+
+{{< fa cog >}} Using iSEE {2.12.0}
+
+**More:** This app is listed at <https://fgcz-shiny.uzh.ch/connect/>, among other interactive apps from the same author.
 
 ## Moffitt et al., Science, 2018
 
 ![Moffitt et al., Science, 2018.](images/apps/moffitt_hypothalamus.png)
 
-- **URL:** <https://moffittlab.connect.hms.harvard.edu/iSEE_hypothalamus/>
-- **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
-- **Version:** iSEE {2.10.0}
+{{< fa arrow-pointer >}} Shiny app <https://moffittlab.connect.hms.harvard.edu/iSEE_hypothalamus/>
 
-**More:** This app showcases data from the article "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region" <https://www.science.org/doi/10.1126/science.aau5324> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
+{{< fa user >}} Authored by [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
+
+{{< fa cog >}} Using iSEE {2.10.0}
+
+**More:** This app showcases data from the article "Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region" <https://www.science.org/doi/10.1126/science.aau5324> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same author.
 
 ## Petukhov et al., Nat Biotech, 2021
 
 ![Petukhov et al., Nat Biotech, 2021.](images/apps/moffitt_ileum.png)
 
-- **URL:** <https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/>
-- **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
-- **Version:** iSEE {2.10.0}
+{{< fa arrow-pointer >}} Shiny app <https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/>
 
-**More:** This app showcases data from the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same developer.
+{{< fa user >}} Authored by [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/) and [Moffitt Lab](https://moffittlab.github.io/)
+
+{{< fa cog >}} Using iSEE {2.10.0}
+
+**More:** This app showcases data from the article "Cell segmentation in imaging-based spatial transcriptomics" <https://www.nature.com/articles/s41587-021-01044-w> and is listed at <https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html>, among other interactive apps from the same author.
 
 ## Kim et al, JNeurosci, 2023
 
 ![Kim et al, JNeurosci, 2023.](images/apps/jns2023.png)
 
-- **URL:** <https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/>
-- **Maintainer:** [Human Brain Collection Core (HBCC) - NIMH](https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/hbcc)
-- **Version:** iSEE {2.10.0}
+{{< fa arrow-pointer >}} Shiny app <https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/>
+
+{{< fa user >}} Authored by [Human Brain Collection Core (HBCC) - NIMH](https://www.nimh.nih.gov/research/research-conducted-at-nimh/research-areas/research-support-services/hbcc)
+
+{{< fa cog >}} Using iSEE {2.10.0}
 
 **More:** This app accompanies the  "Cellular Diversity in Human Subgenual Anterior Cingulate
 and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi.org/10.1523/jneurosci.0830-22.2023>.
@@ -65,9 +73,11 @@ and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing" <https://doi
 
 This app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.
 
-- **URL:** <https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/>
-- **Maintainer:** [The Lieber Institute for Brain Development](https://www.libd.org/)
-- **Version:** iSEE {2.10.0}
+{{< fa arrow-pointer >}} Shiny app <https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/>
+
+{{< fa user >}} Authored by [The Lieber Institute for Brain Development](https://www.libd.org/)
+
+{{< fa cog >}} Using iSEE {2.10.0}
 
 **More:** This app accompanies the preprint "Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex" <https://doi.org/10.1101/2023.04.20.537710>.
 
@@ -75,12 +85,19 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ![iSEE COVID Hub (Monocytes).](images/apps/IMBEI_monocytes.png)
 
-- **URL (B cells):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/>
-- **URL (Monocytes):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes>
-- **URL (NK cells):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/>
-- **URL (T cells):** <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells>
-- **Maintainer:** [Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)](https://www.unimedizin-mainz.de/imbei/imbei/welcome-page.html?L=1)
-- **Version:** iSEE {2.9.0}
+Shiny apps:
+
+{{< fa arrow-pointer >}} <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/> (B cells)
+
+{{< fa arrow-pointer >}} <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes> (Monocytes)
+
+{{< fa arrow-pointer >}} <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/> (NK cells)
+
+{{< fa arrow-pointer >}} <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells> (T cells)
+
+{{< fa user >}} Authored by [Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)](https://www.unimedizin-mainz.de/imbei/imbei/welcome-page.html?L=1)
+
+{{< fa cog >}} Using iSEE {2.9.0}
 
 **More:** Those apps are listed at <http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/>.
 
@@ -88,10 +105,15 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ![Billing et al., Circulation, 2023](images/apps/sglt2i_proteome.png)
 
-- **URL (proteome):** <https://kidneyapp.shinyapps.io/SGLT2i_proteome/>
-- **URL (phosphoproteome):** <https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/>
-- **Maintainer:** Vallon and Rinschen labs (La Jolla/Aarhus)
-- **Version:** iSEE {2.8.0}, iSEEu {1.8.0}
+Shiny apps:
+
+{{< fa arrow-pointer >}} <https://kidneyapp.shinyapps.io/SGLT2i_proteome/> (proteome)
+
+{{< fa arrow-pointer >}} <https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/> (phosphoproteome)
+
+{{< fa user >}} Authored by Vallon and Rinschen labs (La Jolla/Aarhus)
+
+{{< fa cog >}} Using iSEE {2.8.0}, iSEEu {1.8.0}
 
 **More:** A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication [Metabolic Communication by SGLT2 Inhibition](https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.123.065517).
 
@@ -99,9 +121,11 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ![Kalucka et al., Cell, 2020.](images/apps/vonandrian_Kalucka20.png)
 
-- **URL:** <https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/>
-- **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
-- **Version:** iSEE {2.8.0}, iSEEu {1.5.2}
+{{< fa arrow-pointer >}} Shiny app <https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/>
+
+{{< fa user >}} Authored by [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
+
+{{< fa cog >}} Using iSEE {2.8.0}, iSEEu {1.5.2}
 
 **More:** This app showcases data from the article "Single-cell transcriptome atlas of murine endothelial cells" <https://doi.org/10.1016/j.cell.2020.01.015>.
 
@@ -109,9 +133,11 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ![Brulois et al., Nat Commun, 2020.](images/apps/vonandrian_Brulois20.png)
 
-- **URL:** <https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/>
-- **Maintainer:** [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
-- **Version:** iSEE {2.8.0}, iSEEu {1.5.2}
+{{< fa arrow-pointer >}} Shiny app <https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/>
+
+{{< fa user >}} Authored by [von Andrian Laboratory](https://vonandrian.hms.harvard.edu/)
+
+{{< fa cog >}} Using iSEE {2.8.0}, iSEEu {1.5.2}
 
 **More:** This app showcases data from the article "A molecular map of murine lymph node blood vascular endothelium at single cell resolution" <https://doi.org/10.1038/s41467-020-17291-5>.
 
@@ -119,9 +145,11 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 ![Myocyte data sets (Index page).](images/apps/MaxDelbruck_MyoExplorer.png)
 
-- **URL:** <https://shiny.mdc-berlin.de/MyoExplorer/>
-- **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
-- **Version:** iSEE {2.6.0}
+{{< fa arrow-pointer >}} Shiny app <https://shiny.mdc-berlin.de/MyoExplorer/>
+
+{{< fa user >}} Authored by [Max Delbrück Center](https://www.mdc-berlin.de/)
+
+{{< fa cog >}} Using iSEE {2.6.0}
 
 ## Upload your own SummarizedExperiment
 
@@ -129,22 +157,33 @@ This app showcases spatially resolved transcriptomics of the inferior temporal c
 
 This app allows visitors to upload an RDS file that contains a [SummarizedExperiment][summarizedexperiment-bioc] object and another optional RDS file that contains an initial configuration object.
 
-- **URL:** <https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/>
-- **Maintainer:** [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/)
-- **Version:** iSEE {2.4.0}
+{{< fa arrow-pointer >}} Shiny app <https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/>
+
+{{< fa user >}} Authored by [Center for Computational Biomedicine (CCB) Harvard Medical School](https://computationalbiomed.hms.harvard.edu/)
+
+{{< fa cog >}} Using iSEE {2.4.0}
 
 ## Tran et al., Neuron, 2021
 
 ![Tran et al., Neuron, 2021 (AMY region).](images/apps/LIBD_tran2021_AMY.png)
 
-- **URL:** <https://libd.shinyapps.io/tran2020_Amyg/>
-- **URL:** <https://libd.shinyapps.io/tran2021_NAc/>
-- **URL:** <https://libd.shinyapps.io/tran2021_sACC/>
-- **URL:** <https://libd.shinyapps.io/tran2021_DLPFC/>
-- **URL:** <https://libd.shinyapps.io/tran2021_AMY/>
-- **URL:** <https://libd.shinyapps.io/tran2021_HPC/>
-- **Maintainer:** [The Lieber Institute for Brain Development](https://www.libd.org/)
-- **Version:** iSEE {2.4.0}
+Shiny apps:
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2020_Amyg/>
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2021_NAc/>
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2021_sACC/>
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2021_DLPFC/>
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2021_AMY/>
+
+{{< fa arrow-pointer >}} <https://libd.shinyapps.io/tran2021_HPC/>
+
+{{< fa user >}} Authored by [The Lieber Institute for Brain Development](https://www.libd.org/)
+
+{{< fa cog >}} Using iSEE {2.4.0}
 
 **More:** Those apps accompany the article "Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain" <https://www.cell.com/neuron/fulltext/S0896-6273(21)00655-3>.
 
@@ -153,11 +192,13 @@ This app allows visitors to upload an RDS file that contains a [SummarizedExperi
 ![Cristinelli et al., Front. Virol., 2021](images/apps/HITEAM.png)
 
 The authors developed HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe), a user-friendly querying platform based on the iSEE interactive interface [iSEE] to explore all data or any gene of interest.
-More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
+More information is Shiny app <http://sib-pc17.unil.ch/HIVmain.html>.
 
-- **URL:** <https://hi-team.unil.ch/#>
-- **Maintainer:** [Ciuffi Lab](https://www.chuv.ch/en/microbiologie/imu-home/research/research-groups/angela-ciuffi)
-- **Version:** iSEE {2.1.10}, iSEEu {1.1.4}
+{{< fa arrow-pointer >}} Shiny app <https://hi-team.unil.ch/#>
+
+{{< fa user >}} Authored by [Ciuffi Lab](https://www.chuv.ch/en/microbiologie/imu-home/research/research-groups/angela-ciuffi)
+
+{{< fa cog >}} Using iSEE {2.1.10}, iSEEu {1.1.4}
 
 **More:** This app accompanies the article "Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain" <https://www.frontiersin.org/articles/10.3389/fviro.2021.714475/full>.
 
@@ -165,30 +206,41 @@ More information is available at <http://sib-pc17.unil.ch/HIVmain.html>.
 
 ![Comparison of SARS-CoV-1 and SARS-CoV-2.](images/apps/MDC_COV.png)
 
-- **URL:** <https://shiny.mdc-berlin.de/COV/>
-- **Maintainer:** [Max Delbrück Center](https://www.mdc-berlin.de/)
-- **Version:** iSEE {1.6.1}
+{{< fa arrow-pointer >}} Shiny app <https://shiny.mdc-berlin.de/COV/>
+
+{{< fa user >}} Authored by [Max Delbrück Center](https://www.mdc-berlin.de/)
+
+{{< fa cog >}} Using iSEE {1.6.1}
 
 ## CD8 TILs from B16 melanoma tumors
 
 ![CD8 TILs from B16 melanoma tumors.](images/apps/tilatlas_B16_CD8TIL_10X.png)
 
-- **URL:** <https://tilatlas.shinyapps.io/B16_CD8TIL_10X/>
-- **Maintainer:** [Swiss Portal for Immune Cell Analysis](https://spica.unil.ch/)
-- **Version:** iSEE {1.2.4}
+{{< fa arrow-pointer >}} Shiny app <https://tilatlas.shinyapps.io/B16_CD8TIL_10X/>
+
+{{< fa user >}} Authored by [Swiss Portal for Immune Cell Analysis](https://spica.unil.ch/)
+
+{{< fa cog >}} Using iSEE {1.2.4}
 
 ## Demonstration iSEE apps (2018)
 
 ![Demonstration iSEE apps (CyTOF data set).](images/apps/iSEE_cytof_2018.png)
 
-- **URL (single-cell RNA-seq, mouse visual cortex):** <https://marionilab.cruk.cam.ac.uk/iSEE_allen>
-- **URL (RNA-seq, The Cancer Genome Atlas):** <https://marionilab.cruk.cam.ac.uk/iSEE_tcga>
-- **URL (single-cell RNA-seq, peripheral blood mononuclear cells):** <https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k>
-- **URL (mass cytometry, healthy and diseased human donors):** <https://marionilab.cruk.cam.ac.uk/iSEE_cytof>
-- **Maintainer:** [Marioni group](https://www.cruk.cam.ac.uk/research-groups/marioni-group)
-- **Version:** iSEE {1.2.4}
+Shiny apps:
 
-**More:** Those apps are listed at <https://marionilab.cruk.cam.ac.uk/>, among other interactive apps from the same developer.
+{{< fa arrow-pointer >}} <https://marionilab.cruk.cam.ac.uk/iSEE_allen> (single-cell RNA-seq, mouse visual cortex)
+
+{{< fa arrow-pointer >}} <https://marionilab.cruk.cam.ac.uk/iSEE_tcga> (RNA-seq, The Cancer Genome Atlas)
+
+{{< fa arrow-pointer >}} <https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k> (single-cell RNA-seq, peripheral blood mononuclear cells)
+
+{{< fa arrow-pointer >}} <https://marionilab.cruk.cam.ac.uk/iSEE_cytof> (mass cytometry, healthy and diseased human donors)
+
+{{< fa user >}} Authored by [Marioni group](https://www.cruk.cam.ac.uk/research-groups/marioni-group)
+
+{{< fa cog >}} Using iSEE {1.2.4}
+
+**More:** Those apps are listed at <https://marionilab.cruk.cam.ac.uk/>, among other interactive apps from the same author.
 
 [iseeindex-bioc]: https://bioconductor.org/packages/devel/bioc/html/iSEEindex.html
 [summarizedexperiment-bioc]: https://bioconductor.org/packages/SummarizedExperiment/
