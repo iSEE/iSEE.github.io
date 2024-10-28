@@ -10,9 +10,11 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
 
-- **URL:** <https://rehwinkellab.shinyapps.io/ifnresource/>
-- **Maintainer:** [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
-- **Version:** iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}
+{{< fa link >}} Available at: <https://rehwinkellab.shinyapps.io/ifnresource/>
+
+{{< fa user >}} Authored by: [Rehwinkel group](https://www.imm.ox.ac.uk/research/research-groups/rehwinkel-group-nucleic-acid-sensing)
+
+{{< fa cog >}} Package versions: **iSEE** {2.12.0}, **iSEEindex** {0.99.13}, **iSEEde** {0.99.0}
 
 **More:** This app accompanies the preprint "Single-cell analysis of signalling and transcriptional responses to type I interferons" <https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1>.
 
