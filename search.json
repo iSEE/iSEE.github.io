@@ -11,133 +11,133 @@
     "href": "apps.html#rigby-et-al.-biorxiv-2023",
     "title": "Apps",
     "section": "Rigby et al., bioRxiv, 2023",
-    "text": "Rigby et al., bioRxiv, 2023\n\n\n\nRigby et al., bioRxiv, 2023.\n\n\n\nURL: https://rehwinkellab.shinyapps.io/ifnresource/\nMaintainer: Rehwinkel group\nVersion: iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}\n\nMore: This app accompanies the preprint “Single-cell analysis of signalling and transcriptional responses to type I interferons” https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1."
+    "text": "Rigby et al., bioRxiv, 2023\n\n\n\nRigby et al., bioRxiv, 2023.\n\n\n Shiny app https://rehwinkellab.shinyapps.io/ifnresource/\n Authored by Rehwinkel group\n Using iSEE {2.12.0}, iSEEindex {0.99.13}, iSEEde {0.99.0}\nMore: This app accompanies the preprint “Single-cell analysis of signalling and transcriptional responses to type I interferons” https://www.biorxiv.org/content/10.1101/2023.07.03.547491v1."
   },
   {
     "objectID": "apps.html#fgcz-fancy-single-cell-explorer",
     "href": "apps.html#fgcz-fancy-single-cell-explorer",
     "title": "Apps",
     "section": "FGCZ Fancy Single Cell Explorer",
-    "text": "FGCZ Fancy Single Cell Explorer\n\n\n\nFGCZ Fancy Single Cell Explorer (Index page).\n\n\n\nURL: https://fgcz-shiny.uzh.ch/fgcz_iSEE/\nMaintainer: Functional Genomics Center Zurich (FGCZ)\nVersion: iSEE {2.12.0}\n\nMore: This app is listed at https://fgcz-shiny.uzh.ch/connect/, among other interactive apps from the same developer."
+    "text": "FGCZ Fancy Single Cell Explorer\n\n\n\nFGCZ Fancy Single Cell Explorer (Index page).\n\n\n Shiny app https://fgcz-shiny.uzh.ch/fgcz_iSEE/\n Authored by Functional Genomics Center Zurich (FGCZ)\n Using iSEE {2.12.0}\nMore: This app is listed at https://fgcz-shiny.uzh.ch/connect/, among other interactive apps from the same author."
   },
   {
     "objectID": "apps.html#moffitt-et-al.-science-2018",
     "href": "apps.html#moffitt-et-al.-science-2018",
     "title": "Apps",
     "section": "Moffitt et al., Science, 2018",
-    "text": "Moffitt et al., Science, 2018\n\n\n\nMoffitt et al., Science, 2018.\n\n\n\nURL: https://moffittlab.connect.hms.harvard.edu/iSEE_hypothalamus/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School and Moffitt Lab\nVersion: iSEE {2.10.0}\n\nMore: This app showcases data from the article “Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region” https://www.science.org/doi/10.1126/science.aau5324 and is listed at https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html, among other interactive apps from the same developer."
+    "text": "Moffitt et al., Science, 2018\n\n\n\nMoffitt et al., Science, 2018.\n\n\n Shiny app https://moffittlab.connect.hms.harvard.edu/iSEE_hypothalamus/\n Authored by Center for Computational Biomedicine (CCB) Harvard Medical School and Moffitt Lab\n Using iSEE {2.10.0}\nMore: This app showcases data from the article “Molecular, spatial, and functional single-cell profiling of the hypothalamic preoptic region” https://www.science.org/doi/10.1126/science.aau5324 and is listed at https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html, among other interactive apps from the same author."
   },
   {
     "objectID": "apps.html#petukhov-et-al.-nat-biotech-2021",
     "href": "apps.html#petukhov-et-al.-nat-biotech-2021",
     "title": "Apps",
     "section": "Petukhov et al., Nat Biotech, 2021",
-    "text": "Petukhov et al., Nat Biotech, 2021\n\n\n\nPetukhov et al., Nat Biotech, 2021.\n\n\n\nURL: https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School and Moffitt Lab\nVersion: iSEE {2.10.0}\n\nMore: This app showcases data from the article “Cell segmentation in imaging-based spatial transcriptomics” https://www.nature.com/articles/s41587-021-01044-w and is listed at https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html, among other interactive apps from the same developer."
+    "text": "Petukhov et al., Nat Biotech, 2021\n\n\n\nPetukhov et al., Nat Biotech, 2021.\n\n\n Shiny app https://moffittlab.connect.hms.harvard.edu/iSEE_ileum/\n Authored by Center for Computational Biomedicine (CCB) Harvard Medical School and Moffitt Lab\n Using iSEE {2.10.0}\nMore: This app showcases data from the article “Cell segmentation in imaging-based spatial transcriptomics” https://www.nature.com/articles/s41587-021-01044-w and is listed at https://moffittlab.connect.hms.harvard.edu/merfish/merfish_homepage.html, among other interactive apps from the same author."
   },
   {
     "objectID": "apps.html#kim-et-al-jneurosci-2023",
     "href": "apps.html#kim-et-al-jneurosci-2023",
     "title": "Apps",
     "section": "Kim et al, JNeurosci, 2023",
-    "text": "Kim et al, JNeurosci, 2023\n\n\n\nKim et al, JNeurosci, 2023.\n\n\n\nURL: https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/\nMaintainer: Human Brain Collection Core (HBCC) - NIMH\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the “Cellular Diversity in Human Subgenual Anterior Cingulate and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing” https://doi.org/10.1523/jneurosci.0830-22.2023."
+    "text": "Kim et al, JNeurosci, 2023\n\n\n\nKim et al, JNeurosci, 2023.\n\n\n Shiny app https://hbcc-nimh.shinyapps.io/shinyApp_JNS2023/\n Authored by Human Brain Collection Core (HBCC) - NIMH\n Using iSEE {2.10.0}\nMore: This app accompanies the “Cellular Diversity in Human Subgenual Anterior Cingulate and Dorsolateral Prefrontal Cortex by Single-Nucleus RNASequencing” https://doi.org/10.1523/jneurosci.0830-22.2023."
   },
   {
     "objectID": "apps.html#kwon-et-al.-biorxiv-2023",
     "href": "apps.html#kwon-et-al.-biorxiv-2023",
     "title": "Apps",
     "section": "Kwon et al., bioRxiv, 2023",
-    "text": "Kwon et al., bioRxiv, 2023\n\n\n\nKwon et al., bioRxiv, 2023.\n\n\nThis app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.\n\nURL: https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.10.0}\n\nMore: This app accompanies the preprint “Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex” https://doi.org/10.1101/2023.04.20.537710."
+    "text": "Kwon et al., bioRxiv, 2023\n\n\n\nKwon et al., bioRxiv, 2023.\n\n\nThis app showcases spatially resolved transcriptomics of the inferior temporal cortex, as pseudobulks.\n Shiny app https://libd.shinyapps.io/Visium_SPG_AD_pseudobulk_AD_pathology_wholegenome/\n Authored by The Lieber Institute for Brain Development\n Using iSEE {2.10.0}\nMore: This app accompanies the preprint “Influence of Alzheimer’s disease related neuropathology on local microenvironment gene expression in the human inferior temporal cortex” https://doi.org/10.1101/2023.04.20.537710."
   },
   {
     "objectID": "apps.html#isee-covid-hub",
     "href": "apps.html#isee-covid-hub",
     "title": "Apps",
     "section": "iSEE COVID Hub",
-    "text": "iSEE COVID Hub\n\n\n\niSEE COVID Hub (Monocytes).\n\n\n\nURL (B cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/\nURL (Monocytes): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes\nURL (NK cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/\nURL (T cells): http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells\nMaintainer: Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)\nVersion: iSEE {2.9.0}\n\nMore: Those apps are listed at http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/."
+    "text": "iSEE COVID Hub\n\n\n\niSEE COVID Hub (Monocytes).\n\n\nShiny apps:\n http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Bcells/ (B cells)\n http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Monocytes (Monocytes)\n http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_NKcells/ (NK cells)\n http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT_Tcells (T cells)\n Authored by Institute of Medical Biostatistics, Epidemiology and Informatics (IMBEI)\n Using iSEE {2.9.0}\nMore: Those apps are listed at http://shiny.imbei.uni-mainz.de:3838/iSEE_covidIT/."
   },
   {
     "objectID": "apps.html#billing-et-al.-circulation-2023",
     "href": "apps.html#billing-et-al.-circulation-2023",
     "title": "Apps",
     "section": "Billing et al., Circulation, 2023",
-    "text": "Billing et al., Circulation, 2023\n\n\n\nBilling et al., Circulation, 2023\n\n\n\nURL (proteome): https://kidneyapp.shinyapps.io/SGLT2i_proteome/\nURL (phosphoproteome): https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/\nMaintainer: Vallon and Rinschen labs (La Jolla/Aarhus)\nVersion: iSEE {2.8.0}, iSEEu {1.8.0}\n\nMore: A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication Metabolic Communication by SGLT2 Inhibition."
+    "text": "Billing et al., Circulation, 2023\n\n\n\nBilling et al., Circulation, 2023\n\n\nShiny apps:\n https://kidneyapp.shinyapps.io/SGLT2i_proteome/ (proteome)\n https://kidneyapp.shinyapps.io/SGLT2i_phosphoproteome/ (phosphoproteome)\n Authored by Vallon and Rinschen labs (La Jolla/Aarhus)\n Using iSEE {2.8.0}, iSEEu {1.8.0}\nMore: A set of proteomic and phosphoproteomic datasets containing measurements for 5 organs (kidney, liver, heart, skeletal muscle, white adipose tissue (WAT)) of 2 mouse strains. Accompanies the publication Metabolic Communication by SGLT2 Inhibition."
   },
   {
     "objectID": "apps.html#kalucka-et-al.-cell-2020",
     "href": "apps.html#kalucka-et-al.-cell-2020",
     "title": "Apps",
     "section": "Kalucka et al., Cell, 2020",
-    "text": "Kalucka et al., Cell, 2020\n\n\n\nKalucka et al., Cell, 2020.\n\n\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app showcases data from the article “Single-cell transcriptome atlas of murine endothelial cells” https://doi.org/10.1016/j.cell.2020.01.015."
+    "text": "Kalucka et al., Cell, 2020\n\n\n\nKalucka et al., Cell, 2020.\n\n\n Shiny app https://vonandrian.connect.hms.harvard.edu/iSEE_Kalucka20_scECAtlas/\n Authored by von Andrian Laboratory\n Using iSEE {2.8.0}, iSEEu {1.5.2}\nMore: This app showcases data from the article “Single-cell transcriptome atlas of murine endothelial cells” https://doi.org/10.1016/j.cell.2020.01.015."
   },
   {
     "objectID": "apps.html#brulois-et-al.-nat-commun-2020",
     "href": "apps.html#brulois-et-al.-nat-commun-2020",
     "title": "Apps",
     "section": "Brulois et al., Nat Commun, 2020",
-    "text": "Brulois et al., Nat Commun, 2020\n\n\n\nBrulois et al., Nat Commun, 2020.\n\n\n\nURL: https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/\nMaintainer: von Andrian Laboratory\nVersion: iSEE {2.8.0}, iSEEu {1.5.2}\n\nMore: This app showcases data from the article “A molecular map of murine lymph node blood vascular endothelium at single cell resolution” https://doi.org/10.1038/s41467-020-17291-5."
+    "text": "Brulois et al., Nat Commun, 2020\n\n\n\nBrulois et al., Nat Commun, 2020.\n\n\n Shiny app https://vonandrian.connect.hms.harvard.edu/iSEE_Brulois20_PLN/\n Authored by von Andrian Laboratory\n Using iSEE {2.8.0}, iSEEu {1.5.2}\nMore: This app showcases data from the article “A molecular map of murine lymph node blood vascular endothelium at single cell resolution” https://doi.org/10.1038/s41467-020-17291-5."
   },
   {
     "objectID": "apps.html#myocyte-data-sets",
     "href": "apps.html#myocyte-data-sets",
     "title": "Apps",
     "section": "Myocyte data sets",
-    "text": "Myocyte data sets\n\n\n\nMyocyte data sets (Index page).\n\n\n\nURL: https://shiny.mdc-berlin.de/MyoExplorer/\nMaintainer: Max Delbrück Center\nVersion: iSEE {2.6.0}"
+    "text": "Myocyte data sets\n\n\n\nMyocyte data sets (Index page).\n\n\n Shiny app https://shiny.mdc-berlin.de/MyoExplorer/\n Authored by Max Delbrück Center\n Using iSEE {2.6.0}"
   },
   {
     "objectID": "apps.html#upload-your-own-summarizedexperiment",
     "href": "apps.html#upload-your-own-summarizedexperiment",
     "title": "Apps",
     "section": "Upload your own SummarizedExperiment",
-    "text": "Upload your own SummarizedExperiment\n\n\n\nUpload your own SummarizedExperiment (Index page).\n\n\nThis app allows visitors to upload an RDS file that contains a SummarizedExperiment object and another optional RDS file that contains an initial configuration object.\n\nURL: https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/\nMaintainer: Center for Computational Biomedicine (CCB) Harvard Medical School\nVersion: iSEE {2.4.0}"
+    "text": "Upload your own SummarizedExperiment\n\n\n\nUpload your own SummarizedExperiment (Index page).\n\n\nThis app allows visitors to upload an RDS file that contains a SummarizedExperiment object and another optional RDS file that contains an initial configuration object.\n Shiny app https://ccb-rstudio-connect.hms.harvard.edu/iSEE_enterprise/\n Authored by Center for Computational Biomedicine (CCB) Harvard Medical School\n Using iSEE {2.4.0}"
   },
   {
     "objectID": "apps.html#tran-et-al.-neuron-2021",
     "href": "apps.html#tran-et-al.-neuron-2021",
     "title": "Apps",
     "section": "Tran et al., Neuron, 2021",
-    "text": "Tran et al., Neuron, 2021\n\n\n\nTran et al., Neuron, 2021 (AMY region).\n\n\n\nURL: https://libd.shinyapps.io/tran2020_Amyg/\nURL: https://libd.shinyapps.io/tran2021_NAc/\nURL: https://libd.shinyapps.io/tran2021_sACC/\nURL: https://libd.shinyapps.io/tran2021_DLPFC/\nURL: https://libd.shinyapps.io/tran2021_AMY/\nURL: https://libd.shinyapps.io/tran2021_HPC/\nMaintainer: The Lieber Institute for Brain Development\nVersion: iSEE {2.4.0}\n\nMore: Those apps accompany the article “Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain” https://www.cell.com/neuron/fulltext/S0896-6273(21)00655-3."
+    "text": "Tran et al., Neuron, 2021\n\n\n\nTran et al., Neuron, 2021 (AMY region).\n\n\nShiny apps:\n https://libd.shinyapps.io/tran2020_Amyg/\n https://libd.shinyapps.io/tran2021_NAc/\n https://libd.shinyapps.io/tran2021_sACC/\n https://libd.shinyapps.io/tran2021_DLPFC/\n https://libd.shinyapps.io/tran2021_AMY/\n https://libd.shinyapps.io/tran2021_HPC/\n Authored by The Lieber Institute for Brain Development\n Using iSEE {2.4.0}\nMore: Those apps accompany the article “Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain” https://www.cell.com/neuron/fulltext/S0896-6273(21)00655-3."
   },
   {
     "objectID": "apps.html#cristinelli-et-al.-front.-virol.-2021",
     "href": "apps.html#cristinelli-et-al.-front.-virol.-2021",
     "title": "Apps",
     "section": "Cristinelli et al., Front. Virol., 2021",
-    "text": "Cristinelli et al., Front. Virol., 2021\n\n\n\nCristinelli et al., Front. Virol., 2021\n\n\nThe authors developed HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe), a user-friendly querying platform based on the iSEE interactive interface [iSEE] to explore all data or any gene of interest. More information is available at http://sib-pc17.unil.ch/HIVmain.html.\n\nURL: https://hi-team.unil.ch/#\nMaintainer: Ciuffi Lab\nVersion: iSEE {2.1.10}, iSEEu {1.1.4}\n\nMore: This app accompanies the article “Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain” https://www.frontiersin.org/articles/10.3389/fviro.2021.714475/full."
+    "text": "Cristinelli et al., Front. Virol., 2021\n\n\n\nCristinelli et al., Front. Virol., 2021\n\n\nThe authors developed HI-TEAM (HIV-Infected cell Transcriptome and EpitrAnscriptoMe), a user-friendly querying platform based on the iSEE interactive interface [iSEE] to explore all data or any gene of interest. More information is Shiny app http://sib-pc17.unil.ch/HIVmain.html.\n Shiny app https://hi-team.unil.ch/#\n Authored by Ciuffi Lab\n Using iSEE {2.1.10}, iSEEu {1.1.4}\nMore: This app accompanies the article “Single-nucleus transcriptome analysis reveals cell-type-specific molecular signatures across reward circuitry in the human brain” https://www.frontiersin.org/articles/10.3389/fviro.2021.714475/full."
   },
   {
     "objectID": "apps.html#comparison-of-sars-cov-1-and-sars-cov-2",
     "href": "apps.html#comparison-of-sars-cov-1-and-sars-cov-2",
     "title": "Apps",
     "section": "Comparison of SARS-CoV-1 and SARS-CoV-2",
-    "text": "Comparison of SARS-CoV-1 and SARS-CoV-2\n\n\n\nComparison of SARS-CoV-1 and SARS-CoV-2.\n\n\n\nURL: https://shiny.mdc-berlin.de/COV/\nMaintainer: Max Delbrück Center\nVersion: iSEE {1.6.1}"
+    "text": "Comparison of SARS-CoV-1 and SARS-CoV-2\n\n\n\nComparison of SARS-CoV-1 and SARS-CoV-2.\n\n\n Shiny app https://shiny.mdc-berlin.de/COV/\n Authored by Max Delbrück Center\n Using iSEE {1.6.1}"
   },
   {
     "objectID": "apps.html#cd8-tils-from-b16-melanoma-tumors",
     "href": "apps.html#cd8-tils-from-b16-melanoma-tumors",
     "title": "Apps",
     "section": "CD8 TILs from B16 melanoma tumors",
-    "text": "CD8 TILs from B16 melanoma tumors\n\n\n\nCD8 TILs from B16 melanoma tumors.\n\n\n\nURL: https://tilatlas.shinyapps.io/B16_CD8TIL_10X/\nMaintainer: Swiss Portal for Immune Cell Analysis\nVersion: iSEE {1.2.4}"
+    "text": "CD8 TILs from B16 melanoma tumors\n\n\n\nCD8 TILs from B16 melanoma tumors.\n\n\n Shiny app https://tilatlas.shinyapps.io/B16_CD8TIL_10X/\n Authored by Swiss Portal for Immune Cell Analysis\n Using iSEE {1.2.4}"
   },
   {
     "objectID": "apps.html#demonstration-isee-apps-2018",
     "href": "apps.html#demonstration-isee-apps-2018",
     "title": "Apps",
     "section": "Demonstration iSEE apps (2018)",
-    "text": "Demonstration iSEE apps (2018)\n\n\n\nDemonstration iSEE apps (CyTOF data set).\n\n\n\nURL (single-cell RNA-seq, mouse visual cortex): https://marionilab.cruk.cam.ac.uk/iSEE_allen\nURL (RNA-seq, The Cancer Genome Atlas): https://marionilab.cruk.cam.ac.uk/iSEE_tcga\nURL (single-cell RNA-seq, peripheral blood mononuclear cells): https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k\nURL (mass cytometry, healthy and diseased human donors): https://marionilab.cruk.cam.ac.uk/iSEE_cytof\nMaintainer: Marioni group\nVersion: iSEE {1.2.4}\n\nMore: Those apps are listed at https://marionilab.cruk.cam.ac.uk/, among other interactive apps from the same developer."
+    "text": "Demonstration iSEE apps (2018)\n\n\n\nDemonstration iSEE apps (CyTOF data set).\n\n\nShiny apps:\n https://marionilab.cruk.cam.ac.uk/iSEE_allen (single-cell RNA-seq, mouse visual cortex)\n https://marionilab.cruk.cam.ac.uk/iSEE_tcga (RNA-seq, The Cancer Genome Atlas)\n https://marionilab.cruk.cam.ac.uk/iSEE_pbmc4k (single-cell RNA-seq, peripheral blood mononuclear cells)\n https://marionilab.cruk.cam.ac.uk/iSEE_cytof (mass cytometry, healthy and diseased human donors)\n Authored by Marioni group\n Using iSEE {1.2.4}\nMore: Those apps are listed at https://marionilab.cruk.cam.ac.uk/, among other interactive apps from the same author."
   },
   {
     "objectID": "contribute.html",
     "href": "contribute.html",
     "title": "Contributing",
     "section": "",
-    "text": "We welcome contributions on all our public repositories, listed under the GitHub organisation  iSEE.\nYou can find links to our software package repositories on the Package status page of this website."
+    "text": "We welcome contributions on all our public repositories, listed under the GitHub organisation  iSEE.\nYou can find links to our software package repositories on the  Status page of this website."
   },
   {
     "objectID": "contribute.html#where-to-contribute",
     "href": "contribute.html#where-to-contribute",
     "title": "Contributing",
     "section": "",
-    "text": "We welcome contributions on all our public repositories, listed under the GitHub organisation  iSEE.\nYou can find links to our software package repositories on the Package status page of this website."
+    "text": "We welcome contributions on all our public repositories, listed under the GitHub organisation  iSEE.\nYou can find links to our software package repositories on the  Status page of this website."
   },
   {
     "objectID": "contribute.html#how-to-contribute",
