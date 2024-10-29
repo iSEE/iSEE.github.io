@@ -2,7 +2,7 @@
 title: "Welcome to the iSEE-verse!"
 ---
 
-[*iSEE*](https://bioconductor.org/packages/iSEE/) (interactive SummarizedExperiment Explorer) is an [**award-winning**](https://posit.co/blog/first-shiny-contest-winners/) free open source R/Bioconductor package that produces an **interactive**, **multi-purpose**, and **thoroughly configurable** user interface for exploring data and metadata produced from virtually any biological assay.
+[*iSEE*](https://bioconductor.org/packages/iSEE/) (interactive SummarizedExperiment Explorer) is an [**{{< fa star >}} award-winning**](https://posit.co/blog/first-shiny-contest-winners/) free open source R/Bioconductor package that produces an **interactive**, **multi-purpose**, and **thoroughly configurable** user interface for exploring data and metadata produced from virtually any biological assay.
 
 ![Example *iSEE* app.](images/apps/iSEE.png)
 
