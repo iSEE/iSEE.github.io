@@ -6,7 +6,7 @@ title: "Contributing"
 
 We welcome contributions on all our public repositories, listed under the GitHub organisation [{{< fa brands github >}} iSEE](https://github.com/iSEE).
 
-You can find links to our software package repositories on the [Package status](./dashboard.html) page of this website.
+You can find links to our software package repositories on the [{{< fa gauge-high >}} Status](./dashboard.html) page of this website.
 
 ## How To Contribute
 

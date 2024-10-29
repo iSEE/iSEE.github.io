@@ -127,7 +127,7 @@ The book also presents case studies to illustrate the development process for a 
 
 ## Videos
 
-Our {{< fa brands youtube >}} [YouTube channel][isee-youtube] includes short videos showcasing *iSEE* apps in action.
+Our [{{< fa brands youtube >}} YouTube channel][isee-youtube] includes short videos showcasing *iSEE* apps in action.
 
 Featured videos and playlists are listed on [this page](/videos.qmd).
 
