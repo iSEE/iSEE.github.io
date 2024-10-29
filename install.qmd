@@ -8,13 +8,13 @@ title: "Installation"
 Choose a version of R that matches your computer’s operating system.
 We recommend using the latest version of R to access the latest version of *iSEE*.
 
-[Download and install R](https://cran.rstudio.com/)
+[{{< fa download >}} Download and install R](https://cran.rstudio.com/)
 
 ## Install iSEE
 
 We recommend installing the latest stable version of *iSEE* from the Bioconductor repository.
 
-[Install iSEE from Bioconductor](https://bioconductor.org/packages/iSEE/)
+[{{< fa download >}} Install iSEE from Bioconductor](https://bioconductor.org/packages/iSEE/)
 
 ::: {.callout-note}
 Follow the link above and scroll down to the section *Installation*.
@@ -26,7 +26,7 @@ Most users do not need the full collection of packages that provide extensions t
 
 For the aficionados, the command below does just that; it combines all the known *iSEE* extension packages into a single command that installs them all in one go.
 
-Great for copy-pasting, and for our [download statistics](https://bioconductor.org/packages/stats/bioc/iSEE/)!
+Great for copy-pasting, and for our [{{< fa gauge-high >}} download statistics](https://bioconductor.org/packages/stats/bioc/iSEE/)!
 
 ::: {.callout-note}
 The code below assumes you have already installed the package [*BiocManager*](https://CRAN.R-project.org/package=BiocManager), which will be the case if you have already installed *iSEE* or any other package from the Bioconductor repository.

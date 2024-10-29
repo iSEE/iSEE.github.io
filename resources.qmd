@@ -8,7 +8,7 @@ This page compiles a list of resources for learning to use and extend *iSEE* sof
 
 The link below redirects to the GitHub organisation that stores the source code for packages maintained by the core developers, as well as additional resources such as tutorials and workshops.
 
-<https://github.com/iSEE>
+[{{< fa brands github >}} https://github.com/iSEE](https://github.com/iSEE)
 
 ## Bioconductor pages
 

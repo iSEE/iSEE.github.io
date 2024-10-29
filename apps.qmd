@@ -6,6 +6,11 @@ This page lists known public deployments of [iSEE](https://bioconductor.org/pack
 
 Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
 
+::: {.callout-note}
+Please note that many of these applications are developed by third parties and the iSEE team has no control over them.
+We cannot guarantee their continued availability.
+:::
+
 ## Rigby et al., bioRxiv, 2023
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
