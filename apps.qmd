@@ -6,6 +6,18 @@ This page lists known public deployments of [iSEE](https://bioconductor.org/pack
 
 Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/iSEE/) package version (i.e., those using the most recent version appear first).
 
+## John et al, bioRxiv, 2025
+
+![John et al, bioRxiv, 2025.](images/apps/john_et_al.png)
+
+{{< fa arrow-pointer >}} Shiny app <https://shiny.mpl.mpg.de/wehner_lab/spinal_cord_regeneration_atlas/>
+
+{{< fa user >}} Authored by [Wehner group](https://mpl.mpg.de/research-at-mpl/independent-research-groups/wehner-research-group)
+
+{{< fa cog >}} Using **iSEE** {2.18.0}, **iSEEhex** {1.8.0}, **iSEEu** {1.18.0}
+
+**More:** This app accompanies the preprint "Biphasic inflammation control by dedifferentiated fibroblasts enables axon regeneration after spinal cord injury in zebrafish" <https://www.biorxiv.org/content/10.1101/2025.01.27.635043v1>.
+
 ## Rigby et al., bioRxiv, 2023
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
