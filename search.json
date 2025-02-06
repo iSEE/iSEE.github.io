@@ -91,6 +91,13 @@
     "text": "This page lists known public deployments of iSEE apps.\nLinks are ordered in reverse order of iSEE package version (i.e., those using the most recent version appear first)."
   },
   {
+    "objectID": "apps.html#john-et-al-biorxiv-2025",
+    "href": "apps.html#john-et-al-biorxiv-2025",
+    "title": "Apps",
+    "section": "John et al, bioRxiv, 2025",
+    "text": "John et al, bioRxiv, 2025\n\n\n\nJohn et al, bioRxiv, 2025.\n\n\n Shiny app https://shiny.mpl.mpg.de/wehner_lab/spinal_cord_regeneration_atlas/\n Authored by Wehner group\n Using iSEE {2.18.0}, iSEEhex {1.8.0}, iSEEu {1.18.0}\nMore: This app accompanies the preprint “Biphasic inflammation control by dedifferentiated fibroblasts enables axon regeneration after spinal cord injury in zebrafish” https://www.biorxiv.org/content/10.1101/2025.01.27.635043v1."
+  },
+  {
     "objectID": "apps.html#rigby-et-al.-biorxiv-2023",
     "href": "apps.html#rigby-et-al.-biorxiv-2023",
     "title": "Apps",
