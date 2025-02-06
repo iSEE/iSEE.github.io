@@ -1,5 +1,89 @@
 [
   {
+    "objectID": "videos.html",
+    "href": "videos.html",
+    "title": "Video resources",
+    "section": "",
+    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
+  },
+  {
+    "objectID": "videos.html#featured-videos",
+    "href": "videos.html#featured-videos",
+    "title": "Video resources",
+    "section": "",
+    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
+  },
+  {
+    "objectID": "videos.html#featured-playlists",
+    "href": "videos.html#featured-playlists",
+    "title": "Video resources",
+    "section": "Featured playlists",
+    "text": "Featured playlists\nOur 2023 Short Videos series presents specific aspects of iSEE functionality and infrastructure. It aims to provide targeted information for end-users of the interactive interface."
+  },
+  {
+    "objectID": "history.html",
+    "href": "history.html",
+    "title": "Project History",
+    "section": "",
+    "text": "Updating all pkgdown websites to opt in Bootstrap 5 (in progress).\n\nSee the pkgdown 2.0.0 and Bootstrap 5 announcement here.\nRestores the floating table of contents on the right in the articles of the pkgdown sites.\n\nBumped version of all iSEE extension packages.\n\nNecessary to force the re-installation of those packages and the propagation of new slots in the iSEE::DotPlot class to all the relevant extension packages.\n\n\n\n\nTwo-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).\n\nResolved a considerable number of outstanding issues across all packages."
+  },
+  {
+    "objectID": "history.html#section",
+    "href": "history.html#section",
+    "title": "Project History",
+    "section": "",
+    "text": "Updating all pkgdown websites to opt in Bootstrap 5 (in progress).\n\nSee the pkgdown 2.0.0 and Bootstrap 5 announcement here.\nRestores the floating table of contents on the right in the articles of the pkgdown sites.\n\nBumped version of all iSEE extension packages.\n\nNecessary to force the re-installation of those packages and the propagation of new slots in the iSEE::DotPlot class to all the relevant extension packages.\n\n\n\n\nTwo-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).\n\nResolved a considerable number of outstanding issues across all packages."
+  },
+  {
+    "objectID": "history.html#section-1",
+    "href": "history.html#section-1",
+    "title": "Project History",
+    "section": "2023",
+    "text": "2023\n\nSeptember\niSEEpathways software package accepted in Bioconductor.\n\nAdds panels for the visualisation of gene set analyses.\n\niSEEde software package accepted in Bioconductor.\n\nAdds panels for the visualisation of differential expression analyses.\n\n\n\nJuly\niSEEindex software package accepted in Bioconductor.\n\nAdds a landing page for listing custom sets of data sets and configurations accessible locally or online."
+  },
+  {
+    "objectID": "history.html#section-2",
+    "href": "history.html#section-2",
+    "title": "Project History",
+    "section": "2022",
+    "text": "2022\n\nSeptember\niSEEhub software package accepted in Bioconductor.\n\nAdds a landing page for listing data sets available in the Bioconductor ExperimentHub.\n\n\n\nJune\niSEEhex software package accepted in Bioconductor.\n\nAdds panels for summarising scatter plots with hexagonal bins."
+  },
+  {
+    "objectID": "history.html#section-3",
+    "href": "history.html#section-3",
+    "title": "Project History",
+    "section": "2021",
+    "text": "2021\nIn construction"
+  },
+  {
+    "objectID": "history.html#section-4",
+    "href": "history.html#section-4",
+    "title": "Project History",
+    "section": "2020",
+    "text": "2020\n\nApril\nRelease of iSEE version 2.0.0, following a refactoring of panel implementation as S4 classes.\n\nOpens the door to third-party implementations of panels in extension packages.\n\niSEEu software package accepted in Bioconductor.\n\nAdds panels for miscellaneous functionality, demonstrating the implementation of panel in extension packages."
+  },
+  {
+    "objectID": "history.html#section-5",
+    "href": "history.html#section-5",
+    "title": "Project History",
+    "section": "2019",
+    "text": "2019\n\nApril\niSEE wins the Most technically impressive prize of the 1st Shiny Contest organised by RStudio Inc."
+  },
+  {
+    "objectID": "history.html#section-6",
+    "href": "history.html#section-6",
+    "title": "Project History",
+    "section": "2018",
+    "text": "2018\n\nJune\niSEE: Interactive SummarizedExperiment Explorer published in F1000 Research.\n\n\nMarch\niSEE software package accepted in Bioconductor."
+  },
+  {
+    "objectID": "history.html#section-7",
+    "href": "history.html#section-7",
+    "title": "Project History",
+    "section": "2017",
+    "text": "2017\n\nDecember\nFirst substantial commit to the iSEE repository, when proposals for iSEE functionality were fleshed out during EuroBioC2017 (Cambridge, UK)."
+  },
+  {
     "objectID": "apps.html",
     "href": "apps.html",
     "title": "Apps",
@@ -161,123 +245,25 @@
     "text": "Code of Conduct\nPlease note that the iSEE project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
   },
   {
-    "objectID": "dashboard.html",
-    "href": "dashboard.html",
-    "title": "Package status",
+    "objectID": "who.html",
+    "href": "who.html",
+    "title": "Who we are",
     "section": "",
-    "text": "Packages maintained under the GitHub organisation iSEE.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
   },
   {
-    "objectID": "dashboard.html#isee-organisation",
-    "href": "dashboard.html#isee-organisation",
-    "title": "Package status",
+    "objectID": "who.html#core-developers",
+    "href": "who.html#core-developers",
+    "title": "Who we are",
     "section": "",
-    "text": "Packages maintained under the GitHub organisation iSEE.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
+    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
   },
   {
-    "objectID": "dashboard.html#third-party-extensions",
-    "href": "dashboard.html#third-party-extensions",
-    "title": "Package status",
-    "section": "Third-party extensions",
-    "text": "Third-party extensions\nPackages contributed by the broader community.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEEtree"
-  },
-  {
-    "objectID": "history.html",
-    "href": "history.html",
-    "title": "Project History",
-    "section": "",
-    "text": "Updating all pkgdown websites to opt in Bootstrap 5 (in progress).\n\nSee the pkgdown 2.0.0 and Bootstrap 5 announcement here.\nRestores the floating table of contents on the right in the articles of the pkgdown sites.\n\nBumped version of all iSEE extension packages.\n\nNecessary to force the re-installation of those packages and the propagation of new slots in the iSEE::DotPlot class to all the relevant extension packages.\n\n\n\n\nTwo-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).\n\nResolved a considerable number of outstanding issues across all packages."
-  },
-  {
-    "objectID": "history.html#section",
-    "href": "history.html#section",
-    "title": "Project History",
-    "section": "",
-    "text": "Updating all pkgdown websites to opt in Bootstrap 5 (in progress).\n\nSee the pkgdown 2.0.0 and Bootstrap 5 announcement here.\nRestores the floating table of contents on the right in the articles of the pkgdown sites.\n\nBumped version of all iSEE extension packages.\n\nNecessary to force the re-installation of those packages and the propagation of new slots in the iSEE::DotPlot class to all the relevant extension packages.\n\n\n\n\nTwo-day hackathon at the European Bioconductor conference 2024 (Oxford, UK).\n\nResolved a considerable number of outstanding issues across all packages."
-  },
-  {
-    "objectID": "history.html#section-1",
-    "href": "history.html#section-1",
-    "title": "Project History",
-    "section": "2023",
-    "text": "2023\n\nSeptember\niSEEpathways software package accepted in Bioconductor.\n\nAdds panels for the visualisation of gene set analyses.\n\niSEEde software package accepted in Bioconductor.\n\nAdds panels for the visualisation of differential expression analyses.\n\n\n\nJuly\niSEEindex software package accepted in Bioconductor.\n\nAdds a landing page for listing custom sets of data sets and configurations accessible locally or online."
-  },
-  {
-    "objectID": "history.html#section-2",
-    "href": "history.html#section-2",
-    "title": "Project History",
-    "section": "2022",
-    "text": "2022\n\nSeptember\niSEEhub software package accepted in Bioconductor.\n\nAdds a landing page for listing data sets available in the Bioconductor ExperimentHub.\n\n\n\nJune\niSEEhex software package accepted in Bioconductor.\n\nAdds panels for summarising scatter plots with hexagonal bins."
-  },
-  {
-    "objectID": "history.html#section-3",
-    "href": "history.html#section-3",
-    "title": "Project History",
-    "section": "2021",
-    "text": "2021\nIn construction"
-  },
-  {
-    "objectID": "history.html#section-4",
-    "href": "history.html#section-4",
-    "title": "Project History",
-    "section": "2020",
-    "text": "2020\n\nApril\nRelease of iSEE version 2.0.0, following a refactoring of panel implementation as S4 classes.\n\nOpens the door to third-party implementations of panels in extension packages.\n\niSEEu software package accepted in Bioconductor.\n\nAdds panels for miscellaneous functionality, demonstrating the implementation of panel in extension packages."
-  },
-  {
-    "objectID": "history.html#section-5",
-    "href": "history.html#section-5",
-    "title": "Project History",
-    "section": "2019",
-    "text": "2019\n\nApril\niSEE wins the Most technically impressive prize of the 1st Shiny Contest organised by RStudio Inc."
-  },
-  {
-    "objectID": "history.html#section-6",
-    "href": "history.html#section-6",
-    "title": "Project History",
-    "section": "2018",
-    "text": "2018\n\nJune\niSEE: Interactive SummarizedExperiment Explorer published in F1000 Research.\n\n\nMarch\niSEE software package accepted in Bioconductor."
-  },
-  {
-    "objectID": "history.html#section-7",
-    "href": "history.html#section-7",
-    "title": "Project History",
-    "section": "2017",
-    "text": "2017\n\nDecember\nFirst substantial commit to the iSEE repository, when proposals for iSEE functionality were fleshed out during EuroBioC2017 (Cambridge, UK)."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to the iSEE-verse!",
-    "section": "",
-    "text": "iSEE (interactive SummarizedExperiment Explorer) is an award-winning free open source R/Bioconductor package that produces an interactive, multi-purpose, and thoroughly configurable user interface for exploring data and metadata produced from virtually any biological assay.\n\n\n\nExample iSEE app.\n\n\nBased on the Bioconductor SummarizedExperiment data structure, iSEE directly integrates in existing workflows. The main function iSEE() only requires a SummarizedExperiment object to launch a full-featured Shiny application, either locally for immediate exploration, or publicly for global dissemination.\nA clear single-page layout allows end-users to intuitively (re-)arrange any number of panels showcasing different aspects of the data set, dynamically control the displayed information using a comprehensive set of panel-specific widgets, and transmit selections between panels to focus downstream analyses on specific data subsets.\niSEE boasts a code tracker reporting the R code necessary for reproducing all visible panel outputs and restoring the current app configuration at a later time.\niSEE version 2.0.0 unlocked the possibility of developing independent third-party extension packages to add new designated classes of panels to the iSEE interface, with examples including iSEEindex, iSEEde, iSEEpathways, iSEEhex, and iSEEtree.\niSEE is actively maintained by a team of volunteers and aims to develop extensions for the support of spatial omics and multi-omics data sets in the near future."
-  },
-  {
-    "objectID": "install.html",
-    "href": "install.html",
-    "title": "Installation",
-    "section": "",
-    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
-  },
-  {
-    "objectID": "install.html#install-fa-brands-r-project",
-    "href": "install.html#install-fa-brands-r-project",
-    "title": "Installation",
-    "section": "",
-    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
-  },
-  {
-    "objectID": "install.html#install-isee",
-    "href": "install.html#install-isee",
-    "title": "Installation",
-    "section": "Install iSEE",
-    "text": "Install iSEE\nWe recommend installing the latest stable version of iSEE from the Bioconductor repository.\nInstall iSEE from Bioconductor\n\n\n\n\n\n\nNote\n\n\n\nFollow the link above and scroll down to the section Installation."
-  },
-  {
-    "objectID": "install.html#install-the-isee-verse",
-    "href": "install.html#install-the-isee-verse",
-    "title": "Installation",
-    "section": "Install the iSEE-verse",
-    "text": "Install the iSEE-verse\nMost users do not need the full collection of packages that provide extensions to iSEE.\nFor the aficionados, the command below does just that; it combines all the known iSEE extension packages into a single command that installs them all in one go.\nGreat for copy-pasting, and for our download statistics!\n\n\n\n\n\n\nNote\n\n\n\nThe code below assumes you have already installed the package BiocManager, which will be the case if you have already installed iSEE or any other package from the Bioconductor repository.\n\n\n\nBiocManager::install(c(\n    \"iSEEde\",\n    \"iSEEhex\",\n    \"iSEEhub\",\n    \"iSEEindex\",\n    \"iSEEpathways\",\n    \"iSEEtree\",\n    \"iSEEu\"\n))"
+    "objectID": "who.html#contributors",
+    "href": "who.html#contributors",
+    "title": "Who we are",
+    "section": "Contributors",
+    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu\nThomas Sandmann for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways."
   },
   {
     "objectID": "panels.html",
@@ -320,6 +306,62 @@
     "title": "Panels",
     "section": "iSEEu",
     "text": "iSEEu\n\nAggregatedDotPlot\nRepresents groups of samples by dots, where colour scales with means assay value and size scales with proportion of non-zero values for selected features.\n\n\n\nThe AggregatedDotPlot panel class.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\nlibrary(iSEE)\nlibrary(scRNAseq)\nlibrary(scater)\nlibrary(iSEEu)\n\n# Example data ----\n\nsce &lt;- ReprocessedAllenData(assays=\"tophat_counts\")\n\nsce &lt;- logNormCounts(sce, exprs_values=\"tophat_counts\")\n\n# launch the app itself ----\n\nif (interactive()) {\n  iSEE(\n    sce,\n    initial = list(\n      AggregatedDotPlot(\n        ColumnDataLabel=\"Primary.Type\",\n        CustomRowsText = \"Rorb\\nSnap25\\nFoxp2\",\n        # PanelHeight = 500L,\n        PanelWidth = 12L\n      )\n    )\n  )\n}\n\n\n\n\n\n\nDynamicMarkerTable\nA table that dynamically identifies marker genes for a subset of samples transmitted from another panel. Comparisons are made between the active selection in the transmitting panel and either\n\nall non-selected points, if no saved selections are available, or\neach subset of points in each saved selection.\n\n\n\n\nThe DynamicMarkerTable panel class, alongside a ReducedDimensionPlot panel from which it receives a selection of samples.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\nlibrary(iSEE)\nlibrary(iSEEu)\nlibrary(scRNAseq)\nlibrary(scater)\nlibrary(scran)\n\nsce &lt;- ReprocessedAllenData(assays=\"tophat_counts\")\nsce &lt;- logNormCounts(sce, exprs_values=\"tophat_counts\")\nsce &lt;- runPCA(sce, ncomponents=4)\n\nif (interactive()) {\n  iSEE(sce, initial=list(\n    ReducedDimensionPlot(\n      PanelWidth=4L,\n      BrushData = list(\n        lasso = NULL, closed = TRUE,\n        mapping = list(x = \"X\", y = \"Y\"),\n        coord = structure(c(\n          -47.8, -41.9, -14.6, -13.6, -19.1, -27.3, -33.6, -44, -47.8,\n          -23.6, -44.1, -56.4, -46.9, -26.4, -17.4, -6.2, -5.4, -23.6),\n          dim = c(9L, 2L))\n        )\n    ),\n    DynamicMarkerTable(\n      PanelWidth=8L,\n      ColumnSelectionSource=\"ReducedDimensionPlot1\"\n    )\n  ))\n}\n\n\n\n\n\n\nDynamicReducedDimensionPlot\nA dimensionality reduction plot that dynamically recomputes the coordinates for the samples, based on a subset of samples and features transmitted from other panels.\n\n\n\nThe DynamicReducedDimensionPlot panel class, alongside a ReducedDimensionPlot panel from which it receives a selection of samples.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\nlibrary(iSEE)\nlibrary(iSEEu)\nlibrary(scRNAseq)\nlibrary(scater)\n\nset.seed(1)\nsce &lt;- ReprocessedAllenData(assays=\"tophat_counts\")\nsce &lt;- logNormCounts(sce, exprs_values=\"tophat_counts\")\nsce &lt;- runPCA(sce, ncomponents=4)\n\nif (interactive()) {\n  iSEE(sce, initial=list(\n    ReducedDimensionPlot(\n      PanelWidth = 6L,\n      BrushData = list(\n        lasso = NULL, closed = TRUE,\n        mapping = list(x = \"X\", y = \"Y\"),\n        coord = structure(c(\n          -47.8, -41.9, -14.6, -13.6, -19.1, -27.3, -33.6, -44, -47.8,\n          -23.6, -44.1, -56.4, -46.9, -26.4, -17.4, -6.2, -5.4, -23.6),\n          dim = c(9L, 2L))\n      )\n    ),\n    DynamicReducedDimensionPlot(\n      PanelWidth = 6L,\n      Assay=\"logcounts\",\n      ColumnSelectionSource=\"ReducedDimensionPlot1\"\n    )\n  ))\n}\n\n\n\n\n\n\nFeatureSetTable\nA table where each row is itself a set of features (i.e., rows) and can be used to transmit such a feature set to another panel.\n\n\n\nThe FeatureSetTable panel class, alongside RowDataPlot and RowDataTable panels to which it transmits a feature set.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\nlibrary(iSEE)\nlibrary(iSEEu)\nlibrary(scRNAseq)\nlibrary(scater)\nlibrary(scran)\nlibrary(org.Mm.eg.db)\n\nsce &lt;- LunSpikeInData(location=FALSE)\n\nsce &lt;- logNormCounts(sce)\n\nrowData(sce) &lt;- cbind(rowData(sce), modelGeneVarWithSpikes(sce, \"ERCC\"))\n\ncmds &lt;- createGeneSetCommands(collections=\"GO\",\n  organism=\"org.Mm.eg.db\", identifier=\"ENSEMBL\")\nsce &lt;- registerFeatureSetCommands(sce, cmds)\n\n# Setting up the application.\n\ngst &lt;- FeatureSetTable(\n  Selected = \"GO:0002020\"\n)\n\nrdp &lt;- RowDataPlot(\n  YAxis=\"total\",\n  XAxis=\"Row data\", XAxisRowData=\"mean\",\n  ColorBy=\"Row selection\",\n  RowSelectionSource=\"FeatureSetTable1\"\n)\n\nrdt &lt;- RowDataTable(\n  RowSelectionSource=\"FeatureSetTable1\"\n)\n\nif (interactive()) {\n  iSEE(sce, initial=list(gst, rdp, rdt))\n}\n\n\n\n\n\n\nLogFCLogFCPlot\nPrecursor to the iSEEde::LogFCLogFCPlot class.\n\n\n\n\n\n\nWarning\n\n\n\nDeprecation imminent. Please use iSEEde::LogFCLogFCPlot() instead.\n\n\n\n\n\nThe LogFCLogFCPlot panel class.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\n# Making up some results:\nse &lt;- SummarizedExperiment(matrix(rnorm(10000), 1000, 10))\nrownames(se) &lt;- paste0(\"GENE_\", seq_len(nrow(se)))\nrowData(se)$PValue1 &lt;- runif(nrow(se))\nrowData(se)$LogFC1 &lt;- rnorm(nrow(se))\nrowData(se)$PValue2 &lt;- runif(nrow(se))\nrowData(se)$LogFC2 &lt;- rnorm(nrow(se))\n\nif (interactive()) {\n  iSEE(se, initial=list(\n    LogFCLogFCPlot(\n      PanelWidth = 12L,\n      XAxisRowData=\"LogFC1\", YAxis=\"LogFC2\",\n      XPValueField=\"PValue1\", YPValueField=\"PValue2\"\n    )\n  ))\n}\n\n\n\n\n\n\nMAPlot\nPrecursor to the iSEEde::MAPlot class.\n\n\n\n\n\n\nWarning\n\n\n\nDeprecation imminent. Please use iSEEde::MAPlot() instead.\n\n\n\n\n\nThe MAPlot panel class.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\n# Making up some results:\nse &lt;- SummarizedExperiment(matrix(rnorm(10000), 1000, 10))\nrownames(se) &lt;- paste0(\"GENE_\", seq_len(nrow(se)))\nrowData(se)$PValue &lt;- runif(nrow(se))\nrowData(se)$LogFC &lt;- rnorm(nrow(se))\nrowData(se)$AveExpr &lt;- rnorm(nrow(se))\n\nif (interactive()) {\n  iSEE(se, initial=list(\n    MAPlot(PanelWidth=12L)\n  ))\n}\n\n\n\n\n\n\nMarkdownBoard\nA panel providing an aceEditor that can be used to take notes within the app. Notes should be typed using Markdown syntax, and the panel continuously renders them in HTML format for preview.\n\n\n\nThe MarkdownBoard panel class.\n\n\n\n\n\n\n\n\nReproduce This Output\n\n\n\n\n\n\nif (interactive()) {\n  iSEE(SummarizedExperiment(), initial=list(\n    MarkdownBoard(\n      PanelWidth = 12L,\n      Content = paste0(c(\n        \"# Level 1 header\",\n        \"## Level 2 header\",\n        \"**Bold** and *italic*.\",\n        \"[Link](https://isee.github.io/)\",\n        \"* Bullet point\\n\"),\n        collapse = \"\\n\\n\"\n      )\n    )\n  ))\n}"
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Package status",
+    "section": "",
+    "text": "Packages maintained under the GitHub organisation iSEE.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
+  },
+  {
+    "objectID": "dashboard.html#isee-organisation",
+    "href": "dashboard.html#isee-organisation",
+    "title": "Package status",
+    "section": "",
+    "text": "Packages maintained under the GitHub organisation iSEE.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEE\n\n\n\n\n\n\niSEEde\n\n\n\n\n\n\niSEEhex\n\n\n\n\n\n\niSEEhub\n\n\n\n\n\n\niSEEindex\n\n\n\n\n\n\niSEEpathways\n\n\n\n\n\n\niSEEu"
+  },
+  {
+    "objectID": "dashboard.html#third-party-extensions",
+    "href": "dashboard.html#third-party-extensions",
+    "title": "Package status",
+    "section": "Third-party extensions",
+    "text": "Third-party extensions\nPackages contributed by the broader community.\n\n\n\nPackage\nDevel\nRelease\nIssues\nPull requests\n\n\n\n\niSEEtree"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the iSEE-verse!",
+    "section": "",
+    "text": "iSEE (interactive SummarizedExperiment Explorer) is an award-winning free open source R/Bioconductor package that produces an interactive, multi-purpose, and thoroughly configurable user interface for exploring data and metadata produced from virtually any biological assay.\n\n\n\nExample iSEE app.\n\n\nBased on the Bioconductor SummarizedExperiment data structure, iSEE directly integrates in existing workflows. The main function iSEE() only requires a SummarizedExperiment object to launch a full-featured Shiny application, either locally for immediate exploration, or publicly for global dissemination.\nA clear single-page layout allows end-users to intuitively (re-)arrange any number of panels showcasing different aspects of the data set, dynamically control the displayed information using a comprehensive set of panel-specific widgets, and transmit selections between panels to focus downstream analyses on specific data subsets.\niSEE boasts a code tracker reporting the R code necessary for reproducing all visible panel outputs and restoring the current app configuration at a later time.\niSEE version 2.0.0 unlocked the possibility of developing independent third-party extension packages to add new designated classes of panels to the iSEE interface, with examples including iSEEindex, iSEEde, iSEEpathways, iSEEhex, and iSEEtree.\niSEE is actively maintained by a team of volunteers and aims to develop extensions for the support of spatial omics and multi-omics data sets in the near future."
+  },
+  {
+    "objectID": "install.html",
+    "href": "install.html",
+    "title": "Installation",
+    "section": "",
+    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
+  },
+  {
+    "objectID": "install.html#install-fa-brands-r-project",
+    "href": "install.html#install-fa-brands-r-project",
+    "title": "Installation",
+    "section": "",
+    "text": "iSEE requires Bioconductor 3.7+ which in turn requires R 3.5+. Choose a version of R that matches your computer’s operating system. We recommend using the latest version of R to access the latest version of iSEE.\nDownload and install R"
+  },
+  {
+    "objectID": "install.html#install-isee",
+    "href": "install.html#install-isee",
+    "title": "Installation",
+    "section": "Install iSEE",
+    "text": "Install iSEE\nWe recommend installing the latest stable version of iSEE from the Bioconductor repository.\nInstall iSEE from Bioconductor\n\n\n\n\n\n\nNote\n\n\n\nFollow the link above and scroll down to the section Installation."
+  },
+  {
+    "objectID": "install.html#install-the-isee-verse",
+    "href": "install.html#install-the-isee-verse",
+    "title": "Installation",
+    "section": "Install the iSEE-verse",
+    "text": "Install the iSEE-verse\nMost users do not need the full collection of packages that provide extensions to iSEE.\nFor the aficionados, the command below does just that; it combines all the known iSEE extension packages into a single command that installs them all in one go.\nGreat for copy-pasting, and for our download statistics!\n\n\n\n\n\n\nNote\n\n\n\nThe code below assumes you have already installed the package BiocManager, which will be the case if you have already installed iSEE or any other package from the Bioconductor repository.\n\n\n\nBiocManager::install(c(\n    \"iSEEde\",\n    \"iSEEhex\",\n    \"iSEEhub\",\n    \"iSEEindex\",\n    \"iSEEpathways\",\n    \"iSEEtree\",\n    \"iSEEu\"\n))"
   },
   {
     "objectID": "resources.html",
@@ -369,47 +411,5 @@
     "title": "Resources",
     "section": "Videos",
     "text": "Videos\nOur  YouTube channel includes short videos showcasing iSEE apps in action.\nFeatured videos and playlists are listed on this page."
-  },
-  {
-    "objectID": "videos.html",
-    "href": "videos.html",
-    "title": "Video resources",
-    "section": "",
-    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
-  },
-  {
-    "objectID": "videos.html#featured-videos",
-    "href": "videos.html#featured-videos",
-    "title": "Video resources",
-    "section": "",
-    "text": "Welcome to the iSEE-verse !\n\n\n\n\n\n\n\n\n\nThe app user interface"
-  },
-  {
-    "objectID": "videos.html#featured-playlists",
-    "href": "videos.html#featured-playlists",
-    "title": "Video resources",
-    "section": "Featured playlists",
-    "text": "Featured playlists\nOur 2023 Short Videos series presents specific aspects of iSEE functionality and infrastructure. It aims to provide targeted information for end-users of the interactive interface."
-  },
-  {
-    "objectID": "who.html",
-    "href": "who.html",
-    "title": "Who we are",
-    "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
-  },
-  {
-    "objectID": "who.html#core-developers",
-    "href": "who.html#core-developers",
-    "title": "Who we are",
-    "section": "",
-    "text": "Kevin Rue-Albrecht\n\n\n\n\n\n\n\nAaron Lun\n\n\n\n\n\n\n\n\n\nCharlotte Soneson\n\n\n\n\n\n\n\nFederico Marini"
-  },
-  {
-    "objectID": "who.html#contributors",
-    "href": "who.html#contributors",
-    "title": "Who we are",
-    "section": "Contributors",
-    "text": "Contributors\nWe thank our community who contributed code, ideas, bug reports, and feature requests over the years!\nSpecial thanks to:\n\nLeonardo Collado-Torres for contributions to our GitHub Action workflow.\nMichael Stadler for contributing the reduced dimension mode in iSEEu\nThomas Sandmann for supporting the development of iSEEhub, iSEEindex, iSEEde, and iSEEpathways."
   }
 ]
