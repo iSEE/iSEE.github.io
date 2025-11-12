@@ -18,6 +18,18 @@ Links are ordered in reverse order of [iSEE](https://bioconductor.org/packages/i
 
 **More:** This app accompanies the preprint "Biphasic inflammation control by dedifferentiated fibroblasts enables axon regeneration after spinal cord injury in zebrafish" <https://www.biorxiv.org/content/10.1101/2025.01.27.635043v1>.
 
+## Yalcinbas et al., American Journal of Psychiatry, 2025
+
+![Yalcinbas et al., American Journal of Psychiatry, 2025.](images/apps/yalcinbas_et_al.png)
+
+{{< fa arrow-pointer >}} Shiny apps: <https://libd.shinyapps.io/habenulaPilot_bulk/> (bulk RNA-seq), <https://libd.shinyapps.io/habenulaPilot_snRNAseq/> (snRNA-seq)
+
+{{< fa user >}} Authored by [The Lieber Institute for Brain Development](https://www.libd.org/)
+
+{{< fa cog >}} Using **iSEE** {2.12.0}
+
+**More:** This app accompanies the article "Transcriptomic Analysis of the Human Habenula in Schizophrenia" <https://psychiatryonline.org/doi/10.1176/appi.ajp.20240776>.
+
 ## Rigby et al., bioRxiv, 2023
 
 ![Rigby et al., bioRxiv, 2023.](images/apps/rigby_et_al.png)
